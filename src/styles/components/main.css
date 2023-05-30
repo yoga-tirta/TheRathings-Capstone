@@ -11,7 +11,7 @@ main .first-main {
 }
 
 main .first-main .tagline {
-    margin: 0 24px;
+    margin: 32px 24px;
     justify-content: center;
 }
 
@@ -39,18 +39,23 @@ main .first-main .tagline p strong{
 
 main .first-main .tagline button {
     background-color: var(--second-color);
-    padding: 16px 24px;
-    border-radius: 8px;
-    color: #EFEAD8;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    font-family: "montserrat", sans-serif;
+    color: white;
     min-width: 44px;
     min-height: 44px;
-    margin-top: 64px;
+    margin-top: 40px;
     border-color: transparent;
-    font-size: 16px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    transition: 0.4s ease;
 }
 
 main .first-main .tagline button:hover {
-    background-color: #6D8B74;
+  background-color: var(--hover-second);
+  border: none;
 }
 
 main .first-main .tagline-img {
@@ -82,8 +87,9 @@ main .second-main  .tagline-heading {
 }
 
 main .second-main .tagline-heading h1 {
-    font-size: 34px;
+    font-size: 32px;
     color: var(--second-color);
+    font-weight: bolder;
 }
 
 main .second-main .tagline-heading h1 span {

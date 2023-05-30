@@ -5,31 +5,39 @@ const Home = {
           <div class="tagline">
             <h2>Welcome To TheRathings</h2>
             <h1>Eat Healthy, Eco-Friendly</h1>
-            <p>Telusuri TheRathings Dan Temukan Informasi Mengenai Restaurant Leftover Food Yang Sehat Dan Bergizi.</p>
-            <button onclick="window.location.href='#/foodthings'">Menu</button>
+            <p>Telusuri TheRathings Dan Temukan Informasi Mengenai Restaurant<br>
+            Leftover Food Dan Juga Resep Makanan Yang Sehat Dan Bergizi.</p>
+            <button onclick="window.location.href='#about'">
+              Telusuri Sekarang <i class="fas fa-play-circle"></i>
+            </button>
+            <a href="#about" class="btn">
+              Telusuri sekarang <i class="fas fa-play-circle"></i>
+            </a>
           </div>
           <div class="tagline-img">
             <picture>
-              <source media="(max-width: 650px)" srcset="./img/food-1-small.jpg"/>
-              <img src='./img/food-1-large.jpg' alt="Semangkok Makanan"></img>
+              <source media="(max-width: 700px)" srcset="./img/home-hero.jpg"/>
+              <img src='./img/home-hero.jpg' alt="Makanan Sehat"></img>
             </picture>
           </div>
         </section>
     
-        <section class="second-main">
+        <section class="second-main" id="about">
           <div class="tagline-heading">
-            <h1>Kenapa Kita Harus Memenuhi <span>Gizi?</span></h1>
+            <h1>Kenalan sama <span>TheRathings</span> yuk!</h1>
           </div>
           <div class="tagline-why">
             <div class="img-container">
               <picture>
-                <source media="(max-width: 650px)" srcset="./img/food-2-small.jpg"/>
-                <img src='./img/food-2-large.jpg' alt="Semangkok Makanan"></img>
+                <source media="(max-width: 800px)" srcset="./img/second-main.png"/>
+                <img src='./img/second-main.png' alt="Second Main"></img>
               </picture>
             </div>
-            <p>Gizi yang optimal sangat penting untuk pertumbuhan normal serta perkembangan fisik dan kecerdasan bayi, anak-anak, serta seluruh kelompok umur. Gizi baik membuat berat badan normal atau sehat, tubuh tidak mudah terkena penyakit infeksi, produktivitas kerja meningkat serta terlindung dari penyakit kronis dan kematian dini akibat penyakit.
-              <br><br>
-              Kondisi gizi yang tidak optimal berkaitan dengan gangguan kesehatan dan kondisi kesehatan yang buruk, serta meningkatkan risiko penyakit infeksi, dan Penyakit Tidak Menular seperti penyakit kardiovaskular (penyakit jantung dan pembuluh darah, hipertensi dan stroke), diabetes serta kanker.
+            <p><strong>TheRathings</strong> layaknya pecinta makanan sehat yang mengembangkan 
+            website dengan fitur untuk memanfaatkan leftover food dari restoran food-chain 
+            dengan menambahkan fitur tambahan seperti mencari resep makanan dari bahan 
+            makanan yang tersedia dan juga terdapat informasi mengenai data-data 
+            nutrisi dari masing-masing resep makanan tersebut.
             </p>
           </div>
         </section>
