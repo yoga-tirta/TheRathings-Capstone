@@ -3,10 +3,9 @@ const Home = {
     return `
         <section class="first-main">  
           <div class="tagline">
-            <h1>HIDUP SEHAT BERNUTRISI</h1>
-            <h2>Ingin tahu nutrisi yang ada pada makanan mu?</h2>
-            <p>Kini dengan FoodIntake kamu dapat mengetahui berbagai<br>
-              <strong>Nutrisi</strong> pada setiap makanan kesukaan mu.</p>
+            <h2>Welcome To TheRathings</h2>
+            <h1>Eat Healthy, Eco-Friendly</h1>
+            <p>Telusuri TheRathings Dan Temukan Informasi Mengenai Restaurant Leftover Food Yang Sehat Dan Bergizi.</p>
             <button onclick="window.location.href='#/foodthings'">Menu</button>
           </div>
           <div class="tagline-img">

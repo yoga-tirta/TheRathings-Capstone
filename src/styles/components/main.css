@@ -1,5 +1,5 @@
 main h1 {
-    font-family: 'Montserrat', sans-serif, cursive;
+    font-family: "Poppins", sans-serif;
 }
 
 main .first-main {
@@ -17,15 +17,15 @@ main .first-main .tagline {
 
 main .first-main .tagline h1 {
     font-weight: 600;
-    color: var(--second-color);
+    color: var(--font-color);
     font-size: 48px;
     margin-bottom: 24px;
 }
 
 main .first-main .tagline h2 {
-    color: black;
+    color: var(--second-color);
     font-size: 24px;
-    font-weight: normal;
+    font-weight: bold;
     margin-bottom: 24px;
 }
 

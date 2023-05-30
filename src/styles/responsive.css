@@ -42,20 +42,20 @@
         margin-bottom: 36px;
     }
 
-    .about-foodintake {
+    .about-therathings {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .about-foodintake div {
+    .about-therathings div {
         margin: 24px 0px;
         padding: 0px;
         width: 80%;
     }
 
-    .about-foodintake div img {
+    .about-therathings div img {
         max-width: 320px;
         width: 80%;
     }
@@ -282,23 +282,23 @@
         margin-bottom: 40px;
     }
 
-    .about-foodintake {
+    .about-therathings {
         text-align: left;
         width: 100%;
     }
 
-    .about-foodintake div {
+    .about-therathings div {
         margin: 0;
         padding: 0px;
         width: 100%;
     }
 
-    .foodintake-logo {
+    .therathings-logo {
         text-align: center;
         width: 80px;
     }
 
-    .foodintake-logo img {
+    .therathings-logo img {
         margin-top: 20px;
         margin-bottom: 50px;
     }
