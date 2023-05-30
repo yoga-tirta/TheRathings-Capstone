@@ -7,7 +7,7 @@ const Home = {
             <h2>Ingin tahu nutrisi yang ada pada makanan mu?</h2>
             <p>Kini dengan FoodIntake kamu dapat mengetahui berbagai<br>
               <strong>Nutrisi</strong> pada setiap makanan kesukaan mu.</p>
-            <button onclick="window.location.href='#/foodish'">Menu</button>
+            <button onclick="window.location.href='#/foodthings'">Menu</button>
           </div>
           <div class="tagline-img">
             <picture>
@@ -42,7 +42,7 @@ const Home = {
           </div>
           <div class="third-main-grid">
             <li>
-              <a href="#/foodish">
+              <a href="#/foodthings">
               <picture>
                 <source type="image/webp" srcset="./img/food-type/1.webp">
                 <source type="image/png" srcset="./img/food-type/1.png">
@@ -51,7 +51,7 @@ const Home = {
               </a>
             </li>
             <li>
-              <a href="#/foodish">
+              <a href="#/foodthings">
               <picture>
                 <source type="image/webp" srcset="./img/food-type/2.webp">
                 <source type="image/png" srcset="./img/food-type/2.png">
@@ -61,7 +61,7 @@ const Home = {
             </li>
             
             <li>
-              <a href="#/foodish">
+              <a href="#/foodthings">
               <picture>
                 <source type="image/webp" srcset="./img/food-type/3.webp">
                 <source type="image/png" srcset="./img/food-type/3.png">
@@ -70,7 +70,7 @@ const Home = {
               </a>
             </li>
             <li>
-              <a href="#/foodish">
+              <a href="#/foodthings">
               <picture>
                 <source type="image/webp" srcset="./img/food-type/4.webp">
                 <source type="image/png" srcset="./img/food-type/4.jpg">
@@ -79,7 +79,7 @@ const Home = {
               </a>
             </li>
             <li>
-              <a href="#/foodish">
+              <a href="#/foodthings">
               <picture>
                 <source type="image/webp" srcset="./img/food-type/5.webp">
                 <source type="image/png" srcset="./img/food-type/5.png">
@@ -88,7 +88,7 @@ const Home = {
               </a>
             </li>
             <li>
-              <a href="#/foodish">
+              <a href="#/foodthings">
               <picture>
                 <source type="image/webp" srcset="./img/food-type/6.webp">
                 <source type="image/png" srcset="./img/food-type/6.jpg">

@@ -1,5 +1,5 @@
 const CONFIG = {
-    API_KEY: 'apiKey=0f992e4eda01432b9170203d0eae7eab',
+    API_KEY: '',
     BASE_URL: 'https://api.spoonacular.com/',
     NUMBER_PAGE: 'number=24',
     DATABASE_NAME: 'foodintake-database',
