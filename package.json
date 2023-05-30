@@ -10,7 +10,7 @@
     "serve": "http-server dist",
     "build-image": "node sharp.js"
   },
-  "author": "",
+  "author": "C23-M4017",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.10.3",

@@ -1,11 +1,11 @@
 {
   "name": "TheRathings",
   "short_name": "TheRathings",
-  "description": "Food Recipe with their nutrients",
+  "description": "Eat healthy eco-friendly",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#6D8B74",
+  "theme_color": "#009ba0",
   "icons": [
     {
       "src": "/icon/icon-72x72.png",
