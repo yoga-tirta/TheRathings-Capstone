@@ -16,8 +16,8 @@ const Home = {
           </div>
           <div class="tagline-img">
             <picture>
-              <source media="(max-width: 700px)" srcset="./img/home-hero.jpg"/>
-              <img src='./img/home-hero.jpg' alt="Makanan Sehat"></img>
+              <source media="(max-width: 700px)" srcset="./img/first-main.png"/>
+              <img src='./img/first-main.png' alt="Makanan Sehat"></img>
             </picture>
           </div>
         </section>

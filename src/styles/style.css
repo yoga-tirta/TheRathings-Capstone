@@ -5,6 +5,7 @@
 @import url('./components/foodthings.css');
 @import url('./components/detail.css');
 @import url('./components/bookmark.css');
+@import url('./components/explore.css');
 
 :root {
   --main-color: #009ba0;
