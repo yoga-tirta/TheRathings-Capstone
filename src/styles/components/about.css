@@ -24,7 +24,7 @@
 .therathings-description h1 {
     margin-bottom: 16px;
     font-size: 32px;
-    color: #064635;
+    color: var(--second-color);
 }
 
 .about-team {
@@ -43,7 +43,7 @@
 .team-description h1 {
     font-size: 32px;
     margin-bottom: 24px;
-    color: #064635;
+    color: var(--second-color);
 }
 
 .team-profile {
@@ -72,7 +72,7 @@
 }
 
 .card-profile img {
-    background-color: #009ba0;
+    background-color: var(--main-color);
     width: 180px;
     height: 180px;
     overflow: hidden;
@@ -84,7 +84,7 @@
 .card-profile h1 {
     font-size: 20px;
     font-weight: 600;
-    color: #2c7234;
+    color: var(--second-color);
 }
 
 .card-profile h2 {
@@ -98,7 +98,7 @@
     min-width: 44px;
     min-height: 44px;
     border-radius: 16px;
-    border: solid #96969645;
+    border: solid var(--second-color);
     background-color: white;
 }
 
@@ -107,11 +107,11 @@
     min-height: 44px;
     width: 80%;
     text-decoration: none;
-    color: black;
+    color: var(--font-color);
 }
 
 .card-profile button:hover {
-    background-color: #519259;
+    background-color: var(--hover-second);
     color: white;
     transition: all ease .5s;
 }

@@ -75,7 +75,7 @@
     display: flex;
     flex-wrap: wrap;
     font-size: 9pt;
-    color: #5F7161;
+    color: var(--main-color);
     margin-top: 20px;
 }
 
@@ -96,7 +96,7 @@
     border: 2px solid #EFEAD8;
     text-align: center;
     padding: 30px;
-    color: #5F7161;
+    color: var(--main-color);
 
 }
 
@@ -115,7 +115,7 @@
 }
 
 .food-fact-title .icon {
-    color: #5F7161;
+    color: var(--main-color);
 }
 
 .food-fact table {
@@ -239,7 +239,7 @@
 .food-action button {
     border: none;
     padding: 10px 18px;
-    background-color: #5F7161;
+    background-color: var(--main-color);
     bottom: 0;
     color: #fff;
     font-size: 11pt;

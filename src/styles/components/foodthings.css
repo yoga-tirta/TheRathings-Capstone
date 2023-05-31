@@ -245,7 +245,7 @@ filter-menu.open {
 
 .bookmark-continer .icon-title {
     font-size: 26px;
-    color: #5F7161;
+    color: var(--main-color);
 }
 
 /*
@@ -286,7 +286,7 @@ filter-menu.open {
 }
 
 .pagination button.active {
-    background-color: #5F7161;
+    background-color: var(--main-color);
     color: white;
 }
 

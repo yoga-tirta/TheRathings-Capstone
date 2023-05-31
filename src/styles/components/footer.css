@@ -1,7 +1,6 @@
 /*
   Footer
 */
-
 footer .first-footer {
   display: grid;
   padding: 80px;
@@ -9,7 +8,7 @@ footer .first-footer {
   margin-bottom: 24px;
   color: var(--font-color);
   justify-content: space-between;
-  border-bottom: 1px solid var(--second-color);
+  border-bottom: 2px solid var(--second-color);
 }
 
 footer .navigation-container {
@@ -21,6 +20,11 @@ footer .navigation-container {
 footer .first-footer .footer-header h1 {
   font-size: 32px;
   margin-bottom: 8px;
+  color: var(--main-color);
+}
+
+footer .first-footer .footer-header p {
+  font-weight: bold;
 }
 
 /* Navigasi */
@@ -28,11 +32,6 @@ footer div h1{
   font-size: 21px;
   font-weight: 700;
   margin-bottom: 24px;
-}
-
-footer section .footer-address p{
-  font-size: 16px;
-  line-height: 2;
 }
 
 footer section div ul {
@@ -53,9 +52,14 @@ footer section div ul li a {
 }
 
 footer section div ul li a:hover {
-  padding-left: 24px;
+  padding-left: 16px;
   transition: all, ease, 1s;
   color: var(--third-color);
+}
+
+footer section div ul li i {
+  color: var(--main-color);
+  padding-right: 1.5rem;
 }
 
 /* footer bawah */
@@ -67,5 +71,6 @@ footer {
 footer .copyright {
   text-align: center;
   color: var(--font-color);
+  font-weight: bold;
   padding: 0 16px 20px 16px;
 }
