@@ -73,6 +73,7 @@
 
 .card-profile img {
     background-color: var(--main-color);
+    border: 0.2rem solid var(--second-color);
     width: 180px;
     height: 180px;
     overflow: hidden;
