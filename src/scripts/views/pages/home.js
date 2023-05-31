@@ -5,18 +5,17 @@ const Home = {
           <div class="tagline">
             <h2>Welcome To TheRathings</h2>
             <h1>Eat Healthy, Eco-Friendly</h1>
-            <p>Telusuri TheRathings Dan Temukan Informasi Mengenai Restaurant<br>
-            Leftover Food Dan Juga Resep Makanan Yang Sehat Dan Bergizi.</p>
+            <p>
+              Telusuri TheRathings Dan Temukan Informasi Mengenai Restaurant<br>
+              Leftover Food Dan Juga Resep Makanan Yang Sehat Dan Bergizi.
+            </p>
             <button onclick="window.location.href='#about'">
               Telusuri Sekarang <i class="fas fa-play-circle"></i>
             </button>
-            <a href="#about" class="btn">
-              Telusuri sekarang <i class="fas fa-play-circle"></i>
-            </a>
           </div>
           <div class="tagline-img">
             <picture>
-              <source media="(max-width: 700px)" srcset="./img/first-main.png"/>
+              <source media="(min-width: 600px; max-width: 900px)" srcset="./img/first-main.png"/>
               <img src='./img/first-main.png' alt="Makanan Sehat"></img>
             </picture>
           </div>
@@ -29,16 +28,19 @@ const Home = {
           <div class="tagline-why">
             <div class="img-container">
               <picture>
-                <source media="(max-width: 800px)" srcset="./img/second-main.png"/>
+                <source media="(min-width: 600px; max-width: 900px)" srcset="./img/second-main.png"/>
                 <img src='./img/second-main.png' alt="Second Main"></img>
               </picture>
             </div>
             <p><strong>TheRathings</strong> layaknya pecinta makanan sehat yang mengembangkan 
-            website dengan fitur untuk memanfaatkan leftover food dari restoran food-chain 
-            dengan menambahkan fitur tambahan seperti mencari resep makanan dari bahan 
-            makanan yang tersedia dan juga terdapat informasi mengenai data-data 
-            nutrisi dari masing-masing resep makanan tersebut.
+              website dengan fitur untuk memanfaatkan leftover food dari restoran food-chain 
+              dengan menambahkan fitur tambahan seperti mencari resep makanan dari bahan 
+              makanan yang tersedia dan juga terdapat informasi mengenai data-data 
+              nutrisi dari masing-masing resep makanan tersebut.
             </p>
+            <button onclick="window.location.href='#/about'">
+              Lihat Lebih Lanjut <i class="fas fa-plus-circle"></i>
+            </button>
           </div>
         </section>
     
