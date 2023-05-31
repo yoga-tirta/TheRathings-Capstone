@@ -7,9 +7,8 @@ const AboutUs = {
       </div>
       <div class="therathings-description">
         <h1>Tentang TheRathings</h1>
-        <p>Anda saat ini sedang mengakses Website TheRathings. TheRathings dibangun dan dirancang oleh empat orang dengan visi untuk membantu mengelola permasalahan leftover food (makanan sisa). TheRathings juga memberikan rekomendasi tentang gaya hidup yang sehat dengan fokus pada pemilihan makanan dan minuman yang sehat.
-        </p>
-        </div>
+        <p>Anda saat ini sedang mengakses Website TheRathings. TheRathings dibangun dan dirancang oleh empat orang dengan visi untuk membantu mengelola permasalahan leftover food (makanan sisa). TheRathings juga memberikan rekomendasi tentang gaya hidup yang sehat dengan fokus pada pemilihan makanan dan minuman yang sehat.</p>
+      </div>
     </section>
   
     <section class="about-team">
