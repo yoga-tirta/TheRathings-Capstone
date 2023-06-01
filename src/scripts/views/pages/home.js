@@ -30,7 +30,7 @@ const Home = {
             <!-- <iframe width="500" height="300" src="https://www.youtube.com/embed/IoCVrkcaH6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
               <picture>
                 <source media="(min-width: 600px; max-width: 900px)" srcset="./img/second-main.png"/>
-                <img src='./img/second-main.png' alt="Second Main"></img>
+                <img src='./img/second-main.svg' alt="Second Main"></img>
               </picture>
             </div>
             <p><strong>TheRathings</strong> layaknya pecinta makanan sehat yang mengembangkan 
