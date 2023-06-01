@@ -5,7 +5,7 @@ import DrawerInitiator from '../../utils/drawer-initiator';
 import '../../components/filter';
 import '../../components/search';
 
-const foodthings = {
+const Foodthings = {
   async render() {
     return `
       <div class="foodthings-continer">
@@ -213,7 +213,7 @@ const foodthings = {
       }
     };
 
-    const onfoodthingsPageRender = async () => {
+    const onFoodthingsPageRender = async () => {
       let offset = 0;
       const offsetArray = [];
       const cekResults = await SpoonacularSource.getTotalFood('offset=0&');
@@ -233,7 +233,7 @@ const foodthings = {
       }
     };
 
-    onfoodthingsPageRender();
+    onFoodthingsPageRender();
     searchElement.clickEvent = onButtonSearchClicked;
     filterElement.clickEvent = onButtonFilterSearchClicked;
 
@@ -245,4 +245,4 @@ const foodthings = {
   },
 };
 
-export default foodthings;
+export default Foodthings;

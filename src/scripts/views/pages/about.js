@@ -1,4 +1,4 @@
-const AboutUs = {
+const About = {
   async render() {
     return `
       <section class="about-therathings">
@@ -50,4 +50,4 @@ const AboutUs = {
   },
 };
 
-export default AboutUs;
+export default About;
