@@ -1,8 +1,5 @@
 const CONFIG = {
-  // default
-  API_KEY: 'apiKey=0f992e4eda01432b9170203d0eae7eab',
-  // rathings
-  // API_KEY: 'apiKey=41e6b308cc534e4e80822fd363e1da96',
+  API_KEY: 'apiKey=41e6b308cc534e4e80822fd363e1da96',
   BASE_URL: 'https://api.spoonacular.com/',
   NUMBER_PAGE: 'number=24',
   DATABASE_NAME: 'therathings-database',
