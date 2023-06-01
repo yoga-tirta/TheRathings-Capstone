@@ -80,10 +80,9 @@ main .second-main {
     background-position: center top;
 }
 
-main .second-main  .tagline-heading {
+main .second-main .tagline-heading {
     text-align: center;
     margin: 24px;
-    
 }
 
 main .second-main .tagline-heading h1 {
@@ -102,11 +101,14 @@ main .second-main .tagline-why {
     padding: 24px;
     margin: 0 32px;
     justify-content: space-evenly;
-    
 }
 
 main .second-main .tagline-why .img-container {
-    margin: auto 0;
+    margin: auto 30px;
+}
+
+main .second-main .tagline-why .img-container iframe {
+    border-radius: 10px;
 }
 
 main .second-main .tagline-why .img-container img {

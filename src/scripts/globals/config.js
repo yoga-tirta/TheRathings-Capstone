@@ -1,5 +1,5 @@
 const CONFIG = {
-  API_KEY: 'apiKey=41e6b308cc534e4e80822fd363e1da96',
+  API_KEY: 'apiKey=c8a6bc0617174df1a11e2f3fdf97c101',
   BASE_URL: 'https://api.spoonacular.com/',
   NUMBER_PAGE: 'number=24',
   DATABASE_NAME: 'therathings-database',
