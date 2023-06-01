@@ -64,7 +64,7 @@ const createFoodDetailTemplate = (food) => `
     </div>
     </div>
   </div>
- 
+
   <div class="food-nutrition">
     <h4>Nutrients</h4>
     <div class="food-brackdown-title">
@@ -106,7 +106,7 @@ const createFoodDetailTemplate = (food) => `
     ).join('')}
     </p>
     <img class="food-ingredient-image lazyload" data-src="${CONFIG.BASE_URL}recipes/${food.id}/ingredientWidget.png?${CONFIG.API_KEY}" alt="Ingredients">
-     
+    
     <h4>Equipments</h4>
     <img class="food-equipments lazyload" data-src="${CONFIG.BASE_URL}recipes/${food.id}/equipmentWidget.png?${CONFIG.API_KEY}" alt="Equipments">
 
