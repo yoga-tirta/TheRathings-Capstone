@@ -8,24 +8,24 @@ import '../../components/search';
 const foodthings = {
   async render() {
     return `
-    <div class="foodthings-continer">
-      <search-bar></search-bar>
-      <div class="show-filter">
-        <button id="showFilterButton">Search by <span>Filter <i class="fa-solid fa-caret-down"></i></span></button>
-      </div>      
-      <div id="message" class="food-result-message"></div>
-      <filter-menu></filter-menu>
-      <div class="food-content">      
-        <div class="food-content-item">
-          <div id="foods" class="foods">
-            ${createSkeletonItemTemplate(20)}
+      <div class="foodthings-continer">
+        <search-bar></search-bar>
+        <div class="show-filter">
+          <button id="showFilterButton">Search by <span>Filter <i class="fa-solid fa-caret-down"></i></span></button>
+        </div>      
+        <div id="message" class="food-result-message"></div>
+        <filter-menu></filter-menu>
+        <div class="food-content">      
+          <div class="food-content-item">
+            <div id="foods" class="foods">
+              ${createSkeletonItemTemplate(20)}
+            </div>
           </div>
-        </div>
-        <div class="food-content-page">
-          <div class="pagination"></div>
-        </div>
-    </div>
-      `;
+          <div class="food-content-page">
+            <div class="pagination"></div>
+          </div>
+      </div>
+    `;
   },
 
   async afterRender() {

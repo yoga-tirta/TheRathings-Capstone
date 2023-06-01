@@ -6,8 +6,8 @@ const createFoodItemTemplate = (food) => `
     <div class="food-item-main">
       <div class="food-item-info">
         <ul>
-            <li><i class="fa-solid fa-star icon"></i>${food.healthScore}%</li>
-            <li class="food-item-info-text">Healthy</li>
+          <li><i class="fa-solid fa-star icon"></i>${food.healthScore}%</li>
+          <li class="food-item-info-text">Healthy</li>
         </ul>
         <ul class="food-item-info-mid">
           <li><i class="fa-brands fa-nutritionix icon"></i> 
@@ -81,12 +81,12 @@ const createFoodDetailTemplate = (food) => `
     <table>${food.nutrition.nutrients
     .map(
       (nutrient) => `
-          <tr>
-            <td>${nutrient.name}</td>
-            <td>${parseInt(nutrient.amount)} ${nutrient.unit}</td>
-            <td>${parseInt(nutrient.percentOfDailyNeeds)}%</td>
-          </tr>
-        `,
+        <tr>
+          <td>${nutrient.name}</td>
+          <td>${parseInt(nutrient.amount)} ${nutrient.unit}</td>
+          <td>${parseInt(nutrient.percentOfDailyNeeds)}%</td>
+        </tr>
+      `,
     ).join('')}
     </table>
     </div>
@@ -115,10 +115,10 @@ const createFoodDetailTemplate = (food) => `
     .map(
       (instruction) => `
         <ol>${instruction.steps
-    .map(
-      (step) => `
+          .map(
+            (step) => `
         <li>${step.step}</li>`,
-    ).join('')}</ol>
+          ).join('')}</ol>
         `,
     ).join('')}
     </p>
@@ -132,15 +132,15 @@ const createFoodDetailTemplate = (food) => `
 
 const createSimilarFoodItemTemplate = (food) => `
   <div class="aside-food-item">
-  <a href="${`/#/detail/${food.id}`}">
-    <h5 class="similar-food-item-title">${food.title}</h5>
-    <div class="similar-food-item-info">
-      <ul class="similar-food-item-info-icon">
+    <a href="${`/#/detail/${food.id}`}">
+      <h5 class="similar-food-item-title">${food.title}</h5>
+      <div class="similar-food-item-info">
+        <ul class="similar-food-item-info-icon">
           <li class="line"><i class="fas fa-stopwatch icon"></i> ${food.readyInMinutes} minutes</li>
           <li><i class="fas fa-utensils icon"></i> ${food.servings} servings</li>
-      </ul>
-    </div>
-  </a>
+        </ul>
+      </div>
+    </a>
   </div>
 `;
 
@@ -152,8 +152,8 @@ const createVideoFoodItemTemplate = (video) => `
         <h5 class="video-food-item-title">${video.shortTitle}</h5>
         <div class="video-food-item-info">
           <ul class="video-food-item-info-icon">
-              <li class="line"><i class="fa-solid fa-star icon"></i> ${video.rating}</li>
-              <li><i class="fa-solid fa-eye icon"></i> ${video.views}</li>
+            <li class="line"><i class="fa-solid fa-star icon"></i> ${video.rating}</li>
+            <li><i class="fa-solid fa-eye icon"></i> ${video.views}</li>
           </ul>
         </div>
       </div>    
@@ -167,8 +167,8 @@ const createBookmarkItemTemplate = (food) => `
     <div class="food-item-main">
     <div class="food-item-info">
       <ul class="food-item-info-first">
-          <li><i class="fa-solid fa-star icon"></i> ${food.healthScore}%</li>
-          <li class="food-item-info-text">Health</li>
+        <li><i class="fa-solid fa-star icon"></i> ${food.healthScore}%</li>
+        <li class="food-item-info-text">Health</li>
       </ul>
       <ul>
         <li><i class="fas fa-utensils icon"></i> ${food.servings}</li>
@@ -198,27 +198,27 @@ const createSkeletonItemTemplate = (count) => {
 
   for (let i = 0; i < count; i++) {
     template += `
-    <div class="food-item">
-    <img class="food-item-image skeleton lazyload" data-src="./etc/placeholder.png" alt="skeleton">  
-      <div class="food-item-info">
-        <ul class="skeleton">
-          <li>80%</li>
-          <li class="food-item-info-text">Health</li>
-        </ul>
-        <ul class="food-item-info-mid skeleton">
-          <li>
-            <i>80</i> 
-          </li>
-          <li class="food-item-info-text">Calories</li> 
-        </ul>
-        <ul class="skeleton">
-          <li><i></i>80</li>
-          <li class="food-item-info-text">Servings</li>
-        </ul>
+      <div class="food-item">
+      <img class="food-item-image skeleton lazyload" data-src="./etc/placeholder.png" alt="skeleton">  
+        <div class="food-item-info">
+          <ul class="skeleton">
+            <li>80%</li>
+            <li class="food-item-info-text">Health</li>
+          </ul>
+          <ul class="food-item-info-mid skeleton">
+            <li>
+              <i>80</i> 
+            </li>
+            <li class="food-item-info-text">Calories</li> 
+          </ul>
+          <ul class="skeleton">
+            <li><i></i>80</li>
+            <li class="food-item-info-text">Servings</li>
+          </ul>
+        </div>
+          <h5 class="skeleton">Lorem ipsum dolor sit.</h5>
+          <p class="skeleton">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci alias aspernatur, assumenda aut consectetur consequuntur.</p>
       </div>
-        <h5 class="skeleton">Lorem ipsum dolor sit.</h5>
-        <p class="skeleton">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci alias aspernatur, assumenda aut consectetur consequuntur.</p>
-    </div>
     `;
   }
 
@@ -230,32 +230,32 @@ const createSkeletonDetailTemplate = (count) => {
 
   for (let i = 0; i < count; i++) {
     template += `
-    <h2 class="food-title skeleton">How to make a healthy food</h2>
-    <img class="food-image lazyload" data-src="./etc/placeholder.png" alt="skeleton">
-  
-    <div class="food-information skeleton">    
-      <p class="food-source skeleton">from www.pinkwhen.com</p>
-      <p class="food-type skeleton">Food Type : lunch main course main dish dinner</p>
-      <div id="saveButtonContainer" class="food-action skeleton"></div>
-    </div>
-  
-    <div class="food-fact skeleton">
-      <h4 class="skeleton"></h4>
-      <table>
-        <tr>
-          <td class="food-fact-value skeleton">10</td>
-          <td class="food-fact-value skeleton">10</td>
-          <td class="food-fact-value skeleton">10</td>
-          <td class="food-fact-value skeleton">10</td>
-        </tr>
-        <tr>
-          <td class="food-fact-title"><i class="skeleton"></i> Health Score</td>
-          <td class="food-fact-title"><i class="skeleton"></i> Weight Watcher Points</td>
-          <td class="food-fact-title"><i class="skeleton"></i> Ready In Minutes</td>
-          <td class="food-fact-title"><i class="skeleton"></i> Servings</td>
-        </tr>
-      </table>
-    </div>
+      <h2 class="food-title skeleton">How to make a healthy food</h2>
+      <img class="food-image lazyload" data-src="./etc/placeholder.png" alt="skeleton">
+    
+      <div class="food-information skeleton">    
+        <p class="food-source skeleton">from www.pinkwhen.com</p>
+        <p class="food-type skeleton">Food Type : lunch main course main dish dinner</p>
+        <div id="saveButtonContainer" class="food-action skeleton"></div>
+      </div>
+    
+      <div class="food-fact skeleton">
+        <h4 class="skeleton"></h4>
+        <table>
+          <tr>
+            <td class="food-fact-value skeleton">10</td>
+            <td class="food-fact-value skeleton">10</td>
+            <td class="food-fact-value skeleton">10</td>
+            <td class="food-fact-value skeleton">10</td>
+          </tr>
+          <tr>
+            <td class="food-fact-title"><i class="skeleton"></i> Health Score</td>
+            <td class="food-fact-title"><i class="skeleton"></i> Weight Watcher Points</td>
+            <td class="food-fact-title"><i class="skeleton"></i> Ready In Minutes</td>
+            <td class="food-fact-title"><i class="skeleton"></i> Servings</td>
+          </tr>
+        </table>
+      </div>
     `;
   }
   return template;
@@ -266,25 +266,25 @@ const createSkeletonBookmarkTemplate = (count) => {
 
   for (let i = 0; i < count; i++) {
     template += `
-    <div class="food-item">
-      <img class="food-item-image lazyload" data-src="./etc/placeholder.png" alt="skeleton">   
-    <div class="bookmark-item-info">
-      <ul class="bookmark-item-info-icon">
-          <li class="skeleton">Logo</li>
-          <li class="skeleton">Score</li>
-          <li class="skeleton">24</li>           
-      </ul>
-      <ul>
-        <li class="skeleton">Logo</li>
-        <li class="skeleton">Serving</li>
-        <li class="skeleton">24</li>
-      </ul>
-    </div>
-    <div class="food-item-content">
-    <h5 class="skeleton">Lorem ipsum dolor sit.</h5>
-    <p class="skeleton">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci alias aspernatur, assumenda aut consectetur consequuntur.</p>
-    </div>
-  </div>
+      <div class="food-item">
+        <img class="food-item-image lazyload" data-src="./etc/placeholder.png" alt="skeleton">   
+        <div class="bookmark-item-info">
+          <ul class="bookmark-item-info-icon">
+            <li class="skeleton">Logo</li>
+            <li class="skeleton">Score</li>
+            <li class="skeleton">24</li>           
+          </ul>
+          <ul>
+            <li class="skeleton">Logo</li>
+            <li class="skeleton">Serving</li>
+            <li class="skeleton">24</li>
+          </ul>
+        </div>
+        <div class="food-item-content">
+        <h5 class="skeleton">Lorem ipsum dolor sit.</h5>
+        <p class="skeleton">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci alias aspernatur, assumenda aut consectetur consequuntur.</p>
+        </div>
+      </div>
     `;
   }
 
