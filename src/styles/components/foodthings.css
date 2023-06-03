@@ -32,7 +32,7 @@ display: none;
 .show-filter button {
   border: none;
   align-items: center;
-  background-color: white;
+  background-color: #fff;
   min-height: 44px;
   min-width: 44px;
 }
@@ -270,7 +270,7 @@ margin: 0 auto;
 }
   
 .pagination button {
-  color: black;
+  color: #000;
   float: left;
   padding: 10px 20px;
   text-decoration: none;
@@ -283,7 +283,7 @@ margin: 0 auto;
 
 .pagination button.active {
   background-color: var(--main-color);
-  color: white;
+  color: #fff;
 }
 
 .pagination button.disabled {

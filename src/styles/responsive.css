@@ -246,7 +246,7 @@
   }
 
   main .second-main {
-    background-image: url('../public/img/background-tagline-why-small.jpg');
+    background-image: url('../public/img/background-tagline-why.png');
   }
 
   main .second-main .tagline-why p {
@@ -497,7 +497,7 @@
   }
 
   .pagination button {
-    color: black;
+    color: #000;
     float: left;
     font-size: 11pt;
     padding: 10px 16px;

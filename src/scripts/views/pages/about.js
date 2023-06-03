@@ -13,7 +13,7 @@ const About = {
 
       <section class="about-team">
         <div class="team-description">
-          <h1>Team</h1>
+          <h1>The Team</h1>
           <p>Team kami terdiri dari mahasiswa dan mahasiswi yang berfokus dalam dunia Teknologi Informasi, khususnya dalam bidang Front-End dan Back End Website Developer. Misi kami adalah untuk membantu sesama terutama masyarakat yang ada disekitar kami. Harapan kami dengan dibuatnya Website TheRathings adalah agar dapat membantu masyarakat dalam memberikan referensi tentang Gaya Hidup yang sehat dengan fokus pada pemilihan makanan dan minuman yang sehat untuk dikonsumsi.</p> 
         </div>
         <div class="team-profile">

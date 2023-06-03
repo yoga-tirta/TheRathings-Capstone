@@ -61,7 +61,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
 }
@@ -80,7 +80,7 @@ html::-webkit-scrollbar-thumb {
 }
 section {
   padding: 5rem 7%;
-  background-color: white;
+  background-color: #fff;
 }
 
 .btn {
@@ -89,7 +89,7 @@ section {
   font-family: "montserrat", sans-serif;
   font-weight: bold;
   font-size: 1rem;
-  color: white;
+  color: #fff;
   border-radius: 0.5rem;
   background-color: var(--second-color);
   opacity: 0;
@@ -106,7 +106,7 @@ section {
 */
 .app-bar {
   padding: 8px 16px;
-  background-color: white;
+  background-color: #fff;
   display: grid;
   grid-template-columns: 1fr auto auto;
   gap: 10px;
@@ -162,7 +162,7 @@ section {
   width: 240px;
   transition: all 0.3s;
   padding: 8px;
-  background-color: white;
+  background-color: #fff;
   overflow: hidden;
 }
 

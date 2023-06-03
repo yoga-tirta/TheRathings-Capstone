@@ -6,7 +6,7 @@ main .first-main {
   display:flex;
   padding: 72px 64px;
   margin: 0 auto;
-  background-color: #fafafa;
+  background-color: #fdfdfd;
   justify-content: space-evenly;
 }
 
@@ -38,12 +38,13 @@ main .first-main .tagline p strong{
 }
 
 main .first-main .tagline button,
-main .second-main .tagline-why button {
+main .second-main .tagline-why button,
+main .fourth-main button {
   background-color: var(--second-color);
   padding: 1rem 2rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
   font-family: "montserrat", sans-serif;
-  color: white;
+  color: #fff;
   min-width: 44px;
   min-height: 44px;
   margin-top: 40px;
@@ -56,7 +57,8 @@ main .second-main .tagline-why button {
 }
 
 main .first-main .tagline button:hover,
-main .second-main .tagline-why button:hover {
+main .second-main .tagline-why button:hover,
+main .fourth-main button:hover {
   color: var(--second-color);
   background-color: transparent;
   border: 0.2rem solid var(--second-color);
@@ -78,7 +80,7 @@ main .second-main {
   display: flex;
   flex-direction: column;
   padding: 64px;
-  background-image: url('../../public/img/background-tagline-why-large.jpg');
+  background-image: url('../../public/img/background-tagline-why.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -213,7 +215,7 @@ main .third-main-grid li {
   max-width: 400px; 
   text-align: center;
   /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
-  background-color: #c2b098;
+  background-color: var(--main-color);
 }
 
 main .third-main-grid img {
@@ -224,17 +226,16 @@ main .third-main-grid img {
 }
 
 main .third-main-grid li:hover {
-  background-color:#6D8B74;
+  background-color: var(--second-color);
 }
 
 main .fourth-main {
   padding: 50px 68px;
   display: flex;
   flex-direction: row-reverse;
-  background-color: #fff;
   text-align: center;
   align-items: center;
-  background-color: #efe3d2;
+  background-color: #f1f1f1;
   font-size: 16px;
 }
 
@@ -253,22 +254,6 @@ main .fourth-main .tagline-heading h1 {
 
 main .fourth-main .tagline-heading h1 span {
   color: var(--main-color);
-}
-
-main .fourth-main button {
-  background-color: var(--second-color);
-  padding: 16px 24px;
-  border-radius: 8px;
-  color: #EFEAD8;
-  min-width: 44px;
-  min-height: 44px;
-  margin-top: 10px;
-  border-color: transparent;
-  font-size: 16px;
-}
-
-main .fourth-main button:hover {
-  background-color: #6D8B74;
 }
 
 main .fifth-main {
