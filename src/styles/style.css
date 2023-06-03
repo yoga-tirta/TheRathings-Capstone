@@ -49,6 +49,43 @@
   }
 }
 
+@keyframes slide_right {
+  0% {
+    transform: translatex(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translatex(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slide_up {
+  0% {
+    transform: translatey(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translatey(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes fade_in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes anmBg {
+  to {
+    background-position: -200% 0;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -83,24 +120,6 @@ section {
   background-color: #fff;
 }
 
-.btn {
-  padding: 1rem 2rem;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
-  font-family: "montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 1rem;
-  color: #fff;
-  border-radius: 0.5rem;
-  background-color: var(--second-color);
-  opacity: 0;
-  transition: 0.35s ease;
-}
-
-.btn:hover {
-  background-color: var(--hover-second);
-  border: none;
-}
-
 /*
   AppBar
 */
@@ -121,11 +140,12 @@ section {
 .app-bar__brand {
   margin: 0;
   align-content: center;
+  animation: slide_left 0.5s linear forwards;
 }
 
 .app-bar__brand img {
   width: 40px;
-  margin-left: 40px;
+  margin-left: 20px;
   margin-right: 10px;
 }
 
@@ -177,22 +197,21 @@ ul {
 
 .app-bar .app-bar__navigation ul li a {
   display: inline-block;
-  font-size: 1.1rem;
-  margin: 0;
+  font-size: 1rem;
+  margin-right: -20px;
   text-decoration: none;
   color: var(--font-color);
+  animation: slide_top 0.5s linear forwards;
 }
 
 .app-bar .app-bar__navigation ul li a:hover {
   color: var(--main-color);
-  font-weight: bold;
   transition: 0.4s;
 }
 
 /*
   Main Content
 */
-
 main {
   flex: 1;
   /* background-color: #f1f1f1; */
@@ -210,10 +229,4 @@ main {
   background-image: linear-gradient(to right, rgb(192, 192, 192), rgb(228, 228, 228));
   background-size: 200% 100%;
   animation: anmBg 1s linear 3;
-}
-
-@keyframes  anmBg {
-  to {
-    background-position: -200% 0;
-  }
 }
