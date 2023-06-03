@@ -120,7 +120,7 @@ const Home = {
         <picture>
           <source media="(max-width: 650px)" srcset="./img/information-small.jpg"/>
           <img class="lazyload" data-src='./img/information-large.png' alt="Food Information"></img>
-        </picture>    
+        </picture>
       </section>
   
       <section class="fifth-main">
