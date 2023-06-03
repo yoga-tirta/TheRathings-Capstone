@@ -4,7 +4,8 @@ import Home from '../views/pages/home';
 import Detail from '../views/pages/detail';
 import Bookmark from '../views/pages/bookmark';
 import Explore from '../views/pages/explore';
-
+import Login from '../views/pages/login';
+import Register from '../views/pages/register';
 
 const routes = {
   '/': Home,
@@ -14,6 +15,8 @@ const routes = {
   '/detail/:id': Detail,
   '/bookmark': Bookmark,
   '/explore': Explore,
+  '/login': Login,
+  '/register': Register,
 };
 
 export default routes;
