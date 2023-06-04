@@ -1,3 +1,5 @@
+/* eslint-disable no-plusplus */
+/* eslint-disable radix */
 import CONFIG from '../../globals/config';
 
 const createFoodItemTemplate = (food) => `
@@ -115,10 +117,10 @@ const createFoodDetailTemplate = (food) => `
     .map(
       (instruction) => `
         <ol>${instruction.steps
-          .map(
-            (step) => `
+    .map(
+      (step) => `
         <li>${step.step}</li>`,
-          ).join('')}</ol>
+    ).join('')}</ol>
         `,
     ).join('')}
     </p>
@@ -147,7 +149,7 @@ const createSimilarFoodItemTemplate = (food) => `
 const createVideoFoodItemTemplate = (video) => `
   <div class="aside-food-item video-aside">
     <a class="video-food-item" href="https://www.youtube.com/watch?v=${video.youTubeId}">
-    <img class="video-food-item-thumbnail lazyload" data-src="${video.thumbnail}" alt="${food.shortTitle}">
+    <img class="video-food-item-thumbnail lazyload" data-src="${video.thumbnail}" alt="${video.shortTitle}">
     <div class="video-food-item-content">
         <h5 class="video-food-item-title">${video.shortTitle}</h5>
         <div class="video-food-item-info">

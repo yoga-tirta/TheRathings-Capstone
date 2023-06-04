@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 import FavoriteFoodIdb from '../../data/bookmark-food-idb';
 import { createBookmarkItemTemplate } from '../templates/template-creator';
 
