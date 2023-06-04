@@ -33,9 +33,9 @@ const About = {
           
           <div class="card-profile">
             <img src="./img/team/putri.png" alt="Utami Putri">
-            <h1>Nur Rahma Utami Putri</h1>
+            <h1>Nur Rahmah Utami Putri</h1>
             <h2>Full-Stack Web Developer</h2>
-            <a href="#"><button>LinkedIn</button></a>
+            <a href="https://www.linkedin.com/in/utamiputri117/"><button>LinkedIn</button></a>
           </div>
 
           <div class="card-profile">

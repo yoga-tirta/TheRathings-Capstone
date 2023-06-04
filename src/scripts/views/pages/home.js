@@ -3,7 +3,7 @@ const Home = {
     return `
       <section class="first-main" id="home">  
         <div class="tagline">
-          <h2>Welcome To <span>TheRathings</span></h2>
+          <h2>Welcome To <span>therathingss</span></h2>
           <h1>Eat Healthy, Eco-Friendly</h1>
           <p>
             Telusuri TheRathings Dan Temukan Informasi Mengenai Restaurant<br>
@@ -73,8 +73,28 @@ const Home = {
       <section class="fifth-main">
         <div class="tagline-heading">
           <h1>Pelajari 3  <span>Tips</span> simple</h1>
-          <p>blm ada isi</p>
-        </div>    
+        <div class="box">
+        <i class="fas fa-utensils"></i>
+        <div class="content">
+          <h2>Planning</h2>
+          <p>Buatlah perencanaan makanan sebelumnya untuk menghindari membeli atau memasak terlalu banyak makanan.</p>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-users"></i>
+        <div class="content">
+          <h2>Kreatifity</h2>
+          <p>Gunakan kreativitas untuk menciptakan hidangan baru dengan bahan-bahan yang tersisa.</p>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-user-clock"></i>
+        <div class="content">
+          <h2>Reuse</h2>
+          <p>Sisa makanan setelah makan, simpanlah dengan benar dan manfaatkan kembali nanti. Gunakan wadah kedap udara atau bungkus makanan dengan rapat untuk menjaga kesegaran.</p>
+        </div>
+      </div>
+          </div>   
       </section>
 
       <section class="main-galery">
