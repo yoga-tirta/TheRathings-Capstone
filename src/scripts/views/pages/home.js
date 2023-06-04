@@ -1,9 +1,9 @@
 const Home = {
   async render() {
     return `
-      <section class="first-main">  
+      <section class="first-main" id="home">  
         <div class="tagline">
-          <h2>Welcome To TheRathings</h2>
+          <h2>Welcome To <span>TheRathings</span></h2>
           <h1>Eat Healthy, Eco-Friendly</h1>
           <p>
             Telusuri TheRathings Dan Temukan Informasi Mengenai Restaurant<br>
@@ -20,28 +20,21 @@ const Home = {
           </picture>
         </div>
       </section>
-  
+
       <section class="second-main" id="about">
         <div class="tagline-heading">
           <h1>Kenalan sama <span>TheRathings</span> yuk!</h1>
-        </div>
-        <div class="tagline-why">
-          <div class="img-container">
-          <!-- <iframe width="500" height="300" src="https://www.youtube.com/embed/IoCVrkcaH6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-            <picture>
-              <source media="(min-width: 600px; max-width: 900px)" srcset="./img/second-main.png"/>
-              <img src='./img/second-main.svg' alt="Second Main"></img>
-            </picture>
-          </div>
-          <p><strong>TheRathings</strong> layaknya pecinta makanan sehat yang mengembangkan 
-            website dengan fitur untuk memanfaatkan leftover food dari restoran food-chain 
-            dengan menambahkan fitur tambahan seperti mencari resep makanan dari bahan 
-            makanan yang tersedia dan juga terdapat informasi mengenai data-data 
-            nutrisi dari masing-masing resep makanan tersebut.
+          <p>Team <strong>TheRathings</strong> Terdiri Dari Mahasiswa Dan Mahasiswi Yang Berfokus Dalam Dunia Teknologi Informasi, Khususnya Dalam Bidang Front-End Dan Back End Website Developer. .
           </p>
           <button onclick="window.location.href='#/about'">
-            Lihat Lebih Lanjut <i class="fas fa-plus-circle"></i>
-          </button>
+          Telusuri Sekarang <i class="fas fa-play-circle"></i>
+          </button>        
+        </div>
+        <div class="tagline-img">
+          <picture>
+            <source media="(min-width: 700px; max-width: 900px)" srcset="./img/second-main.png"/>
+            <img src='./img/second-main.svg' alt="Second Main"></img>
+          </picture>
         </div>
       </section>
   
@@ -71,22 +64,17 @@ const Home = {
         </div>
         <div class="tagline-img">
           <picture>
-            <source media="(min-width: 700px; max-width: 900px)" srcset="./img/four-main.png"/>
-            <img src='./img/four-main.svg' alt="Four Main"></img>
+            <source media="(min-width: 700px; max-width: 900px)" srcset="./img/fourth-main.png"/>
+            <img src='./img/fourth-main.svg' alt="Fourth Main"></img>
           </picture>
         </div>
       </section>
   
       <section class="fifth-main">
         <div class="tagline-heading">
-          <h1>Periksa <span>Label Nutrisi</span></h1>
-          <p>Mungkin sedikit menakutkan untuk mengetahui berapa banyak kalori atau berapa banyak gula dalam makanan favoritmu, 
-          tetapi pastikan kamu memeriksa <span>Label Nutrisi</span> sebelum membuat makanan yang kamu suka.</p>
-        </div>
-        <picture>
-          <source media="(max-width: 650px)" srcset="./img/nutrition-label-small.jpg"/>
-          <img class="lazyload" data-src='./img/nutrition-label-large.jpg' alt="Lutrition Label"></img>
-        </picture>    
+          <h1>Pelajari 3  <span>Tips</span> simple</h1>
+          <p>blm ada isi</p>
+        </div>    
       </section>
 
       <section class="main-galery">

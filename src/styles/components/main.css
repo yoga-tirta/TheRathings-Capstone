@@ -31,6 +31,10 @@ main .first-main .tagline h2 {
   animation: slide_right 0.5s linear forwards;
 }
 
+main .first-main .tagline h2 span {
+  color: var(--main-color);
+}
+
 main .first-main .tagline p {
   line-height: 2;
   animation: slide_right 0.5s linear forwards;
@@ -61,14 +65,6 @@ main .fourth-main button {
   animation: slide_top 0.5s linear forwards;
 }
 
-main .first-main button:hover,
-main .second-main button:hover,
-main .fourth-main button:hover {
-  color: var(--second-color);
-  background-color: transparent;
-  border: 0.2rem solid var(--second-color);
-}
-
 main .first-main .tagline-img {
   display: flex;
   justify-content: center;
@@ -83,56 +79,35 @@ main .first-main .tagline-img img{
 }
 
 main .second-main {
+  padding: 50px 68px;
   display: flex;
-  flex-direction: column;
-  padding: 64px;
-  background-image: url('../../public/img/background-tagline-why.png');
-  background-size: cover;
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  background-color: #efe3d2;
+  font-size: 14pt;
+  background-image: url('../../public/img/background-tagline-why.png');  background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
+  font-size: 16px;
 }
 
-main .second-main .tagline-heading {
-  text-align: center;
-  margin: 24px;
+main .second-main img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin: 0px auto;
+  max-width: 520px; 
 }
 
 main .second-main .tagline-heading h1 {
-  font-size: 32px;
+  font-size: 34px;
   color: var(--second-color);
-  font-weight: bolder;
+  margin-bottom: 30px;
 }
 
 main .second-main .tagline-heading h1 span {
   color: var(--main-color);
-}
-
-main .second-main .tagline-why {
-  display: flex;
-  flex-direction: row;
-  padding: 24px;
-  margin: 0 32px;
-  justify-content: space-evenly;
-}
-
-main .second-main .tagline-why .img-container {
-  margin: auto 30px;
-}
-
-main .second-main .tagline-why .img-container iframe {
-  border-radius: 10px;
-}
-
-main .second-main .tagline-why .img-container img {
-  width: 400px;
-  height: 400px;
-  border-radius: 8px;
-  object-fit: cover;
-}
-
-main .second-main .tagline-why p {
-  line-height: 2;
-  font-size: 16px;
 }
 
 main .main-galery{
@@ -227,8 +202,9 @@ main .third-main .tagline p strong{
   color: var(--second-color);
 }
 
-main .third-main button,
+main .first-main button,
 main .second-main button,
+main .third-main button,
 main .fourth-main button {
   background-color: var(--second-color);
   padding: 1rem 2rem;
@@ -248,8 +224,9 @@ main .fourth-main button {
   animation: slide_top 0.5s linear forwards;
 }
 
-main .third-main button:hover,
+main .first-main button:hover,
 main .second-main button:hover,
+main .third-main button:hover,
 main .fourth-main button:hover {
   color: var(--second-color);
   background-color: transparent;

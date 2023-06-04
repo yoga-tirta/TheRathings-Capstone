@@ -4,14 +4,21 @@
     text-align: center;
   }
 
-  main .second-main .tagline-why {
+ main .second-main img {        
+    max-width: 420px; 
+    width: 100%;
+  }
+
+  main .second-main {
     flex-direction: column;
   }
 
-  main .second-main .tagline-why img {
-    margin: 0;
-    margin-bottom: 24px;
-    height: 50%;
+  main .second-main .tagline-heading br {
+    display: none;
+  }
+
+  main .second-main button {
+    margin-bottom: 36px;
   }
 
   main .third-main {
@@ -249,7 +256,7 @@
     background-image: url('../public/img/background-tagline-why.png');
   }
 
-  main .second-main .tagline-why p {
+  main .second-main .tagline p {
     font-size: 11pt;
     text-align: left;
   }
