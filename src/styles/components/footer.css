@@ -53,8 +53,8 @@ footer section div ul li a {
 
 footer section div ul li a:hover {
   padding-left: 16px;
-  transition: all, ease, 1s;
-  color: var(--third-color);
+  transition: all, ease, 0.8s;
+  color: var(--second-color);
 }
 
 footer section div ul li i {

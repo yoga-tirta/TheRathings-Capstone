@@ -11,6 +11,7 @@ const createFoodItemTemplate = (food) => `
           <li><i class="fa fa-medkit icon"></i>${food.healthScore}%</li>
           <li class="food-item-info-text">Healthy</li>
         </ul>
+
         <ul class="food-item-info-mid">
           <li><i class="fa fa-map-pin icon"></i> 
               ${food.nutrition.nutrients
@@ -20,6 +21,7 @@ const createFoodItemTemplate = (food) => `
                     `).join('')}</li>
           <li class="food-item-info-text">Calories</li> 
         </ul>
+
         <ul>
           <li><i class="fas fa-utensils icon"></i> ${food.servings}</li>
           <li class="food-item-info-text">Servings</li>
@@ -32,7 +34,7 @@ const createFoodItemTemplate = (food) => `
 `;
 
 const createFoodDetailTemplate = (food) => `
-  <h2 class="food-title">${food.title}</h2>
+  <h1 class="food-title">${food.title}</h1>
   <img class="food-image" src="${food.image}" alt="${food.title}">
 
   <div calss="food-information">    

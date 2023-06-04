@@ -11,6 +11,11 @@ import '../../components/search';
 const Foodthings = {
   async render() {
     return `
+      <section class="hero">
+        <h1>Fitur FoodThings</h1>
+        <p>Tentukan Rating dan resep Makanan Sehatmu!</p>
+      </section>
+
       <div class="foodthings-continer">
         <search-bar></search-bar>
         <div class="show-filter">

@@ -3,12 +3,11 @@ const Explore = {
   async render() {
     return `
       <section class="hero">
-        <h1>Eksplorasi</h1>
+        <h1>Explore</h1>
         <p>Telusuri dan pilih makanan kesukaanmu pada restaurant leftover food</p>
       </section>
 
-      <section class="content">
-      </section>
+      <section class="content"></section>
     `;
   },
 };

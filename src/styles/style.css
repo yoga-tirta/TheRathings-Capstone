@@ -10,12 +10,11 @@
 
 :root {
   --main-color: #009ba0;
-  --second-color: #ffb201;
-  --third-color: #fe5244;
-  --hover-second: #c48b20;
-  --third-Color: #189ab4;
-  --box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
-  --font-color: #292929;
+  --main-dark: #004a4d;
+  --second-color: #ffb301;
+  --second-dark: #e6a500;
+  --third-color: #fe5444;
+  --font-color: #252525;
 }
 
 /* animasi */

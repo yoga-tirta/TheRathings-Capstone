@@ -40,7 +40,7 @@ class SearchBar extends HTMLElement {
         }
       
         .search-container > input:focus {
-          outline: 3px solid #f59670a7;
+          outline: 3px solid #f59670a;
           outline-offset: 1px;
         }
       

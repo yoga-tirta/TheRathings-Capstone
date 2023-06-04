@@ -2,8 +2,8 @@ const About = {
   async render() {
     return `
       <section class="hero" id="gabung">
-        <h1>tentang TheRathings</h1>
-        <p>ketahui tentang komunitas TheRathings</p>
+        <h1>Tentang TheRathings</h1>
+        <p>ketahui tentang latar belakang TheRathings</p>
       </section>
     
       <section class="about-therathings">

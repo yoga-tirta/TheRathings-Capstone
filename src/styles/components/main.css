@@ -21,6 +21,7 @@ main .first-main .tagline h1 {
   font-size: 40px;
   margin-bottom: 20px;
   animation: slide_left 0.5s linear forwards;
+  animation-delay: 0.3s;
 }
 
 main .first-main .tagline h2 {
@@ -29,6 +30,7 @@ main .first-main .tagline h2 {
   font-weight: bold;
   margin-bottom: 20px;
   animation: slide_right 0.5s linear forwards;
+  animation-delay: 0.3s;
 }
 
 main .first-main .tagline h2 span {
@@ -38,6 +40,7 @@ main .first-main .tagline h2 span {
 main .first-main .tagline p {
   line-height: 2;
   animation: slide_right 0.5s linear forwards;
+  animation-delay: 0.3s;
 }
 
 main .first-main .tagline p strong{
@@ -63,6 +66,7 @@ main .fourth-main button {
   border: 0.2rem solid var(--second-color);
   transition: 0.4s ease;
   animation: slide_top 0.5s linear forwards;
+  animation-delay: 0.3s;
 }
 
 main .first-main .tagline-img {
@@ -76,6 +80,7 @@ main .first-main .tagline-img img{
   border-radius: 16px;
   object-fit: cover;
   animation: fade_in 1s linear forwards;
+  animation-delay: 0.3s;
 }
 
 main .second-main {
@@ -148,11 +153,13 @@ main .third-main .tagline h2 {
   font-weight: bold;
   margin-bottom: 20px;
   animation: slide_right 0.5s linear forwards;
+  animation-delay: 0.3s;
 }
 
 main .third-main .tagline p {
   line-height: 2;
   animation: slide_right 0.5s linear forwards;
+  animation-delay: 0.3s;
 }
 
 main .third-main .tagline p strong{
@@ -179,6 +186,7 @@ main .fourth-main button {
   border: 0.2rem solid var(--second-color);
   transition: 0.4s ease;
   animation: slide_top 0.5s linear forwards;
+  animation-delay: 0.3s;
 }
 
 main .first-main button:hover,
@@ -201,6 +209,7 @@ main .third-main .tagline-img img{
   border-radius: 16px;
   object-fit: cover;
   animation: fade_in 1s linear forwards;
+  animation-delay: 0.3s;
 }
 
 main .fourth-main {
@@ -272,7 +281,7 @@ main .fifth-main .tagline-heading .box {
   justify-content: left;
   opacity: 0;
   animation: slide_left .3s linear forwards;
-  animation-delay: calc(3s * var(--i));
+  animation-delay: 0.3s;
 }
 
 main .fifth-main .tagline-heading .box i {
