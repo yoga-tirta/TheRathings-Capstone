@@ -89,12 +89,12 @@ display: none;
   border-left: 1px solid #EFEAD8;
 }
 
-.food-item-info ul:first-child .icon{
-  color: #F0BB62;
+.food-item-info ul:first-child  .icon{
+  color: var(--second-color);
 }
 
 .food-item-info .icon {
-  color: #9FC088;
+  color: var(--third-color);
   margin-right: 4px;
 }
 
@@ -127,7 +127,7 @@ display: none;
 }
 
 .food-item-title a:hover {
-    color: #be603b;
+    color: #a1654e;
 }
 
 /* .food-item-info {

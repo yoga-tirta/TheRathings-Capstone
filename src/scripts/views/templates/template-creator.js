@@ -191,7 +191,7 @@ const createSaveButtonTemplate = () => `
 
 const createSavedButtonTemplate = () => `
   <button class="food-button-like" id="saveButton">
-    <i class="fa-solid fa-bookmark icon"></i> Unsave Recipe
+    <i class="fa fa-ban icon"></i> Unsave Recipe
   </button>
 `;
 

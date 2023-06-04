@@ -50,7 +50,7 @@ const Detail = {
       similarFoodContainer.innerHTML += createSimilarFoodItemTemplate(similarFood);
 
       if (food.sourceName) {
-        document.querySelector('#foodSource').innerHTML = `<p><i class="fa-solid fa-user icon"></i> By ${food.sourceName}</p>`;
+        document.querySelector('#foodSource').innerHTML = `<p><i class="fa fa-universal-access icon"></i> By ${food.sourceName}</p>`;
       }
     });
 
