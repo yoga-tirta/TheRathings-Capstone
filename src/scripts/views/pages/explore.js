@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 const Explore = {
   async render() {
     return `

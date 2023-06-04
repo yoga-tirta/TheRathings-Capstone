@@ -1,3 +1,5 @@
+/* eslint-disable no-plusplus */
+/* eslint-disable radix */
 import CONFIG from '../../globals/config';
 
 const createFoodItemTemplate = (food) => `
@@ -6,11 +8,11 @@ const createFoodItemTemplate = (food) => `
     <div class="food-item-main">
       <div class="food-item-info">
         <ul>
-          <li><i class="fa-solid fa-star icon"></i>${food.healthScore}%</li>
+          <li><i class="fa fa-medkit"></i>${food.healthScore}%</li>
           <li class="food-item-info-text">Healthy</li>
         </ul>
         <ul class="food-item-info-mid">
-          <li><i class="fa-brands fa-nutritionix icon"></i> 
+          <li><i class="fa fa-map-pin"></i> 
               ${food.nutrition.nutrients
     .filter((nutrient) => nutrient.name === 'Calories')
     .map((nutrient) => `
@@ -48,7 +50,7 @@ const createFoodDetailTemplate = (food) => `
     <div class="food-fact-item">
     <div>
       <li class="food-fact-value">${food.healthScore}%</li>
-      <li class="food-fact-title"><i class="fa-solid fa-star icon"></i> Health Score</li>
+      <li class="food-fact-title"><i class="fa fa-medkit"></i> Health Score</li>
     </div>
     <div>
       <li class="food-fact-value">${food.weightWatcherSmartPoints}</li>
@@ -115,10 +117,10 @@ const createFoodDetailTemplate = (food) => `
     .map(
       (instruction) => `
         <ol>${instruction.steps
-          .map(
-            (step) => `
+    .map(
+      (step) => `
         <li>${step.step}</li>`,
-          ).join('')}</ol>
+    ).join('')}</ol>
         `,
     ).join('')}
     </p>
@@ -147,7 +149,7 @@ const createSimilarFoodItemTemplate = (food) => `
 const createVideoFoodItemTemplate = (video) => `
   <div class="aside-food-item video-aside">
     <a class="video-food-item" href="https://www.youtube.com/watch?v=${video.youTubeId}">
-    <img class="video-food-item-thumbnail lazyload" data-src="${video.thumbnail}" alt="${food.shortTitle}">
+    <img class="video-food-item-thumbnail lazyload" data-src="${video.thumbnail}" alt="${video.shortTitle}">
     <div class="video-food-item-content">
         <h5 class="video-food-item-title">${video.shortTitle}</h5>
         <div class="video-food-item-info">
@@ -167,7 +169,7 @@ const createBookmarkItemTemplate = (food) => `
     <div class="food-item-main">
     <div class="food-item-info">
       <ul class="food-item-info-first">
-        <li><i class="fa-solid fa-star icon"></i> ${food.healthScore}%</li>
+        <li><i class="fa fa-medkit"></i> ${food.healthScore}%</li>
         <li class="food-item-info-text">Health</li>
       </ul>
       <ul>

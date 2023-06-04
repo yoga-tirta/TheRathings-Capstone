@@ -8,7 +8,7 @@ const API_ENDPOINT = {
   FOOD_SIMILAR: (id) => `${CONFIG.BASE_URL}recipes/${id}/similar?number=10&${CONFIG.API_KEY}`,
   FOOD_VIDEOS: (keyword) => `${CONFIG.BASE_URL}food/videos/search?query=${keyword}&number=10&${CONFIG.API_KEY}`,
   FOOD_TRIVIA: `https://api.spoonacular.com/food/trivia/random?${CONFIG.API_KEY}`,
-
+  RESTAURANT: `https://api.spoonacular.com/food/restaurants/search${CONFIG.API_KEY}`,
 };
 
 export default API_ENDPOINT;

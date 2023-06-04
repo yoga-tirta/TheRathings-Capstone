@@ -1,3 +1,6 @@
+/* eslint-disable no-plusplus */
+/* eslint-disable no-undef */
+/* eslint-disable no-use-before-define */
 /* eslint-disable no-loop-func */
 import SpoonacularSource from '../../data/food-source';
 import { createFoodItemTemplate, createSkeletonItemTemplate } from '../templates/template-creator';
