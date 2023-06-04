@@ -265,11 +265,14 @@ main .fifth-main .tagline-heading h1 {
 }
 
 main .fifth-main .tagline-heading .box {
-  display: flex;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
   text-align: left;
+  align-items: center;
+  justify-content: left;
   opacity: 0;
-  animation: slide_left .5s linear forwards;
+  animation: slide_left .3s linear forwards;
   animation-delay: calc(3s * var(--i));
 }
 
