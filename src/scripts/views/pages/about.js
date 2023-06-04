@@ -1,6 +1,11 @@
 const About = {
   async render() {
     return `
+      <section class="hero" id="gabung">
+        <h1>tentang TheRathings</h1>
+        <p>ketahui tentang komunitas TheRathings</p>
+      </section>
+    
       <section class="about-therathings">
         <div class="therathings-logo">
           <img src="./favicon.png" alt="logo therathings">
