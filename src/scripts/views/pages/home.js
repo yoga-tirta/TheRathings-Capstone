@@ -47,65 +47,17 @@ const Home = {
   
       <section class="third-main">
         <div class="tagline-heading">
-          <h1>Rekomendasi Berdasarkan<br><span>Tipe Makanan</span></h1>
-          <p>Food Intake memberikan rekomendasi sesuai tipe makanan untuk menu makanan mu hari ini. <br>Keep healthy!</p>
+          <h1>Telusuri berbagai<span> Resep<br>Makanan</span> Sehat</h1>
+          <p>Yuk, telusuri rekomendasi Makanan sehat dan bergizi versi The Rathings sesuai jenis makanan untuk menu makanan mu hari ini. <br>Keep healthy and eco-friendly!</p>
+          <button onclick="window.location.href='#/foodthings'">
+          Telusuri Sekarang <i class="fas fa-play-circle"></i>
+          </button>
         </div>
-        <div class="third-main-grid">
-          <li>
-            <a href="#/foodthings">
-            <picture>
-              <source type="image/webp" srcset="./img/food-type/1.webp">
-              <source type="image/png" srcset="./img/food-type/1.png">
-              <img class="lazyload" data-src="./img/food-type/1.png" alt="main course">
-            </picture>
-            </a>
-          </li>
-          <li>
-            <a href="#/foodthings">
-            <picture>
-              <source type="image/webp" srcset="./img/food-type/2.webp">
-              <source type="image/png" srcset="./img/food-type/2.png">
-              <img class="lazyload" data-src="./img/food-type/2.png" alt="breakfast">
-            </picture>
-            </a>
-          </li>
-          
-          <li>
-            <a href="#/foodthings">
-            <picture>
-              <source type="image/webp" srcset="./img/food-type/3.webp">
-              <source type="image/png" srcset="./img/food-type/3.png">
-              <img class="lazyload" data-src="./img/food-type/3.png" alt="Dessert menu">
-            </picture>
-            </a>
-          </li>
-          <li>
-            <a href="#/foodthings">
-            <picture>
-              <source type="image/webp" srcset="./img/food-type/4.webp">
-              <source type="image/png" srcset="./img/food-type/4.jpg">
-              <img class="lazyload" data-src="./img/food-type/4.png" alt="Snack menu">
-            </picture>
-            </a>
-          </li>
-          <li>
-            <a href="#/foodthings">
-            <picture>
-              <source type="image/webp" srcset="./img/food-type/5.webp">
-              <source type="image/png" srcset="./img/food-type/5.png">
-              <img class="lazyload" data-src="./img/food-type/5.png" alt="Salad menu">
-            </picture>
-            </a>
-          </li>
-          <li>
-            <a href="#/foodthings">
-            <picture>
-              <source type="image/webp" srcset="./img/food-type/6.webp">
-              <source type="image/png" srcset="./img/food-type/6.jpg">
-              <img class="lazyload" data-src="./img/food-type/6.png" alt="Drink menu">
-            </picture>
-            </a>
-          </li>
+        <div class="tagline-img">
+          <picture>
+            <source media="(min-width: 600px; max-width: 900px)" srcset="./img/first-main.png"/>
+            <img src='./img/third-main.svg' alt="Third Main"></img>
+          </picture>
         </div>
       </section>
   
