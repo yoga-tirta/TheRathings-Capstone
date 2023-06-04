@@ -6,6 +6,7 @@
 @import url('./components/detail.css');
 @import url('./components/bookmark.css');
 @import url('./components/explore.css');
+@import url('./components/login.css');
 
 :root {
   --main-color: #009ba0;
@@ -118,6 +119,9 @@ html::-webkit-scrollbar-thumb {
 section {
   padding: 5rem 7%;
   background-color: #fff;
+}
+a{
+  text-decoration: none;
 }
 
 /*
