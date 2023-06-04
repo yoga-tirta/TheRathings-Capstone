@@ -190,6 +190,11 @@ main .third-main {
   font-size: 16px;
 }
 
+main .third-main .tagline {
+  margin: 30px 24px;
+  justify-content: center;
+}
+
 main .third-main .tagline-heading {
   text-align: left;
   margin-right: 50px;
@@ -205,34 +210,63 @@ main .third-main .tagline-heading h1 span {
   color: var(--main-color);
 }
 
-main .third-main-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  max-width: 800px;
-  margin: 0px auto;
+main .third-main .tagline h2 {
+  color: var(--second-color);
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  animation: slide_right 0.5s linear forwards;
 }
 
-main .third-main-grid li {
-  list-style: none;
-  border-radius: 20px;
-  transition: 0.3s;
-  margin: 0px auto;
-  max-width: 400px; 
-  text-align: center;
-  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
-  background-color: var(--main-color);
+main .third-main .tagline p {
+  line-height: 2;
+  animation: slide_right 0.5s linear forwards;
 }
 
-main .third-main-grid img {
-  border-radius: 20px;
-  width: 100%;
-  object-fit: cover;
-  padding: 3px 3px 10px 3px;
+main .third-main .tagline p strong{
+  color: var(--second-color);
 }
 
-main .third-main-grid li:hover {
+main .third-main button,
+main .second-main button,
+main .fourth-main button {
   background-color: var(--second-color);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-family: "montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  min-width: 44px;
+  min-height: 44px;
+  margin-top: 20px;
+  border-color: transparent;
+  border-radius: 0.5rem;
+  border: 0.2rem solid var(--second-color);
+  transition: 0.4s ease;
+  animation: slide_top 0.5s linear forwards;
+}
+
+main .third-main button:hover,
+main .second-main button:hover,
+main .fourth-main button:hover {
+  color: var(--second-color);
+  background-color: transparent;
+  border: 0.2rem solid var(--second-color);
+}
+
+main .third-main .tagline-img {
+  display: flex;
+  justify-content: center;
+}
+
+main .third-main .tagline-img img{
+  width: 400px;
+  height: 400px;
+  border-radius: 16px;
+  object-fit: cover;
+  animation: fade_in 1s linear forwards;
 }
 
 main .fourth-main {
@@ -246,7 +280,8 @@ main .fourth-main {
 }
 
 main .fourth-main img {
-  width: 100%;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   margin: 0px auto;
   max-width: 520px; 

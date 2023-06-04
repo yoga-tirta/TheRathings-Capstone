@@ -45,82 +45,36 @@ const Home = {
         </div>
       </section>
   
-      <section class="third-main">
+      <section class="third-main" id="foodthings">
         <div class="tagline-heading">
-          <h1>Rekomendasi Berdasarkan<br><span>Tipe Makanan</span></h1>
-          <p>Food Intake memberikan rekomendasi sesuai tipe makanan untuk menu makanan mu hari ini. <br>Keep healthy!</p>
+          <h1>Telusuri berbagai<span> Resep<br>Makanan</span> Sehat!</h1>
+          <p>Yuk, telusuri rekomendasi Makanan sehat dan bergizi versi The Rathings sesuai jenis makanan untuk menu makanan mu hari ini. <br>Keep healthy and eco-friendly!</p>
+          <button onclick="window.location.href='#/foodthings'">
+          Telusuri Sekarang <i class="fas fa-play-circle"></i>
+          </button>
         </div>
-        <div class="third-main-grid">
-          <li>
-            <a href="#/foodthings">
-            <picture>
-              <source type="image/webp" srcset="./img/food-type/1.webp">
-              <source type="image/png" srcset="./img/food-type/1.png">
-              <img class="lazyload" data-src="./img/food-type/1.png" alt="main course">
-            </picture>
-            </a>
-          </li>
-          <li>
-            <a href="#/foodthings">
-            <picture>
-              <source type="image/webp" srcset="./img/food-type/2.webp">
-              <source type="image/png" srcset="./img/food-type/2.png">
-              <img class="lazyload" data-src="./img/food-type/2.png" alt="breakfast">
-            </picture>
-            </a>
-          </li>
-          
-          <li>
-            <a href="#/foodthings">
-            <picture>
-              <source type="image/webp" srcset="./img/food-type/3.webp">
-              <source type="image/png" srcset="./img/food-type/3.png">
-              <img class="lazyload" data-src="./img/food-type/3.png" alt="Dessert menu">
-            </picture>
-            </a>
-          </li>
-          <li>
-            <a href="#/foodthings">
-            <picture>
-              <source type="image/webp" srcset="./img/food-type/4.webp">
-              <source type="image/png" srcset="./img/food-type/4.jpg">
-              <img class="lazyload" data-src="./img/food-type/4.png" alt="Snack menu">
-            </picture>
-            </a>
-          </li>
-          <li>
-            <a href="#/foodthings">
-            <picture>
-              <source type="image/webp" srcset="./img/food-type/5.webp">
-              <source type="image/png" srcset="./img/food-type/5.png">
-              <img class="lazyload" data-src="./img/food-type/5.png" alt="Salad menu">
-            </picture>
-            </a>
-          </li>
-          <li>
-            <a href="#/foodthings">
-            <picture>
-              <source type="image/webp" srcset="./img/food-type/6.webp">
-              <source type="image/png" srcset="./img/food-type/6.jpg">
-              <img class="lazyload" data-src="./img/food-type/6.png" alt="Drink menu">
-            </picture>
-            </a>
-          </li>
+        <div class="tagline-img">
+          <picture>
+            <source media="(min-width: 600px; max-width: 900px)" srcset="./img/third-main.png"/>
+            <img src='./img/third-main.svg' alt="Third Main"></img>
+          </picture>
         </div>
       </section>
   
-      <section class="fourth-main">
+      <section class="fourth-main" id="explore">
         <div class="tagline-heading">
-          <h1>Personalisasikan Dengan <br><span>Filter Nutrisi</span></h1>
-          <p>Pastikan kamu memilih makanan sesuai dengan kebutuhan nutrisi dan mengatur pola makan yang sesuai. 
-          Tujuannya adalah untuk meningkatkan kualitas hidup, mencegah komplikasi, mempertahankan gula darah, dan mempertahankan berat badan ideal.</p>
-          <p>Sebelum memilih makananmu, yuk cek kebutuhan kalori terlebih dahulu!</p>
-          <button onclick="window.open('https://gendhismanis.id/kalkulatorkalori.html', '_blank')">Kalkulator Kalori</button>
+          <h1>Yuk! <span>Explore</span> restaurant <br><span> food waste</span> disekitarmu</h1>
+          <p>Explore pemanfaatan leftover food menjadi makanan lezat cepat saji untuk mengurangi limbah makanan sisa</p>
+          <button onclick="window.location.href='#/explore'">
+          Telusuri Sekarang <i class="fas fa-play-circle"></i>
+          </button>        
         </div>
-        <picture>
-          <source media="(max-width: 650px)" srcset="./img/information-small.jpg"/>
-          <img class="lazyload" data-src='./img/information-large.png' alt="Food Information"></img>
-        </picture>
+        <div class="tagline-img">
+          <picture>
+            <source media="(min-width: 700px; max-width: 900px)" srcset="./img/four-main.png"/>
+            <img src='./img/four-main.svg' alt="Four Main"></img>
+          </picture>
+        </div>
       </section>
   
       <section class="fifth-main">
