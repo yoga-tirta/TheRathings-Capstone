@@ -280,7 +280,8 @@ main .fourth-main {
 }
 
 main .fourth-main img {
-  width: 100%;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   margin: 0px auto;
   max-width: 520px; 

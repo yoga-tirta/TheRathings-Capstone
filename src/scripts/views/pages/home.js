@@ -45,9 +45,9 @@ const Home = {
         </div>
       </section>
   
-      <section class="third-main">
+      <section class="third-main" id="foodthings">
         <div class="tagline-heading">
-          <h1>Telusuri berbagai<span> Resep<br>Makanan</span> Sehat</h1>
+          <h1>Telusuri berbagai<span> Resep<br>Makanan</span> Sehat!</h1>
           <p>Yuk, telusuri rekomendasi Makanan sehat dan bergizi versi The Rathings sesuai jenis makanan untuk menu makanan mu hari ini. <br>Keep healthy and eco-friendly!</p>
           <button onclick="window.location.href='#/foodthings'">
           Telusuri Sekarang <i class="fas fa-play-circle"></i>
@@ -55,24 +55,26 @@ const Home = {
         </div>
         <div class="tagline-img">
           <picture>
-            <source media="(min-width: 600px; max-width: 900px)" srcset="./img/first-main.png"/>
+            <source media="(min-width: 600px; max-width: 900px)" srcset="./img/third-main.png"/>
             <img src='./img/third-main.svg' alt="Third Main"></img>
           </picture>
         </div>
       </section>
   
-      <section class="fourth-main">
+      <section class="fourth-main" id="explore">
         <div class="tagline-heading">
-          <h1>Personalisasikan Dengan <br><span>Filter Nutrisi</span></h1>
-          <p>Pastikan kamu memilih makanan sesuai dengan kebutuhan nutrisi dan mengatur pola makan yang sesuai. 
-          Tujuannya adalah untuk meningkatkan kualitas hidup, mencegah komplikasi, mempertahankan gula darah, dan mempertahankan berat badan ideal.</p>
-          <p>Sebelum memilih makananmu, yuk cek kebutuhan kalori terlebih dahulu!</p>
-          <button onclick="window.open('https://gendhismanis.id/kalkulatorkalori.html', '_blank')">Kalkulator Kalori</button>
+          <h1>Yuk! <span>Explore</span> restaurant <br><span> food waste</span> disekitarmu</h1>
+          <p>Explore pemanfaatan leftover food menjadi makanan lezat cepat saji untuk mengurangi limbah makanan sisa</p>
+          <button onclick="window.location.href='#/explore'">
+          Telusuri Sekarang <i class="fas fa-play-circle"></i>
+          </button>        
         </div>
-        <picture>
-          <source media="(max-width: 650px)" srcset="./img/information-small.jpg"/>
-          <img class="lazyload" data-src='./img/information-large.png' alt="Food Information"></img>
-        </picture>
+        <div class="tagline-img">
+          <picture>
+            <source media="(min-width: 700px; max-width: 900px)" srcset="./img/four-main.png"/>
+            <img src='./img/four-main.svg' alt="Four Main"></img>
+          </picture>
+        </div>
       </section>
   
       <section class="fifth-main">
