@@ -16,18 +16,19 @@ const Detail = {
           <div id="food" class="food">${createSkeletonDetailTemplate(1)}</div>
           <div id="foodNutrition"></div>
         </div>
+        
         <div class="content-aside">
             <div class="food-trivia">
-              <h4><i class="fas fa-lightbulb icon-header"></i> Food Trivia</h4>
+              <h4><i class="fa-solid fa-lightbulb icon-header"></i> Food Trivia</h4>
               <div id="foodTrivia" class="aside-food-item"></div>
             </div>
             <div class="similar-food">
-              <h4><i class="fa-solid fa-kitchen-set icon-header"></i> Related Foods</h4>
+              <h4><i class="fa-solid fa-bowl-food icon-header"></i> Related Foods</h4>
               <div id="similarFood"></div>
             </div>
             <div class="video-similar-food">
               <h4><i class="fa-brands fa-youtube icon-header"></i> Related Videos</h4>
-              <div id="videoFood" class="video-similar-food"></div>
+              <div id="videoFood" class="video-food"></div>
             </div>              
           </div>
       </div>
@@ -50,7 +51,7 @@ const Detail = {
       similarFoodContainer.innerHTML += createSimilarFoodItemTemplate(similarFood);
 
       if (food.sourceName) {
-        document.querySelector('#foodSource').innerHTML = `<p><i class="fa-solid fa-user icon"></i> By ${food.sourceName}</p>`;
+        document.querySelector('#foodSource').innerHTML = `<p><i class="fa fa-universal-access icon"></i> By ${food.sourceName}</p>`;
       }
     });
 

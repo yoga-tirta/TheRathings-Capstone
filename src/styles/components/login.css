@@ -1,29 +1,16 @@
-/*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
-
-/*===== VARIABLES CSS =====*/
-:root{
-  /*===== Colores =====*/
-  --first-color: #009ba0;
-  --first-color-dark: #004a4d;
-  --first-color-light: #80fbff;
-  --first-color-lighten: #F2F2F2;
-
-  /*===== Font and typography =====*/
-  --body-font: 'Open Sans', sans-serif;
-  --h1-font-size: 1.5rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-}
-
-@media screen and (min-width: 768px){
-  :root{
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
+@keyframes animate-login{
+  0%{
+    transform: scale(1,1);
+  }
+  50%{
+    transform: scale(1.1,1.1);
+  }
+  100%{
+    transform: scale(1,1);
   }
 }
 
-/*===== LOGIN =====*/
+/* login */
 .login{
   display: grid;
   grid-template-columns: 100%;
@@ -60,7 +47,7 @@
   position: absolute;
   bottom: 1rem;
   width: 100%;
-  background-color: var(--first-color-lighten);
+  background-color: #F2F2F2;
   padding: 2rem 1rem;
   border-radius: 1rem;
   text-align: center;
@@ -69,21 +56,10 @@
   animation-name: animate-login;
 }
 
-@keyframes animate-login{
-  0%{
-    transform: scale(1,1);
-  }
-  50%{
-    transform: scale(1.1,1.1);
-  }
-  100%{
-    transform: scale(1,1);
-  }
-}
-
 .login__title{
-  font-size: var(--h1-font-size);
+  font-size: 1.5rem;
   margin-bottom: 2rem;
+  color: var(--font-color);
 }
 
 .login__box{
@@ -98,21 +74,20 @@
 
 .login__icon{
   font-size: 1.5rem;
-  color: var(--first-color);
+  color: var(--main-color);
 }
 
 .login__input{
   border: none;
   outline: none;
-  font-size: var(--normal-font-size);
+  font-size: 1rem;
   font-weight: 700;
-  color: var(--first-color-dark);
+  color: var(--main-dark);
 }
 
 .login__input::placeholder{
-  font-size: var(--normal-font-size);
-  font-family: var(--body-font);
-  color: var(--first-color-light);
+  font-size: 1rem;
+  color: #dcdcdc;
 }
 
 .login__forgot{
@@ -120,16 +95,16 @@
   width: max-content;
   margin-left: auto;
   margin-top: .5rem;
-  font-size: var(--small-font-size);
+  font-size: 0.8rem;
   font-weight: 600;
-  color: var(--first-color-light);
+  color: var(--main-dark);
 }
 
 .login__button{
   display: block;
   padding: 1rem;
   margin: 2rem 0;
-  background-color: var(--first-color);
+  background-color: var(--main-color);
   color: #FFF;
   font-weight: 600;
   text-align: center;
@@ -138,20 +113,20 @@
 }
 
 .login__button:hover{
-  background-color: var(--first-color-dark);
+  background-color: var(--main-dark);
 }
 
 .login__account, .login__signin, .login__signup{
   font-weight: 600;
-  font-size: var(--small-font-size);
+  font-size: 0.8rem;
 }
 
 .login__account{
-  color: var(--first-color-dark);
+  color: var(--main-dark);
 }
 
 .login__signin, .login__signup{
-  color: var(--first-color);
+  color: var(--main-color);
   cursor: pointer;
 }
 
@@ -161,7 +136,7 @@
 
 .login__social-icon{
   font-size: 1.5rem;
-  color: var(--first-color-dark);
+  color: var(--main-dark);
   margin: 0 1.5rem;
 }
 
@@ -170,11 +145,18 @@
   display: block;
 }
 
-/* ===== MEDIA QUERIES =====*/
+/* responsive */
 @media screen and (min-width: 576px){
   .login__forms{
     width: 348px;
     justify-self: center;
+  }
+}
+
+@media screen and (min-width: 768px){
+  :root{
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
   }
 }
 
@@ -195,7 +177,7 @@
     display: flex;
     width: 600px;
     height: 600px;
-    background-color: var(--first-color-lighten);
+    background-color: #F2F2F2;
     border-radius: 1rem;
     padding-left: 1rem;
   }

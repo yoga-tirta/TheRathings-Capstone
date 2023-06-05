@@ -3,7 +3,7 @@ const Home = {
     return `
       <section class="first-main" id="home">  
         <div class="tagline">
-          <h2>Welcome To <span>therathingss</span></h2>
+          <h2>Welcome To <span>TheRathings</span></h2>
           <h1>Eat Healthy, Eco-Friendly</h1>
           <p>
             Telusuri TheRathings Dan Temukan Informasi Mengenai Restaurant<br>
