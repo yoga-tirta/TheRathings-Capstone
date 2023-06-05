@@ -395,7 +395,7 @@
     margin-right: 7px;
   }
 
-  .foodish-continer {
+  .foodthings-continer {
     gap: 0
   }       
 
@@ -415,7 +415,7 @@
     margin-top: 15px;
   }
 
-  .foodish-continer {
+  .foodthings-continer {
     margin: auto 0;
   }
 
@@ -425,7 +425,7 @@
   }
 
   .food, .similar-food, .video-similar-food {
-    border-radius: 0;
+    border-radius: 10px;
   }
 
   .food li, .food p, .content-aside p {

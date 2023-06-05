@@ -12,17 +12,18 @@ const Foodthings = {
   async render() {
     return `
       <section class="hero">
-        <h1>Fitur FoodThings</h1>
-        <p>Tentukan Rating dan resep Makanan Sehatmu!</p>
+        <h1>FoodThings</h1>
+        <p>Tentukan Rating dan cari resep Makanan Sehatmu!</p>
       </section>
 
       <div class="foodthings-continer">
         <search-bar></search-bar>
         <div class="show-filter">
           <button id="showFilterButton">Search by <span>Filter <i class="fa fa-caret-down"></i></span></button>
-        </div>      
+        </div>
         <div id="message" class="food-result-message"></div>
         <filter-menu></filter-menu>
+
         <div class="food-content">      
           <div class="food-content-item">
             <div id="foods" class="foods">
@@ -32,6 +33,7 @@ const Foodthings = {
           <div class="food-content-page">
             <div class="pagination"></div>
           </div>
+        </div>
       </div>
     `;
   },

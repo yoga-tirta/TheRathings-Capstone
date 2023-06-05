@@ -69,7 +69,7 @@ const Home = {
           </picture>
         </div>
       </section>
- 
+
       <section class="fifth-main">
         <div class="tagline-heading">
           <h1>Pelajari 3  <span>Tips</span> simple</h1>

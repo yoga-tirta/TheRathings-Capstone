@@ -297,7 +297,7 @@
 }
 
 /*
- * similar-food
+ * food trivia
  */
 
 .food-trivia {
@@ -326,7 +326,7 @@
   transition: none;
 }
 /*
- * similar-food
+ * related food
  */
 .similar-food {    
   width: 100%;
@@ -363,7 +363,7 @@
 }
 
 /*
- * similar-food-video
+ * related video
 */
 .video-aside {
   margin-bottom: 20px;
