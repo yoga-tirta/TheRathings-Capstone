@@ -273,8 +273,6 @@ main .fifth-main .tagline-heading .box {
   align-items: center;
   justify-content: left;
   opacity: 0;
-  animation: slide_left .3s linear forwards;
-  animation-delay: calc(3s * var(--i));
 }
 
 main .fifth-main .tagline-heading .box i {
