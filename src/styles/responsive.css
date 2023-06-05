@@ -347,6 +347,16 @@
   }
 }
 
+        @media (max-width: 650px) {
+            .galery-img-1,
+            .galery-img-2,
+            .galery-img-3,
+            .galery-img-4,
+            .galery-img-5 {
+                width: 100%; /* Mengatur lebar elemen menjadi 100% pada layar kecil */
+            }
+        }
+
 @media screen and (max-width: 550px) {
   main .first-main .tagline h1 {
     font-size: 22pt;

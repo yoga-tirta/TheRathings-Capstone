@@ -69,7 +69,7 @@ const Home = {
           </picture>
         </div>
       </section>
-  
+ 
       <section class="fifth-main">
         <div class="tagline-heading">
           <h1>Pelajari 3  <span>Tips</span> simple</h1>
@@ -99,29 +99,32 @@ const Home = {
 
       <section class="main-galery">
         <div class="galery-heading">
-          <h1>Gallery</h1>
+          <h1>Rekomendasi <span>Galeri</span></h1>
         </div>
         <div class="galery-grid">
-        <picture class="galery-img-1">
-              <source media="(max-width: 650px)" srcset="./img/food-3-small.jpg"/>
-              <img src='./img/food-3-large.jpg' alt="Kumpulan buah dan sayuran"></img>
-          </picture>
+          <picture class="galery-img-1">
+            <source media="(max-width: 650px)">
+            <iframe src="https://www.youtube.com/embed/KIKAhhO4xQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           <picture class="galery-img-2">
-              <source media="(max-width: 650px)" srcset="./img/food-4-small.jpg"/>
-              <img src='./img/food-4-large.jpg' alt="Kumpulan buah dan sayuran"></img>
+              <source media="(max-width: 650px)">
+              <iframe src="https://www.youtube.com/embed/KZf9_GdDff0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </picture>
           <picture class="galery-img-3 image-grid-col-2">
-              <source media="(max-width: 650px)" srcset="./img/food-5-small.jpg"/>
-              <img src='./img/food-5-large.jpg' alt="Kumpulan buah dan sayuran"></img>
+              <source media="(max-width: 650px)">
+              <iframe src="https://www.youtube.com/embed/G-K8zF-wkhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </picture>
           <picture class="galery-img-4 image-grid-col-2">
               <source media="(max-width: 650px)" srcset="./img/food-6-small.jpg"/>
-              <img src='./img/food-6-large.jpg' alt="Kumpulan buah dan sayuran"></img>
+              <iframe src="https://www.youtube.com/embed/pexOIlhT0v0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </picture>
           <picture class="galery-img-5">
               <source media="(max-width: 650px)" srcset="./img/food-7-small.jpg"/>
-              <img src='./img/food-7-large.jpg' alt="Kumpulan buah dan sayuran"></img>
+              <iframe src="https://www.youtube.com/embed/6ajmuRg2o3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </picture>
+          <picture class="galery-img-6">
+              <source media="(max-width: 650px)" srcset="./img/food-7-small.jpg"/>
+              <iframe src="https://www.youtube.com/embed/91wUWR_wnsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          </picture>
+        </div>
         </div>
       </section>
     `;
