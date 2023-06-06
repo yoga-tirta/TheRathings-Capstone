@@ -266,7 +266,7 @@
 
 .content-aside h5 {
   font-size: 14pt;
-  color: var(--third-color);
+  color: #CC704B;
 }
 
 .content-aside a {
@@ -288,7 +288,7 @@
 }
 
 .aside-food-item:hover {
-  border-left: 7px solid var(--third-color);
+  border-left: 7px solid #CC704B;
   transition: 0.1s;
 }
 

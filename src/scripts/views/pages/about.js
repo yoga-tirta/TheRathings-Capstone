@@ -47,7 +47,7 @@ const About = {
             <img src="./img/team/haniffah-sri-rinjani.png" alt="Haniffah">
             <h1>Haniffah Sri Rinjani</h1>
             <h2>Full-Stack Web Developer</h2>
-            <a href="#"><button>LinkedIn</button></a>
+            <a href="https://www.linkedin.com/in/haniffahsr"><button>LinkedIn</button></a>
           </div>
         </div>
       </section>
