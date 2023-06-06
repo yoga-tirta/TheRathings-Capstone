@@ -40,15 +40,15 @@ class FilterMenu extends HTMLElement {
           flex-direction: column;
           justify-content: space-evenly;
           align-items: center;
-          position: sticky; 
+          position: sticky;
           z-index: 1; 
-          top: 0; 
+          top: 0;
           left: 30;
-          overflow-x: hidden; 
+          overflow-x: hidden;
           width: 240px;
           padding: 30px;
-          overflow: hidden; 
-          background-color: #EFEAD8;
+          overflow: hidden;
+          background-color: #f2f2f2;
           border: 1px solid #d3d3d3;
           margin: auto auto 30px 30px;
           border-radius: 20px;
@@ -63,7 +63,7 @@ class FilterMenu extends HTMLElement {
           padding: 10px 24px;
           border-radius: 16px;
           overflow: auto;
-          width: 100%;           
+          width: 100%;
         }
         
         .filter-list h2 {
@@ -118,7 +118,7 @@ class FilterMenu extends HTMLElement {
           -webkit-appearance: none;
           min-width: 18px;
           min-height: 18px;
-          background-color: #9FC088;
+          background-color: var(--third-light);
           border-radius: 4px;
           cursor: pointer;
           display: flex;
@@ -129,7 +129,7 @@ class FilterMenu extends HTMLElement {
         }
         
         div label {
-          color: #4c4c4c;
+          color: var(--font-color);
           font-size: 15px;
           font-weight: 400;
           cursor: pointer;
@@ -137,39 +137,40 @@ class FilterMenu extends HTMLElement {
         
         div input[type="checkbox"]:after {
           content: "\\2714";
-          color: white;
+          color: #fff;
           font-weight: 800;
           font-size: 12px;
           display: none;
         }
         
         div input[type="checkbox"]:hover {
-          background-color: #a5a5a5;
+          background-color: var(--third-color);
         }
         
         div input[type="checkbox"]:checked {
-          background-color: #5bcd3e;
+          background-color: var(--third-color);
         }
         
         div input[type="checkbox"]:checked:after {
           display: block;
         }
-
+        
         .button-filter {
           border: none;
           margin-top: 20px;
           padding: 14px 30px;
-          background-color: #519259;
+          background-color: var(--third-color);
           cursor: pointer;
-          color: white;
+          color: #fff;
           border-radius: 20px;
           align-items: left;
         }
-
+        
         .button-filter:hover {
-          opacity: 80%;
+          background-color: var(--third-dark);
+          transition: 0.3s;
         }
-
+        
         .close {
           color: #aaaaaa;
           text-align: right;
@@ -179,22 +180,22 @@ class FilterMenu extends HTMLElement {
           line-height: 0;
           display: none;
         }
-
+        
         .close:hover, .close:focus {
           color: #000;
           text-decoration: none;
           cursor: pointer;
         }
-
+        
         .type-filter {
             width: 100%;
         }
-
+        
         .type-filter h2 {
           text-align: left;
           font-size: 16px;
         }
-
+        
         .type-filter select{
           width: 200px;
           border: none;
@@ -202,39 +203,38 @@ class FilterMenu extends HTMLElement {
           text-align: left;
           cursor: pointer;
         }
-
+        
         .type-filter select:hover {
           outline: 1px solid #d3d3d3;
         }
-
+        
         .type-filter option {
           font-size: 10pt;
-          font-family: 'Poppins', sans-serif;
           background-color: #fff;
           width: 100%;
           overflow: hidden;
         }
-
+        
         .empty-message {
           font-size: 10pt;
-          color: #CC704B;
+          color: var(--third-color);
           font-style: italic;
           display: none;
         }
-
+        
         .show-style {
           display: block;
         }
-
+        
         @media screen and (max-width: 550px) {
           .filter-box {
             background-color: #fff;
           }
-
+        
           .filter-list {
             font-size: 11pt;
           }
-
+        
           .filter-list h2, .type-filter h2 {
             font-size: 14px;
           }
@@ -243,21 +243,21 @@ class FilterMenu extends HTMLElement {
             font-size: 12px;
             line-height: 0;
           }
-
+        
           .filter-list .nutrient-filter div input {
             border: 1px solid #d3d3d3;
           }
-
+        
           .type-filter select {
             background-color: #f1f1f1;
           }
-
+        
           label {
             font-size: 10pt;
-            color: red;
+            color: var(--third-color);
           }
         }
-
+        
         @media screen and (max-width: 650px) {
           .filter-box {
             margin: 0 auto;
@@ -266,14 +266,14 @@ class FilterMenu extends HTMLElement {
             display: block;
           }
         }
-
+        
         @media only screen and (min-width: 650px) and (max-width: 1200px) {
           .filter-box {
             margin: 0 auto;
             width: 80%;
             top: 0;
           }
-
+        
           .filter-list {
             display: flex;
             justify-content: center;
@@ -283,28 +283,28 @@ class FilterMenu extends HTMLElement {
             width: 100%;
             margin: 10px;
           }
-
+        
           .filter-list .nutrient-filter div input {
             max-width: 70px;
             margin-bottom: 0;
           }
-
+        
           .diet-filter {
             border: none;
           }
-
+        
           .button-filter {
             margin-top: 0;
           }
-
+        
           .filter-list .nutrient-filter div {
             padding-bottom: 10px;
             margin-bottom: 0;
           }
-
+        
           .close {
             display: block;
-          }               
+          }
         }
       </style>
 

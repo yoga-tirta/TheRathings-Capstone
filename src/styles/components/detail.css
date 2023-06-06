@@ -235,16 +235,18 @@
 }
 
 .food-action button {
-  border: none;
+  border-radius: 5px;
   padding: 10px 18px;
   background-color: var(--main-color);
   bottom: 0;
   color: #fff;
-  font-size: 11pt;
+  font-size: 12pt;
+  cursor: pointer;
 }
 
 .food-action button:hover {
-  background-color: var(--main-color);
+  background-color: var(--main-dark);
+  transition: 0.2s;
 }
 
 .food-nutrition-label {
@@ -266,7 +268,7 @@
 
 .content-aside h5 {
   font-size: 14pt;
-  color: #CC704B;
+  color: var(--third-color);
 }
 
 .content-aside a {
@@ -288,7 +290,7 @@
 }
 
 .aside-food-item:hover {
-  border-left: 7px solid #CC704B;
+  border-left: 6px solid var(--third-color);
   transition: 0.1s;
 }
 

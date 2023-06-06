@@ -5,7 +5,6 @@ const ImageminWebpackPlugin = require('imagemin-webpack-plugin').default;
 const ImageminMozjpeg = require('imagemin-mozjpeg');
 const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
 
-
 module.exports = {
   entry: {
     app: path.resolve(__dirname, 'src/scripts/index.js'),
@@ -32,30 +31,30 @@ module.exports = {
         use: [
           'file-loader',
         ],
-      }
+      },
     ],
   },
   optimization: {
     splitChunks: {
-        chunks: 'all',
-        minSize: 20000,
-        maxSize: 70000,
-        minChunks: 1,
-        maxAsyncRequests: 30,
-        maxInitialRequests: 30,
-        automaticNameDelimiter: '~',
-        enforceSizeThreshold: 50000,
-        cacheGroups: {
-            defaultVendors: {
-                test: /[\\/]node_modules[\\/]/,
-                priority: -10,
-            },
-            default: {
-                minChunks: 2,
-                priority: -20,
-                reuseExistingChunk: true,
-            },
+      chunks: 'all',
+      minSize: 20000,
+      maxSize: 70000,
+      minChunks: 1,
+      maxAsyncRequests: 30,
+      maxInitialRequests: 30,
+      automaticNameDelimiter: '~',
+      enforceSizeThreshold: 50000,
+      cacheGroups: {
+        defaultVendors: {
+          test: /[\\/]node_modules[\\/]/,
+          priority: -10,
         },
+        default: {
+          minChunks: 2,
+          priority: -20,
+          reuseExistingChunk: true,
+        },
+      },
     },
   },
   plugins: [
@@ -80,22 +79,22 @@ module.exports = {
       ],
     }),
     new WorkboxWebpackPlugin.GenerateSW({
-        swDest: './sw.bundle.js',
-        skipWaiting: true,
-        clientsClaim: true,
-        runtimeCaching: [
-            {
-                // eslint-disable-next-line prefer-regex-literals
-                urlPattern: new RegExp('^https://api.spoonacular.com/'),
-                handler: 'StaleWhileRevalidate',
-                options: {
-                    cacheName: 'API-Cache',
-                    cacheableResponse: {
-                        statuses: [0, 200],
-                    },
-                },
+      swDest: './sw.bundle.js',
+      skipWaiting: true,
+      clientsClaim: true,
+      runtimeCaching: [
+        {
+          // eslint-disable-next-line prefer-regex-literals
+          urlPattern: new RegExp('^https://api.spoonacular.com/'),
+          handler: 'StaleWhileRevalidate',
+          options: {
+            cacheName: 'API-Cache',
+            cacheableResponse: {
+              statuses: [0, 200],
             },
-        ],
+          },
+        },
+      ],
     }),
   ],
 };

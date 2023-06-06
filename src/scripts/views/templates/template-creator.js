@@ -187,13 +187,13 @@ const createBookmarkItemTemplate = (food) => `
 
 const createSaveButtonTemplate = () => `
   <button class="food-button-like" id="saveButton">
-    <i class="far fa-bookmark icon"></i> Save Recipe
+    <i class="fa-regular fa-bookmark icon"></i> Save Recipe
   </button>
 `;
 
 const createSavedButtonTemplate = () => `
   <button class="food-button-like" id="saveButton">
-    <i class="fa fa-ban icon"></i> Unsave Recipe
+    <i class="fa-solid fa-bookmark icon"></i> Unsave Recipe
   </button>
 `;
 

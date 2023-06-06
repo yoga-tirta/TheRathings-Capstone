@@ -19,7 +19,7 @@ const Foodthings = {
       <div class="foodthings-continer">
         <search-bar></search-bar>
         <div class="show-filter">
-          <button id="showFilterButton">Search by <span>Filter <i class="fa fa-caret-down"></i></span></button>
+          <button id="showFilterButton">Search by <span>Filter <i class="fa-solid fa-circle-chevron-down"></i></span></button>
         </div>
         <div id="message" class="food-result-message"></div>
         <filter-menu></filter-menu>
@@ -48,7 +48,7 @@ const Foodthings = {
     const getPopularFoods = async (offset) => {
       try {
         const result = await SpoonacularSource.popularFoods(offset);
-        foodResultMessage('Most Popular Foods');
+        foodResultMessage('Best Menu For You');
         renderFoodResult(result);
       } catch (message) {
         fallbackResult(message);

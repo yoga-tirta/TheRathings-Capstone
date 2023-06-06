@@ -10,11 +10,16 @@
 
 :root {
   --main-color: #009ba0;
-  --main-light: #80fbff;
-  --main-dark: #004a4d;
+  --main-light: #aafcff;
+  --main-dark: #005255;
+
   --second-color: #ffb301;
-  --second-dark: #e6a500;
+  --second-light: #ffd166;
+  --second-dark: #ffb301;
+
   --third-color: #fe5444;
+  --third-light: #ffaca4;
+  --third-dark: #b21001;
   --font-color: #252525;
 }
 

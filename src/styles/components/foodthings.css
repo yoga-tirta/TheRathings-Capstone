@@ -114,7 +114,7 @@ display: none;
 }
 
 .food-item-title a {
-  color: #000;
+  color: var(--font-color);
   font-size: 14pt;
   min-height: 44px;
   min-width: 44px;
@@ -127,7 +127,8 @@ display: none;
 }
 
 .food-item-title a:hover {
-    color: #a1654e;
+    color: var(--third-dark);
+    transition: 0.2s;
 }
 
 /* .food-item-info {
@@ -191,7 +192,7 @@ display: none;
 
 .food-item-summary {
   padding: 0 18px;
-  color: #000;
+  color: var(--font-color);
   font-size: 10pt;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -202,7 +203,7 @@ display: none;
 
 .food-result-message {
   text-align: center;
-  color: #000;
+  color: var(--font-color);
   padding: 30px;
 } 
 

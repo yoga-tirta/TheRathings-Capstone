@@ -1,123 +1,128 @@
-/* eslint-disable max-len */
+/* eslint-disable eqeqeq */
+/* eslint-disable no-shadow */
+import dataEksplorasi from '../../data/data-eksplorasi';
+
 const Explore = {
   async render() {
     return `
+      <style>
+        section.content {
+          width: 80%;
+          max-width: 1200px;
+          padding: 1em;
+          display: flex;
+          margin: 2rem auto;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+        }
+        
+        .card {
+          width: 310px;
+          background-color: white;
+          margin: 1em;
+          box-sizing: border-box;
+          box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;;
+          padding: 1.4rem;
+          border-radius: 0.5rem;
+          cursor: pointer;
+          overflow: hidden;
+        }
+        
+        @keyframes slide_top {
+          0% {
+            transform: translateY(-100px);
+            opacity: 0;
+          }
+          100% {
+            transform: translateY(0px);
+            opacity: 1;
+          }
+        }
+        
+        .card:hover {
+          box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.15);
+          transform: scale(1.03);
+        }
+        .card img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+          border-top-right-radius: 0.5rem;
+          border-top-left-radius: 0.5rem;
+          background-color: #8f8c8c;
+          filter: contrast(1.2);
+          transition: 0.3s ease-in;
+          opacity: 0.8;
+        }
+        
+        .card img:hover {
+          opacity: 1;
+        }
+        
+        .card p {
+          margin-bottom: 1em;
+          font-size: 1rem;
+          line-height: 150%;
+          letter-spacing: 1.2px;
+        }
+
+        .card h2 {
+          color: var(--main-color);
+        }
+        
+        p.tag {
+          color: silver;
+        }
+        @media only screen and (max-width: 768px) {
+          h2.name {
+            font-size: 1.4rem;
+          }
+          .content {
+            width: 100%;
+          }
+          .card {
+            width: 320px;
+          }
+        }
+      </style>
+
       <section class="hero">
         <h1>Explore</h1>
         <p>Telusuri dan pilih makanan kesukaanmu pada restaurant leftover food</p>
       </section>
-
       <section class="content"></section>
     `;
   },
+
+  async afterRender() {
+    const container = document.querySelector('.content');
+    function fetchData(data) {
+      data.forEach((data) => {
+        const card = `
+          <div class="card">
+            <img class="desc" data-id="${data.id}" src="${data.gambar}" alt="${data.id}" loading="lazy"/>
+            <div class="description">
+              <a href="details/detail-eksplorasi.html">
+                <h2 class="name" data-id="${data.id}">${data.nama}</h2>
+              </a>
+              <p class="desc" data-id="${data.id}">${data.deskripsi}</p>
+              <p class="tag" ><i class="fas fa-tag"></i> ${data.kategori}</p>
+            </div>
+          </div>
+        `;
+        container.innerHTML += card;
+      });
+    }
+
+    fetchData(dataEksplorasi);
+    container.onclick = (e) => {
+      if (e.target.className == 'name' || e.target.className == 'desc') {
+        const id = e.target.getAttribute('data-id');
+        localStorage.setItem('data-food', id);
+        window.location.href = 'details/detail-eksplorasi.html';
+      }
+    };
+  },
 };
-
-// // Data Eksplorasi
-// const dataEksplorasi = [
-//   {
-//     id: '1',
-//     nama: 'Omelet',
-//     kategori: 'telur',
-//     gambar: 'images/foods/omelet.jpeg',
-//     bahan: [
-//       '2 Butir telur ayam',
-//       '2 Sendok makan susu cair',
-//       '1 Sendok makan minyak goreng',
-//       'Garam dan merica',
-//     ],
-//     prosedur: [
-//       'Pecahkan telur, kemudian tambahkan garam, susu, dan lada. Kocok beberapa menit sampai berbusa',
-//       'Panaskan minyak di penggorengan dengan api sedang. Goreng telur sampai setengah matang, lalu kecilkan api',
-//       'Masak telur sampai matang lalu sajikan dalam keadaan terlipat',
-//       'Demikian cara membuat omelet telur simpel yang empuk dan gurih',
-//     ],
-//     deskripsi:
-//       'Omelet adalah makanan yang terbuat dari telur kocok yang dimasak dengan mentega atau minyak di atas penggorengan',
-//     manfaat: [
-//       'Membentuk jaringan tubuh dan membantu fungsinya',
-//       'Menjaga kesehatan mata',
-//       'Menjaga kesehatan otak',
-//       'Menurunkan kadar kolesterol jahat',
-//       'Membantu menurunkan risiko penyakit jantung',
-//       'Membantu menjaga berat badan',
-//       'Menguatkan sistem imun',
-//     ],
-//     sumber: 'https://www.merdeka.com/gaya/',
-//   },
-//   // Tambahkan objek resep lainnya jika ada
-// ];
-
-// // Kode manipulasi elemen HTML
-// const container = document.querySelector('.content');
-
-// function setEl(element, content) {
-//   element.innerHTML = content;
-// }
-
-// function list(data, element) {
-//   data.forEach((e) => {
-//     const el = `
-//     <li>${e}</li>`;
-//     element.innerHTML += el;
-//   });
-// }
-
-// function fetchData(data) {
-//   data.forEach((data) => {
-//     const card = `
-//       <div class="card">
-//         <img class="desc" data-id="${data.id}" src="${data.gambar}" alt="${data.id}" loading="lazy"/>
-//         <div class="description">
-//           <a href="details/detail-index.html">
-//             <h2 class="name" data-id="${data.id}">${data.nama}</h2>
-//           </a>
-//           <p class="desc" data-id="${data.id}">${data.deskripsi}</p>
-//           <p class="tag"><i class="fas fa-tag"></i> ${data.kategori}</p>
-//         </div>
-//       </div>
-//     `;
-
-//     container.innerHTML += card;
-//   });
-// }
-
-// fetchData(dataEksplorasi);
-// const id = localStorage.getItem('data-food');
-// const hasil = dataEksplorasi[Number(id - 1)];
-
-// const elbahan = document.querySelector('.bahan ul');
-// const elmanfaat = document.querySelector('.manfaat ul');
-// const elprosedur = document.querySelector('.prosedur ul');
-// const breadcumb = document.querySelector('.breadcumb span');
-// const eldeskripsi = document.querySelector('.tags p');
-// const imgCard = document.querySelector('.imgCard img');
-// const tag = document.querySelector('.tag span');
-// const title = document.querySelector('.title h2');
-// const subtitle = document.querySelector('title');
-// const elmSumber = document.querySelector('.sumber span');
-// const {
-//   bahan, manfaat, prosedur, nama, gambar, deskripsi, kategori, sumber,
-// } = hasil;
-
-// imgCard.setAttribute('src', `../${gambar}`);
-
-// setEl(subtitle);
-// setEl(title);
-// setEl(tag, kategori);
-// setEl(eldeskripsi, deskripsi);
-// setEl(breadcumb);
-// setEl(elmSumber, sumber);
-
-// list(bahan, elbahan);
-// list(manfaat, elmanfaat);
-// list(prosedur, elprosedur);
-
-// container.onclick = (e) => {
-//   if (e.target.className == 'name' || e.target.className == 'desc') {
-//     const id = e.target.getAttribute('data-id');
-//     localStorage.setItem('data-food', id);
-//     window.location.href = 'details/detail-index.html';
-//   }
-// };
 
 export default Explore;
