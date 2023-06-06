@@ -120,10 +120,7 @@ main .third-main {
   background-color: #fff;
   text-align: center;
   align-items: center;
-  background-image: url('../../public/img/background-third-main.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
+  
   font-size: 16px;
 }
 
@@ -218,7 +215,11 @@ main .fourth-main {
   flex-direction: row-reverse;
   text-align: center;
   align-items: center;
-  background-color: #f1f1f1;
+  background-color: #ffff;
+  background-image: url('../../public/img/background-tagline-why.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
   font-size: 16px;
 }
 
@@ -240,6 +241,14 @@ main .fourth-main .tagline-heading h1 span {
   color: var(--main-color);
 }
 
+main .fifth-main{
+  background-image: url('../../public/img/background-fifth-main.png');
+  background-color: #ffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+
+}
 main .fifth-main .benefit {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -298,7 +307,15 @@ main .sixth-main {
   display:flex;
   padding: 72px 64px;
   margin: 0 auto;
-  background-color: #fdfdfd;
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  background-image: url('../../public/img/background-sixth-main.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 16px;
+  background-color: #dcdce4;
   justify-content: space-evenly;
 }
 
