@@ -241,48 +241,30 @@ main .fourth-main .tagline-heading h1 span {
 }
 
 main .fifth-main {
-  display: flex;
-  justify-content: space-between;
-  background-color: #fff;
-  text-align: center;
-  align-items: center;
-  font-size: 14pt;
-  background-color: #efe3d2;
-  background-image: url('../../public/img/background-fifth-main.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
-   }
-
-main .fifth-main .tagline-heading h1 {
-  font-size: 34px;
-  color: var(--second-color);
-  margin-bottom: 30px;
+  display:flex;
+  padding: 72px 64px;
+  margin: 0 auto;
+  background-color: #fdfdfd;
+  justify-content: space-evenly;
 }
 
-main .fifth-main .tagline-heading span {
+main .fifth-main .tagline {
+  margin: 30px 24px;
+  justify-content: center;
+}
+
+main .fifth-main .tagline h1 {
+  font-weight: bold;
+  color: #000;
+  font-size: 40px;
+  margin-bottom: 20px;
+  animation: slide_left 0.5s linear forwards;
+  animation-delay: 0.3s;
+}
+
+main .fifth-main .tagline-heading h1 span {
   color: var(--main-color);
 }
-
-main .fifth-main .tagline-heading .box {
-   width: 50px; /* Mengatur lebar elemen 33.33% dengan margin 20px di antara elemen */
-   margin-bottom: 20px; /* Mengatur margin bawah antar elemen */
-   display: flex;
-   gap: 1.5rem;
-  text-align: left;
-  align-items: center;
-  justify-content: left;
-  opacity: 0;
-}
-
-main .fifth-main .tagline-heading .box i {
-  font-size: 24px;
-  margin-right: 10px;
-}
-
-main  .fifth-main .tagline-heading .content {
-  flex: 1;
- }
 
 main .main-galery{
   display: flex;
@@ -290,7 +272,11 @@ main .main-galery{
   padding: 45px;
   padding-bottom: 100px;
   align-items: center;
-  background-color: #D0C9C0;
+  background-color: #efe3d2;
+  background-image: url('../../public/img/background-fifth-main.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 main .main-galery .galery-heading  h1 {
