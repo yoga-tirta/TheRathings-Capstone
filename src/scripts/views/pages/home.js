@@ -71,60 +71,44 @@ const Home = {
       </section>
 
       <section class="fifth-main">
-        <div class="tagline-heading">
-          <h1>Pelajari 3  <span>Tips</span> simple</h1>
-        <div class="box">
+      <h1>Pelajari 3  <span>Tips</span> simple</h1>
+      <div class="benefit">
+      <div class="box" style="--i: 1">
         <i class="fas fa-utensils"></i>
         <div class="content">
           <h2>Planning</h2>
-          <p>Buatlah perencanaan makanan sebelumnya untuk menghindari membeli atau memasak terlalu banyak makanan.</p>
-        </div>
+          <p>Buatlah perencanaan makanan sebelumnya untuk menghindari membeli atau memasak terlalu banyak makanan.</p>        </div>
       </div>
-      <div class="box">
+      <div class="box" style="--i: 1.2">
         <i class="fas fa-users"></i>
         <div class="content">
           <h2>Kreatifity</h2>
-          <p>Gunakan kreativitas untuk menciptakan hidangan baru dengan bahan-bahan yang tersisa.</p>
-        </div>
+          <p>Gunakan kreativitas untuk menciptakan hidangan baru dengan bahan-bahan yang tersisa.</p>        </div>
       </div>
-      <div class="box">
+      <div class="box" style="--i: 1.4">
         <i class="fas fa-user-clock"></i>
         <div class="content">
           <h2>Reuse</h2>
-          <p>Sisa makanan setelah makan, simpanlah dengan benar dan manfaatkan kembali nanti. Gunakan wadah kedap udara atau bungkus makanan dengan rapat untuk menjaga kesegaran.</p>
-        </div>
+          <p>Sisa makanan setelah makan, simpanlah dengan benar dan manfaatkan kembali nanti. Gunakan wadah kedap udara atau bungkus makanan dengan rapat untuk menjaga kesegaran.</p>        </div>
       </div>
-          </div>   
-      </section>
+      </div>
+    </section>
 
-      <section class="main-galery">
-        <div class="galery-heading">
-          <h1>Rekomendasi <span>Galeri</span></h1>
+    <section class="sixth-main" id="home">  
+        <div class="tagline">
+          <h1>Cuplikan <span>Food wastage</span> footprint</h1>
+          <p>
+            Yuk, saksikan cuplikan video jejak pemborosan makanan yang menjadi salah satu faktor leftover food.
+          </p>
+          <button onclick="window.location.href='https://youtu.be/IoCVrkcaH6Q'">
+            Saksikan Sekarang <i class="fas fa-play-circle"></i>
+          </button>
         </div>
-        <div class="galery-grid">
-          <picture class="galery-img-1">
-            <source media="(max-width: 650px)">
-            <iframe src="https://www.youtube.com/embed/KIKAhhO4xQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          <picture class="galery-img-2">
-              <source media="(max-width: 650px)">
-              <iframe src="https://www.youtube.com/embed/KZf9_GdDff0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="tagline-img">
+          <picture>
+            <source media="(min-width: 750px; max-width: 900px)" srcset="./img/sixth-main.png"/><br>
+            <iframe src="https://www.youtube.com/embed/IoCVrkcaH6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </picture>
-          <picture class="galery-img-3 image-grid-col-2">
-              <source media="(max-width: 650px)">
-              <iframe src="https://www.youtube.com/embed/G-K8zF-wkhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </picture>
-          <picture class="galery-img-4 image-grid-col-2">
-              <source media="(max-width: 650px)" srcset="./img/food-6-small.jpg"/>
-              <iframe src="https://www.youtube.com/embed/pexOIlhT0v0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </picture>
-          <picture class="galery-img-5">
-              <source media="(max-width: 650px)" srcset="./img/food-7-small.jpg"/>
-              <iframe src="https://www.youtube.com/embed/6ajmuRg2o3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </picture>
-          <picture class="galery-img-6">
-              <source media="(max-width: 650px)" srcset="./img/food-7-small.jpg"/>
-              <iframe src="https://www.youtube.com/embed/91wUWR_wnsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          </picture>
-        </div>
         </div>
       </section>
     `;
