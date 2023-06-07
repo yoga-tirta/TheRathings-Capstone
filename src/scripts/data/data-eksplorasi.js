@@ -3,7 +3,7 @@ const dataEksplorasi = [
     id: '1',
     nama: 'JCO',
     kategori: 'Donut',
-    gambar: 'images/foods/omelet.jpeg',
+    gambar: 'public/img/explore/jco.webp',
     bahan: [
       '2 Butir telur ayam',
       '2 Sendok makan susu cair',
@@ -17,7 +17,7 @@ const dataEksplorasi = [
       'Demikian cara membuat omelet telur simpel yang empuk dan gurih',
     ],
     deskripsi:
-      'Omelet adalah makanan yang terbuat dari telur kocok yang dimasak dengan mentega atau minyak di atas penggorengan',
+      'J.CO adalah restoran asal Indonesia yang mengkhususkan dalam donat, kopi, dan yogurt beku',
     manfaat: [
       'Membentuk jaringan tubuh dan membantu fungsinya',
       'Menjaga kesehatan mata',
@@ -33,7 +33,7 @@ const dataEksplorasi = [
     id: '2',
     nama: 'Pizza Hut',
     kategori: 'Pizza',
-    gambar: 'images/foods/roti-gandum.jpeg',
+    gambar: 'public/img/explore/pizza.png',
     bahan: [
       '3 1/2 cup (380 gr) tepung gandum utuh (whole wheat bread)',
       '1/3 cup (80 ml) susu cair (karena susu cair saya habis, saya menggunakan 1/2 bungkus susu bubuk + 80 ml air hangat)',
@@ -53,7 +53,7 @@ const dataEksplorasi = [
       'Setelah 15 menit pertama, tutup dengan aluminium foil agar tidak terlalu gosong dan crunchy. Tapi jika memang menyukainya, bisa di skip saja. Set lagi 15 menit putar posisi loyang. Set lagi 15 menit putar loyang. Cek kematangan jika ditepuk-tepuk permukaannya sudah mengeluarkan bunyi bung..bung seperti berongga berarti sudah matang sempurna. Jika belum yakin bisa tambahkan waktunya',
     ],
     deskripsi:
-      'Roti Gandum adalah roti yang dibuat dengan menggunakan tepung yang sebagian atau seluruhnya digiling dari biji-bijian gandum utuh atau hampir-utuh',
+      'RPizza Hut adalah sebuah waralaba restoran cepat saji yang menyajikan berbagai macam pizza dengan beragam topping dan saus yang lezat.',
     manfaat: [
       'Mencegah Diabetes Tipe 2',
       'Mengurangi Peradangan Kronis',
@@ -71,7 +71,7 @@ const dataEksplorasi = [
     id: '3',
     nama: 'KFC',
     kategori: 'Chicken',
-    gambar: 'images/foods/daging-sapi-lada-hitam.jpeg',
+    gambar: 'public/img/explore/kfc.png',
     bahan: [
       'Daging sapi bagian has dalam 500 gram',
       'Bawang bombay 1 buah, potong kasar',
@@ -93,7 +93,7 @@ const dataEksplorasi = [
       'Angkat, tumis sapi lada hitam siap disajikan',
     ],
     deskripsi:
-      'Daging sapi merupakan salah satu bahan makanan dengan sumber protein hewani yang mudah diolah menjadi berbagai masakan yang lezat',
+      'Kentucky Fried Chicken, adalah sebuah jaringan restoran cepat saji yang terkenal dengan ayam gorengnya yang lezat dan resep rahasia bumbu yang khas.',
     manfaat: [
       'Meningkatkan Massa Otot',
       'Kaya akan Mineral',
@@ -108,7 +108,7 @@ const dataEksplorasi = [
     id: '4',
     nama: 'McDonalds',
     kategori: 'Burger',
-    gambar: 'images/foods/bakwan-brokoli-jagung.jpeg',
+    gambar: 'public/img/explore/header.jpeg',
     bahan: [
       '1 buah brokoli',
       '1 buah jagung manis, rebus dan pipil',
@@ -128,7 +128,7 @@ const dataEksplorasi = [
       'Ulangi langkah 5 sampai adonan habis, kemudian angkat dan tiriskan',
     ],
     deskripsi:
-      'brokoli kaya serat, mineral, vitamin, dan anti-oksidan, yang terbukti banyak bermanfaat untuk kesehatan',
+      'McDonalds adalah sebuah waralaba restoran cepat saji global yang menawarkan berbagai macam burger, seperti Big Mac, Cheeseburger, dan Quarter Pounder, dengan variasi pilihan topping dan saus.',
     manfaat: [
       'Meningkatkan Daya Tahan Tubuh',
       'Menyehatkan Kulit',
@@ -142,7 +142,7 @@ const dataEksplorasi = [
     id: '5',
     nama: 'Burger King',
     kategori: 'Burger',
-    gambar: 'images/foods/kentang-panggang.jpeg',
+    gambar: 'public/img/explore/burger.png',
     bahan: [
       '55 gram mentega, potong dadu',
       '25 gram tepung terigu serbaguna',
@@ -164,7 +164,7 @@ const dataEksplorasi = [
       'Dinginkan kentang sebelum disajikan. Kentang panggang dapat dijadikan hidangan pendamping yang sangat lezat untuk aneka olahan daging. Selain itu, kentang panggang juga mudah dibawa ke mana-mana sehingga cocok disajikan sebagai menu piknik atau pesta',
     ],
     deskripsi:
-      'Kentang panggang adalah salah satu hidangan pendamping klasik yang bisa diolah dengan berbagai variasi',
+      'Burger King adalah sebuah waralaba restoran cepat saji dengan menu burger yang lezat dan variasi topping yang kaya.',
     manfaat: [
       'Pencegahan kanker',
       'Mengurangi kadar kolesterol',
@@ -181,7 +181,7 @@ const dataEksplorasi = [
     id: '6',
     nama: 'Sushi Tei',
     kategori: 'Sushi',
-    gambar: 'images/foods/jasuke.jpeg',
+    gambar: 'public/img/explore/sushi.png',
     bahan: [
       'Jagung manis pipil 250 gram',
       'Susu kental manis secukupnya',
@@ -195,7 +195,7 @@ const dataEksplorasi = [
       'Terakhir, taburkan keju cheddar yang telah diparut sesuai selera dan Jasuke siap untuk dihidangkan',
     ],
     deskripsi:
-      'Jasuke atau jagung susu keju merupakan jajanan yang berasal dari daerah Jawa Barat dan sekitarnya',
+      'Sushi Tei adalah sebuah restoran Jepang yang terkenal dengan hidangan sushi dan makanan Jepang lainnya.',
     manfaat: [
       'Mencegah Penyakit Alzheimer',
       'Meningkatkan Kesehatan Mata',
