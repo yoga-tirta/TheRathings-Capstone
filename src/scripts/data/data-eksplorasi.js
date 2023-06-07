@@ -3,7 +3,7 @@ const dataEksplorasi = [
     id: '1',
     nama: 'JCO',
     kategori: 'Donut',
-    gambar: 'public/img/explore/jco.webp',
+    gambar: './public/img/explore/jco.webp',
     bahan: [
       '2 Butir telur ayam',
       '2 Sendok makan susu cair',
@@ -33,7 +33,7 @@ const dataEksplorasi = [
     id: '2',
     nama: 'Pizza Hut',
     kategori: 'Pizza',
-    gambar: 'public/img/explore/pizza.png',
+    gambar: '<img src="./img/explore/pizza.png" alt="Pizza Hut" />',
     bahan: [
       '3 1/2 cup (380 gr) tepung gandum utuh (whole wheat bread)',
       '1/3 cup (80 ml) susu cair (karena susu cair saya habis, saya menggunakan 1/2 bungkus susu bubuk + 80 ml air hangat)',
@@ -53,7 +53,7 @@ const dataEksplorasi = [
       'Setelah 15 menit pertama, tutup dengan aluminium foil agar tidak terlalu gosong dan crunchy. Tapi jika memang menyukainya, bisa di skip saja. Set lagi 15 menit putar posisi loyang. Set lagi 15 menit putar loyang. Cek kematangan jika ditepuk-tepuk permukaannya sudah mengeluarkan bunyi bung..bung seperti berongga berarti sudah matang sempurna. Jika belum yakin bisa tambahkan waktunya',
     ],
     deskripsi:
-      'RPizza Hut adalah sebuah waralaba restoran cepat saji yang menyajikan berbagai macam pizza dengan beragam topping dan saus yang lezat.',
+      'Pizza Hut adalah sebuah waralaba restoran cepat saji yang menyajikan berbagai macam pizza dengan beragam topping dan saus yang lezat.',
     manfaat: [
       'Mencegah Diabetes Tipe 2',
       'Mengurangi Peradangan Kronis',
