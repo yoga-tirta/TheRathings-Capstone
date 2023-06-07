@@ -106,7 +106,7 @@ const Home = {
         </div>
         <div class="tagline-img">
           <picture>
-            <source media="(min-width: 750px; max-width: 900px)" srcset="./img/sixth-main.png"/><br>
+            <source media="(min-width: 750px; max-width: 900px)" srcset="./img/sixth-main.png"/>
             <iframe src="https://www.youtube.com/embed/IoCVrkcaH6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </picture>
         </div>
