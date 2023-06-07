@@ -3,7 +3,7 @@ const dataEksplorasi = [
     id: '1',
     nama: 'JCO',
     kategori: 'Donut',
-    gambar: './public/img/explore/jco.webp',
+    gambar: './img/explore/jco.webp',
     bahan: [
       '2 Butir telur ayam',
       '2 Sendok makan susu cair',
@@ -33,7 +33,7 @@ const dataEksplorasi = [
     id: '2',
     nama: 'Pizza Hut',
     kategori: 'Pizza',
-    gambar: '<img src="./img/explore/pizza.png" alt="Pizza Hut" />',
+    gambar: './img/explore/pizza.png',
     bahan: [
       '3 1/2 cup (380 gr) tepung gandum utuh (whole wheat bread)',
       '1/3 cup (80 ml) susu cair (karena susu cair saya habis, saya menggunakan 1/2 bungkus susu bubuk + 80 ml air hangat)',
@@ -71,7 +71,7 @@ const dataEksplorasi = [
     id: '3',
     nama: 'KFC',
     kategori: 'Chicken',
-    gambar: 'public/img/explore/kfc.png',
+    gambar: './img/explore/kfc.png',
     bahan: [
       'Daging sapi bagian has dalam 500 gram',
       'Bawang bombay 1 buah, potong kasar',
@@ -108,7 +108,7 @@ const dataEksplorasi = [
     id: '4',
     nama: 'McDonalds',
     kategori: 'Burger',
-    gambar: 'public/img/explore/header.jpeg',
+    gambar: './img/explore/burger.png',
     bahan: [
       '1 buah brokoli',
       '1 buah jagung manis, rebus dan pipil',
@@ -142,7 +142,7 @@ const dataEksplorasi = [
     id: '5',
     nama: 'Burger King',
     kategori: 'Burger',
-    gambar: 'public/img/explore/burger.png',
+    gambar: './img/explore/burger.png',
     bahan: [
       '55 gram mentega, potong dadu',
       '25 gram tepung terigu serbaguna',
@@ -181,7 +181,7 @@ const dataEksplorasi = [
     id: '6',
     nama: 'Sushi Tei',
     kategori: 'Sushi',
-    gambar: 'public/img/explore/sushi.png',
+    gambar: './img/explore/sushi.png',
     bahan: [
       'Jagung manis pipil 250 gram',
       'Susu kental manis secukupnya',
