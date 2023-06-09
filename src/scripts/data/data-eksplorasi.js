@@ -107,7 +107,7 @@ const dataEksplorasi = [
   {
     id: '4',
     nama: 'McDonalds',
-    kategori: 'Burger',
+    kategori: 'McFusion',
     gambar: './img/explore/mcd.png',
     bahan: [
       '1 buah brokoli',
