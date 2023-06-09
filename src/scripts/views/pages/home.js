@@ -89,7 +89,8 @@ const Home = {
         <i class="fas fa-user-clock"></i>
         <div class="content">
           <h2>Reuse</h2>
-          <p>Sisa makanan setelah makan, simpanlah dengan benar dan manfaatkan kembali nanti. Gunakan wadah kedap udara atau bungkus makanan dengan rapat untuk menjaga kesegaran.</p>        </div>
+          <p>Manfaatkan kembali. Gunakan wadah kedap udara atau bungkus makanan dengan rapat untuk menjaga kesegaran.</p>
+          </div>
       </div>
       </div>
     </section>
