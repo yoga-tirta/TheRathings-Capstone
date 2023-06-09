@@ -295,10 +295,6 @@ const createSkeletonBookmarkTemplate = (count) => {
   return template;
 };
 
-const createDetailExploreTemplate = () => `
-
-`;
-
 export {
   createFoodItemTemplate,
   createFoodDetailTemplate,
@@ -310,5 +306,4 @@ export {
   createSkeletonItemTemplate,
   createSkeletonBookmarkTemplate,
   createSkeletonDetailTemplate,
-  createDetailExploreTemplate,
 };
