@@ -1,3 +1,34 @@
+.fa-utensils {
+  font-size: 24px; 
+}
+.fa-users {
+    font-size: 24px; 
+  }
+
+@media screen and (max-width: 768px) {
+  i.fas.fa-utensils {
+    font-size: 18px; 
+  }
+  i.fas.fa-users {
+    font-size: 18px; 
+  }
+  i.fas.fa-user-clock{
+    font-size: 18px; 
+}
+}
+
+@media screen and (max-width: 480px) {
+  i.fa-utensils {
+    font-size: 16px; 
+  }
+  i.fa-users {
+    font-size: 16px; 
+  }
+  i.fa-user-clock {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   main .second-main {
     align-items: center;

@@ -73,19 +73,19 @@ const Home = {
       <section class="fifth-main">
       <h1>Pelajari 3  <span>Tips</span> simple</h1>
       <div class="benefit">
-      <div class="box" style="--i: 1">
+      <div class="box">
         <i class="fas fa-utensils"></i>
         <div class="content">
           <h2>Planning</h2>
           <p>Buatlah perencanaan makanan sebelumnya untuk menghindari membeli atau memasak terlalu banyak makanan.</p>        </div>
       </div>
-      <div class="box" style="--i: 1.2">
+      <div class="box">
         <i class="fas fa-users"></i>
         <div class="content">
           <h2>Kreatifity</h2>
           <p>Gunakan kreativitas untuk menciptakan hidangan baru dengan bahan-bahan yang tersisa.</p>        </div>
       </div>
-      <div class="box" style="--i: 1.4">
+      <div class="box">
         <i class="fas fa-user-clock"></i>
         <div class="content">
           <h2>Reuse</h2>

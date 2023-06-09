@@ -269,6 +269,17 @@ main .fifth-main span {
   color: var(--main-color);
 }
 
+main .fifth-main .benefit .box .content {
+  width: 100%;
+  max-width: 1200px;
+  padding: 1em;
+  box-sizing: border-box;
+  display: flex;
+  margin: 1rem auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 
 main .fifth-main .benefit .box {
   display: flex;
@@ -279,16 +290,34 @@ main .fifth-main .benefit .box {
 }
 
 main .fifth-main .benefit .box i {
-  font-size: 15px;
-  width: 130px;
+  font-size: 24px;
+  width: 50px;
   box-sizing: border-box;
-  height: 45px;
+  height: 50px;
   margin-right: 0.5rem;
   background-color: var(--second-color);
   color: #fff;
-  border-radius: 100%;
+  border-radius: 50%;
   text-align: center;
   line-height: 50px;
+}
+@media (max-width: 760px) {
+  .benefit .box {
+    margin-top: 1rem;
+  }
+  .fa-utensils {
+    max-width: 50px;
+  }
+   .fa-users {
+    max-width: 50px;
+  }
+   .fa-users-clock {
+    max-width: 50px;
+  }
+
+}
+main .fifth-main .benefit .box i fa-utensils, fa-users, fa-users-clock {
+  max-width: 50px;
 }
 
 main .fifth-main .benefit .box .content h2 {
