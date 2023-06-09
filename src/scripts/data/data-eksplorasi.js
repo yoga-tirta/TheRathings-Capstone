@@ -107,18 +107,8 @@ const dataEksplorasi = [
   {
     id: '4',
     nama: 'McDonalds',
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    kategori: 'McFusion',
-    gambar: './img/explore/mcd.png',
-=======
     kategori: 'Burger',
-    gambar: './img/explore/mcd.jpeg',
->>>>>>> Stashed changes
-=======
-    kategori: 'McFusion',
-    gambar: './img/explore/mcd.png',
->>>>>>> afdf044287286f62a05841c2e1a7e7e9dcc97dc0
+    gambar: './img/explore/mcd.jpg',
     bahan: [
       '1 buah brokoli',
       '1 buah jagung manis, rebus dan pipil',
