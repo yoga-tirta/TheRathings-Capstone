@@ -1,13 +1,10 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable eqeqeq */
 /* eslint-disable no-shadow */
 import dataEksplorasi from '../../data/data-eksplorasi';
-import { createFoodItemTemplate, createSkeletonItemTemplate } from '../templates/template-creator';
 
 const Explore = {
   async render() {
     return `
-       <style>
+      <style>
         section.content {
           width: 80%;
           max-width: 1200px;
@@ -103,11 +100,9 @@ const Explore = {
       data.forEach((data) => {
         const card = `
           <div class="card">
-            <img class="desc" data-id="${data.id}" src="${data.gambar}" alt="${
-  data.id
-}" loading="lazy"/>
+            <img class="desc" data-id="${data.id}" src="${data.gambar}" alt="${data.id}" loading="lazy"/>
             <div class="description">
-              <a href="${`/#/detail_blog/${data.id}`}">
+              <a href="${`/#/eksplorasi/${data.id}`}">
                 <h2 class="name" data-id="${data.id}">${data.nama}</h2>
               </a>
               <p class="desc" data-id="${data.id}">${data.deskripsi}</p>
