@@ -1,11 +1,13 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable eqeqeq */
 /* eslint-disable no-shadow */
 import dataEksplorasi from '../../data/data-eksplorasi';
+import { createFoodItemTemplate, createSkeletonItemTemplate } from '../templates/template-creator';
 
 const Explore = {
   async render() {
     return `
-      <style>
+       <style>
         section.content {
           width: 80%;
           max-width: 1200px;
@@ -96,32 +98,29 @@ const Explore = {
 
   async afterRender() {
     const container = document.querySelector('.content');
-    function fetchData(data) {
+
+    const fetchData = (data) => {
       data.forEach((data) => {
         const card = `
           <div class="card">
-            <img class="desc" data-id="${data.id}" src="${data.gambar}" alt="${data.id}" loading="lazy"/>
+            <img class="desc" data-id="${data.id}" src="${data.gambar}" alt="${
+  data.id
+}" loading="lazy"/>
             <div class="description">
-              <a href="details/detail-eksplorasi.html">
+              <a href="${`/#/detail_blog/${data.id}`}">
                 <h2 class="name" data-id="${data.id}">${data.nama}</h2>
               </a>
               <p class="desc" data-id="${data.id}">${data.deskripsi}</p>
               <p class="tag" ><i class="fas fa-tag"></i> ${data.kategori}</p>
+              
             </div>
           </div>
         `;
         container.innerHTML += card;
       });
-    }
+    };
 
     fetchData(dataEksplorasi);
-    container.onclick = (e) => {
-      if (e.target.className == 'name' || e.target.className == 'desc') {
-        const id = e.target.getAttribute('data-id');
-        localStorage.setItem('data-food', id);
-        window.location.href = 'details/detail-eksplorasi.html';
-      }
-    };
   },
 };
 

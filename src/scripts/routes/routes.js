@@ -6,6 +6,7 @@ import Bookmark from '../views/pages/bookmark';
 import Explore from '../views/pages/explore';
 import Login from '../views/pages/login';
 import Register from '../views/pages/register';
+import Detail_Blog from '../views/pages/detail_blog';
 
 const routes = {
   '/': Home,
@@ -17,6 +18,7 @@ const routes = {
   '/explore': Explore,
   '/login': Login,
   '/register': Register,
+  '/detail_blog/:id': Detail_Blog,
 };
 
 export default routes;
