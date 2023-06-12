@@ -50,23 +50,23 @@ const DetailExplore = {
             <div class="description-card-detail-explore">
               <div class="wrap-flex-detail-explore">
                 <div class="manfaat-detail-explore">
-                  <h3><i class="fas fa-plus-square"></i> Manfaat</h3>
+                  <h3><i class="fas fa-plus-square"></i> Berkontibusi pada Perubahan</h3>
                   <ul>${resto.manfaat}</ul>
                 </div>
                 <div class="img-wrap-detail-explore">
-                  <img src="./img/detail-eks-ilus.png" alt="" />
+                  <img src="./img/detaileks.png" alt="" />
                 </div>
               </div>
 
               <div class="resep-detail-explore">
                 <section>
-                  <h2><i class="fas fa-check-double"></i> Mari buat sendiri</h2>
+                  <h2><i class="fas fa-check-double"></i>Temukan dan Nikmati</h2>
                   <div class="bahan-detail-explore">
-                    <h3><i class="fas fa-clipboard"></i> Bahan - Bahan</h3>
+                    <h3><i class="fas fa-clipboard"></i> Menu Sisa Makanan</h3>
                     <ul>${resto.bahan}</ul>
                   </div>
                   <div class="prosedur-detail-explore">
-                    <h3><i class="fas fa-book-open"></i> langkah - langkah</h3>
+                    <h3><i class="fas fa-book-open"></i>Informasi Restaurant</h3>
                     <ul>${resto.prosedur}</ul>
                   </div>
                   <div class="sumber-detail-explore">
