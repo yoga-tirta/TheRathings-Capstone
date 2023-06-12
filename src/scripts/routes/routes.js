@@ -6,7 +6,7 @@ import Bookmark from '../views/pages/bookmark';
 import Explore from '../views/pages/explore';
 import Login from '../views/pages/login';
 import Register from '../views/pages/register';
-import Eksplorasi from '../views/pages/eksplorasi';
+import DetailExplore from '../views/pages/detail-explore';
 
 const routes = {
   '/': Home,
@@ -18,7 +18,7 @@ const routes = {
   '/explore': Explore,
   '/login': Login,
   '/register': Register,
-  '/eksplorasi/:id': Eksplorasi,
+  '/detail-explore/:id': DetailExplore,
 };
 
 export default routes;

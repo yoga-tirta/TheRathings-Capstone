@@ -102,7 +102,7 @@ const Explore = {
           <div class="card">
             <img class="desc" data-id="${data.id}" src="${data.gambar}" alt="${data.id}" loading="lazy"/>
             <div class="description">
-              <a href="${`/#/eksplorasi/${data.id}`}">
+              <a href="${`/#/detail-explore/${data.id}`}">
                 <h2 class="name" data-id="${data.id}">${data.nama}</h2>
               </a>
               <p class="desc" data-id="${data.id}">${data.deskripsi}</p>
