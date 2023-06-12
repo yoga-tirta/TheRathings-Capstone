@@ -7,6 +7,7 @@
 @import url('./components/bookmark.css');
 @import url('./components/login.css');
 @import url('./components//detail-explore.css');
+@import url('./components//explore.css');
 
 :root {
   --main-color: #009ba0;
