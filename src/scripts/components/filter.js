@@ -53,10 +53,15 @@ class FilterMenu extends HTMLElement {
           margin: auto auto 30px 30px;
           border-radius: 20px;
         }
+
+        h1, h2, h3 {
+          color: var(--font-color)
+        }
         
         .filter-box h1 {
-          font-size: 18px;
+          font-size: 22px;
           line-height: 0;
+          color: var(--third-color);
         }
         
         .filter-list {
@@ -67,7 +72,7 @@ class FilterMenu extends HTMLElement {
         }
         
         .filter-list h2 {
-          font-size: 16px;
+          font-size: 18px;
         }
         
         .filter-list h3 {
@@ -76,14 +81,12 @@ class FilterMenu extends HTMLElement {
         }
         
         .filter-list .nutrient-filter div {
-          padding-bottom: 18px;
-          margin-bottom: 26px;
-          border-bottom: #d5d5d5 solid;
+          padding-bottom: 16px;
         }
         
         .filter-list .nutrient-filter div input {
           padding: 10px;
-          border-radius: 5px;
+          border-radius: 8px;
           width: 50%;
           display: inline;
           max-width: 80px;
@@ -99,7 +102,7 @@ class FilterMenu extends HTMLElement {
         }
         
         .diet-filter {
-          border-bottom: #d5d5d5 solid;
+          margin-top: -10px;
           padding-bottom: 16px;
         }
         
@@ -119,7 +122,7 @@ class FilterMenu extends HTMLElement {
           min-width: 18px;
           min-height: 18px;
           background-color: var(--third-light);
-          border-radius: 4px;
+          border-radius: 5px;
           cursor: pointer;
           display: flex;
           align-items: center;
@@ -188,12 +191,12 @@ class FilterMenu extends HTMLElement {
         }
         
         .type-filter {
-            width: 100%;
+          width: 100%;
         }
         
         .type-filter h2 {
           text-align: left;
-          font-size: 16px;
+          font-size: 18px;
         }
         
         .type-filter select{
@@ -230,28 +233,22 @@ class FilterMenu extends HTMLElement {
           .filter-box {
             background-color: #fff;
           }
-        
           .filter-list {
             font-size: 11pt;
           }
-        
           .filter-list h2, .type-filter h2 {
             font-size: 14px;
           }
-          
           .filter-list h3 {
             font-size: 12px;
             line-height: 0;
           }
-        
           .filter-list .nutrient-filter div input {
             border: 1px solid #d3d3d3;
           }
-        
           .type-filter select {
             background-color: #f1f1f1;
           }
-        
           label {
             font-size: 10pt;
             color: var(--third-color);
@@ -273,35 +270,28 @@ class FilterMenu extends HTMLElement {
             width: 80%;
             top: 0;
           }
-        
           .filter-list {
             display: flex;
             justify-content: center;
           }
-          
           .nutrient-filter, .diet-filter, .allergies-filter {
             width: 100%;
             margin: 10px;
           }
-        
           .filter-list .nutrient-filter div input {
             max-width: 70px;
             margin-bottom: 0;
           }
-        
           .diet-filter {
             border: none;
           }
-        
           .button-filter {
             margin-top: 0;
           }
-        
           .filter-list .nutrient-filter div {
             padding-bottom: 10px;
             margin-bottom: 0;
           }
-        
           .close {
             display: block;
           }
@@ -310,65 +300,50 @@ class FilterMenu extends HTMLElement {
 
       <div class="filter-box">
         <span id="closeButton" class="close">&times;</span>
-        <h1>Filter Search</h1>
+        <h1>Custom Search</h1>
 
         <div class="type-filter">
-          <h2>Food Type</h2>
+          <h2>Categories</h2>
           <select name="type" id="type">
-            <option value="">All Type</option>
-            <option value="Main Course">Main Course</option>
+            <option value="All Meal">All Meal</option>
+            <option value="Appetizer">Appetizers</option>
             <option value="Breakfast">Breakfast</option>
             <option value="Dessert">Dessert</option>
+            <option value="Drink">Drink</option>
+            <option value="Main Course">Main Course</option>
             <option value="Salad">Salad</option>
             <option value="Snack">Snack</option>
-            <option value="Drink">Drink</option>
+            <option value="Soup">Soup</option>
           </select>
         </div>
 
         <div class="filter-list">
           <div class="nutrient-filter">
-            <h2>Nutrients</h2>
+            <h2>Nutritions</h2>
             <div>
               <h3>Calories</h3>
               <input type="text" id="min-Nutrient" placeholder="Min">
               <input type="text" id="max-Nutrient" placeholder="Max">
             </div>
             <div>
-              <h3>Carbs (grams)</h3>
+              <h3>Carbo</h3>
               <input type="text" id="min-Carbs" placeholder="Min">
               <input type="text" id="max-Carbs" placeholder="Max">
             </div>
             <div>
-              <h3>Protein (grams)</h3>
-              <input type="text" id="min-Protein" placeholder="Min">
-              <input type="text" id="max-Protein" placeholder="Max">
-            </div>
-            <div>
-              <h3>Fat (grams)</h3>
+              <h3>Fat</h3>
               <input type="text" id="min-Fat" placeholder="Min">
               <input type="text" id="max-Fat" placeholder="Max">
             </div>
             <div>
-              <h3>Cholesterol (grams)</h3>
-              <input type="text" id="min-cholesterol" placeholder="Min">
-              <input type="text" id="max-cholesterol" placeholder="Max">
+              <h3>Proteins</h3>
+              <input type="text" id="min-Protein" placeholder="Min">
+              <input type="text" id="max-Protein" placeholder="Max">
             </div>
           </div>
 
           <div class="diet-filter">
             <h2>Diet</h2>
-            <div class="vegetarian-filter">
-              <input type="checkbox" name="diet" value="vegetarian" id="chk-vegetarian">
-              <label for="chk-vegetarian">Vegetarian</label>
-            </div>
-            <div class="vegan-filter">
-              <input type="checkbox" name="diet" value="vegan" id="chk-vegan">
-              <label for="chk-vegan">Vegan</label>
-            </div>
-            <div class="pascetarian-filter">
-              <input type="checkbox" name="diet" value="pascetarian" id="chk-pascetarian">
-              <label for="chk-pascetarian">Pascetarian</label>
-            </div>
             <div class="gluten-filter">
               <input type="checkbox" name="diet" value="gluten" id="chk-gluten">
               <label for="chk-gluten">Gluten Free</label>
@@ -377,17 +352,25 @@ class FilterMenu extends HTMLElement {
               <input type="checkbox" name="diet" value="ketogenic" id="chk-ketogenic">
               <label for="chk-ketogenic">Ketogenic</label>
             </div>
+            <div class="low-fodmap-filter">
+              <input type="checkbox" name="diet" value="low-fodmap" id="chk-low-fodmap">
+              <label for="chk-low-fodmap">Low Fodmap</label>
+            </div>
             <div class="paleo-filter">
               <input type="checkbox" name="diet" value="paleo" id="chk-paleo">
               <label for="chk-paleo">Paleo</label>
+            </div>
+            <div class="pascetarian-filter">
+              <input type="checkbox" name="diet" value="pascetarian" id="chk-pascetarian">
+              <label for="chk-pascetarian">Pascetarian</label>
             </div>
             <div class="primal-filter">
               <input type="checkbox" name="diet" value="primal" id="chk-primal">
               <label for="chk-primal">Primal</label>
             </div>
-            <div class="low-fodmap-filter">
-              <input type="checkbox" name="diet" value="low-fodmap" id="chk-low-fodmap">
-              <label for="chk-low-fodmap">Low Fodmap</label>
+            <div class="vegetarian-filter">
+              <input type="checkbox" name="diet" value="vegetarian" id="chk-vegetarian">
+              <label for="chk-vegetarian">Vegetarian</label>
             </div>
             <div class="whole-filter">
               <input type="checkbox" name="diet" value="whole" id="chk-whole">
@@ -397,14 +380,6 @@ class FilterMenu extends HTMLElement {
 
           <div class="allergies-filter">
             <h2>Allergies</h2>
-            <div class="peanut-filter">
-              <input type="checkbox" name="allergie" value="peanut" id="chk-peanut">
-              <label for="chk-peanut">Peanut</label>
-            </div>
-            <div class="seafood-filter">
-              <input type="checkbox" name="allergie" value="seafood" id="chk-peanut">
-              <label for="chk-seafood">Seafood</label>
-            </div>
             <div class="dairy-filter">
               <input type="checkbox" name="allergie" value="dairy" id="chk-dairy">
               <label for="chk-dairy">Dairy</label>
@@ -421,25 +396,17 @@ class FilterMenu extends HTMLElement {
               <input type="checkbox" name="allergie" value="grain" id="chk-grain">
               <label for="chk-grain">Grain</label>
             </div>
-            <div class="sesame-filter">
-              <input type="checkbox" name="allergie" value="sesame" id="chk-sesame">
-              <label for="chk-sesame">Sesame</label>
+            <div class="peanut-filter">
+              <input type="checkbox" name="allergie" value="peanut" id="chk-peanut">
+              <label for="chk-peanut">Peanuts</label>
             </div>
-            <div class="shellfish-filter">
-              <input type="checkbox" name="allergie" value="shellfish" id="chk-shellfish">
-              <label for="chk-shellfish">Shellfish</label>
-            </div>
-            <div class="soy-filter">
-              <input type="checkbox" name="allergie" value="soy" id="chk-soy">
-              <label for="chk-soy">Soy</label>
+            <div class="seafood-filter">
+              <input type="checkbox" name="allergie" value="seafood" id="chk-peanut">
+              <label for="chk-seafood">Seafood</label>
             </div>
             <div class="sulfite-filter">
               <input type="checkbox" name="allergie" value="sulfite" id="chk-sulfite">
               <label for="chk-sulfite">Sulfite</label>
-            </div>
-            <div class="tree-nut-filter">
-              <input type="checkbox" name="allergie" value="tree-nut" id="chk-tree-nut">
-              <label for="chk-tree-nut">Tree Nut</label>
             </div>
             <div class="wheat-filter">
               <input type="checkbox" name="allergie" value="wheat-nut" id="chk-wheat">
@@ -449,7 +416,7 @@ class FilterMenu extends HTMLElement {
         </div>
         
         <p id="emptyMessage" class="empty-message">* Empty filter</p>
-        <button id="filterButton" class="button-filter" type="submit">Search by Filter</button>
+        <button id="filterButton" class="button-filter" type="submit">Apply Filters</button>
       </div>
     `;
 

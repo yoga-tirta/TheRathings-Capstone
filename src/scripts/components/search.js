@@ -84,24 +84,20 @@ class SearchBar extends HTMLElement {
             margin: auto 0;
             padding: 50px 10px;
           }
-  
           .search-container > input {
             padding: 21px 30px;
             border-top-left-radius: 30px;
             border-bottom-left-radius: 30px;
             border: 2px solid var(--main-color);
           }
-  
           .search-container > button {
             padding: 20px 38px;
             border-top-right-radius: 30px;
             border-bottom-right-radius: 30px;
           }
-  
           .search-container > button > svg {
             height: 14pt;
           }
-  
           .search-container > input::placeholder {
             font: 13pt;
           }

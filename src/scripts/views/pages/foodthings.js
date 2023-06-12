@@ -19,7 +19,7 @@ const Foodthings = {
       <div class="foodthings-continer">
         <search-bar></search-bar>
         <div class="show-filter">
-          <button id="showFilterButton">Search by <span>Filter <i class="fa-solid fa-circle-chevron-down"></i></span></button>
+          <button id="showFilterButton">Custom Filter <span>Search <i class="fa-solid fa-circle-chevron-down"></i></span></button>
         </div>
         <div id="message" class="food-result-message"></div>
         <filter-menu></filter-menu>
