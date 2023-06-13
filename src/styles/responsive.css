@@ -1,3 +1,5 @@
+/* ==================== RESPONSIVE ========================= */
+
 .fa-utensils {
   font-size: 24px; 
 }
@@ -35,7 +37,7 @@
     text-align: center;
   }
 
- main .second-main img {        
+  main .second-main img {        
     max-width: 420px; 
     width: 100%;
   }
@@ -378,15 +380,15 @@
   }
 }
 
-        @media (max-width: 650px) {
-            .galery-img-1,
-            .galery-img-2,
-            .galery-img-3,
-            .galery-img-4,
-            .galery-img-5 {
-                width: 100%; /* Mengatur lebar elemen menjadi 100% pada layar kecil */
-            }
-        }
+@media (max-width: 650px) {
+  .galery-img-1,
+  .galery-img-2,
+  .galery-img-3,
+  .galery-img-4,
+  .galery-img-5 {
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 550px) {
   main .first-main .tagline h1 {
@@ -761,7 +763,7 @@ main .fourth-main .tagline-heading, main .fifth-main img, main .fifth-main .tagl
     gap: 0;
   }
 
-  /* detail food */
+  /* DETAIL FOOD */
   .detail-page {
     background-color: #f1f1f1;
     margin: 0;
@@ -786,10 +788,6 @@ main .fourth-main .tagline-heading, main .fifth-main img, main .fifth-main .tagl
   .content-aside h5 {
     font-size: 12pt;
   }
-
-  /* .food-trivia, .similar-food {
-    min-width: 350px;
-  } */
 
   .video-food-item-thumbnail {
     width: 100%;

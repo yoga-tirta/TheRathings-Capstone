@@ -1,11 +1,10 @@
-/*
-  Footer
-*/
+/* ==================== FOOTER ========================= */
+
 footer .first-footer {
   display: grid;
-  padding: 80px;
-  background-color: #dcdce4;
-  margin-bottom: 24px;
+  padding: 40px 60px 30px;
+  background-color: var(--grey-color);
+  margin-bottom: 16px;
   color: var(--font-color);
   justify-content: space-between;
   border-bottom: 2px solid var(--second-color);
@@ -19,7 +18,7 @@ footer .navigation-container {
 
 footer .first-footer .footer-header h1 {
   font-size: 32px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   color: var(--main-color);
 }
 
@@ -27,7 +26,6 @@ footer .first-footer .footer-header p {
   font-weight: bold;
 }
 
-/* Navigasi */
 footer div h1{
   font-size: 21px;
   font-weight: 700;
@@ -62,9 +60,9 @@ footer section div ul li i {
   padding-right: 1.5rem;
 }
 
-/* footer bawah */
+/* COPYRIGHT */
 footer {
-  background-color: #dcdcdc;
+  background-color: var(--grey-color);
   margin-bottom: 0;
 }
 

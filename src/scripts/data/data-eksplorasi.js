@@ -19,7 +19,7 @@ const dataEksplorasi = [
     deskripsi:
       'J.CO adalah restoran asal Indonesia yang mengkhususkan dalam donat, kopi, dan yogurt beku',
     manfaat: [
-      '"Jadilah bagian dari gerakan mengurangi pemborosan makanan! Manfaatkan bahan terbuang, ciptakan hidangan istimewa, dan selamatkan lingkungan. Hubungi layanan kami untuk memulai sekarang!"',
+      'Jadilah bagian dari gerakan mengurangi pemborosan makanan! Manfaatkan bahan terbuang, ciptakan hidangan istimewa, dan selamatkan lingkungan. Hubungi layanan kami untuk memulai sekarang!',
     ],
     sumber: 'https://m.jcodonuts.com/',
   },
@@ -43,7 +43,7 @@ const dataEksplorasi = [
     deskripsi:
       'Pizza Hut adalah sebuah waralaba restoran cepat saji yang menyajikan berbagai macam pizza dengan beragam topping dan saus yang lezat.',
     manfaat: [
-      '"Temukan potensi tak terbatas dari food waste! Bukti­kan kreativitasmu dengan menciptakan hidangan tak terlupakan. Bergabunglah dengan kami dalam menjadikan food waste sebagai keajaiban kuliner. Hubungi layanan kami sekarang!"',
+      'Temukan potensi tak terbatas dari food waste! Bukti­kan kreativitasmu dengan menciptakan hidangan tak terlupakan. Bergabunglah dengan kami dalam menjadikan food waste sebagai keajaiban kuliner. Hubungi layanan kami sekarang!',
     ],
     sumber: 'https://www.pizzahut.co.id/',
   },
@@ -67,7 +67,7 @@ const dataEksplorasi = [
     deskripsi:
       'Kentucky Fried Chicken, adalah sebuah jaringan restoran cepat saji yang terkenal dengan ayam gorengnya yang lezat dan resep rahasia bumbu yang khas.',
     manfaat: [
-      '"Ayo bergabung dalam gerakan mengurangi pemborosan makanan! Jadilah agen perubahan dan tunjukkan bahwa kreativitasmu dapat menyelamatkan lingkungan. Segera hubungi layanan kami untuk memulai petualangan kuliner yang menakjubkan!"',
+      'Ayo bergabung dalam gerakan mengurangi pemborosan makanan! Jadilah agen perubahan dan tunjukkan bahwa kreativitasmu dapat menyelamatkan lingkungan. Segera hubungi layanan kami untuk memulai petualangan kuliner yang menakjubkan!',
     ],
     sumber: 'https://kfcku.com/',
   },
@@ -91,7 +91,7 @@ const dataEksplorasi = [
     deskripsi:
       'McDonalds adalah sebuah waralaba restoran cepat saji global yang menawarkan berbagai macam burger, seperti Big Mac, Cheeseburger, dan Quarter Pounder, dengan variasi pilihan topping dan saus.',
     manfaat: [
-      '"Ubah food waste menjadi peluang kuliner yang luar biasa! Jadilah bagian dari gerakan kami untuk mengurangi pemborosan makanan. Tunjukkan kreativitasmu, selamatkan lingkungan, dan buat hidangan tak terlupakan. Segera hubungi layanan kami untuk memulai perjalananmu!"',
+      'Ubah food waste menjadi peluang kuliner yang luar biasa! Jadilah bagian dari gerakan kami untuk mengurangi pemborosan makanan. Tunjukkan kreativitasmu, selamatkan lingkungan, dan buat hidangan tak terlupakan. Segera hubungi layanan kami untuk memulai perjalananmu!',
     ],
     sumber: 'https://mcdonalds.co.id/',
   },
@@ -115,7 +115,7 @@ const dataEksplorasi = [
     deskripsi:
       'Burger King adalah sebuah waralaba restoran cepat saji dengan menu burger yang lezat dan variasi topping yang kaya.',
     manfaat: [
-      '"Jangan biarkan makanan terbuang sia-sia! Bergabunglah dalam gerakan kami untuk mengurangi pemborosan makanan. Manfaatkan bahan-bahan terbuang dan hasilkan hidangan istimewa. Hubungi layanan kami sekarang dan mulailah berkontribusi!"',
+      'Jangan biarkan makanan terbuang sia-sia! Bergabunglah dalam gerakan kami untuk mengurangi pemborosan makanan. Manfaatkan bahan-bahan terbuang dan hasilkan hidangan istimewa. Hubungi layanan kami sekarang dan mulailah berkontribusi!',
     ],
     sumber: 'https://www.bk.com/',
   },
@@ -139,7 +139,7 @@ const dataEksplorasi = [
     deskripsi:
       'Sushi Tei adalah sebuah restoran Jepang yang terkenal dengan hidangan sushi dan makanan Jepang lainnya.',
     manfaat: [
-      '"Bersama-sama, kita dapat membuat perbedaan! Bergabunglah dalam gerakan mengurangi pemborosan makanan. Ciptakan hidangan istimewa dari bahan-bahan terbuang dan buktikan bahwa kreativitasmu dapat menyelamatkan lingkungan. Hubungi layanan kami sekarang dan jadilah bagian dari perubahan!"',
+      'Bersama-sama, kita dapat membuat perbedaan! Bergabunglah dalam gerakan mengurangi pemborosan makanan. Ciptakan hidangan istimewa dari bahan-bahan terbuang dan buktikan bahwa kreativitasmu dapat menyelamatkan lingkungan. Hubungi layanan kami sekarang dan jadilah bagian dari perubahan!',
     ],
     sumber: 'https://www.sushitei.co.id/',
   },
