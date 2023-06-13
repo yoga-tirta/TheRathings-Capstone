@@ -1,12 +1,5 @@
 /* ==================== RESPONSIVE ========================= */
 
-.fa-utensils {
-  font-size: 24px; 
-}
-.fa-users {
-    font-size: 24px; 
-  }
-
 @media screen and (max-width: 768px) {
   i.fas.fa-utensils {
     font-size: 18px; 
@@ -16,7 +9,7 @@
   }
   i.fas.fa-user-clock{
     font-size: 18px; 
-}
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -673,7 +666,6 @@
 
   .app-bar .app-bar__menu {
     display: none;
-    justify-content: end;
   }
 
   .app-bar .app-bar__navigation {

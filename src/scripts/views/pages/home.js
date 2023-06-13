@@ -9,7 +9,7 @@ const Home = {
             Telusuri TheRathings Dan Temukan Informasi Mengenai Restaurant<br>
             Leftover Food Dan Juga Resep Makanan Yang Sehat Dan Bergizi.
           </p>
-          <button onclick="window.location.href='#about'">
+          <button onclick="location.href='#about'">
             Telusuri Sekarang <i class="fas fa-play-circle"></i>
           </button>
         </div>
@@ -26,7 +26,7 @@ const Home = {
           <h1>Kenalan sama <span>TheRathings</span> yuk!</h1>
           <p>Team <strong>TheRathings</strong> Terdiri Dari Mahasiswa Dan Mahasiswi Yang Berfokus Dalam Dunia Teknologi Informasi, Khususnya Dalam Bidang Front-End Dan Back End Website Developer. .
           </p>
-          <button onclick="window.location.href='#/about'">
+          <button onclick="location.href='#/about'">
           Telusuri Sekarang <i class="fas fa-play-circle"></i>
           </button>        
         </div>
@@ -42,7 +42,7 @@ const Home = {
         <div class="tagline-heading">
           <h1>Telusuri berbagai<span> Resep<br>Makanan</span> Sehat!</h1>
           <p>Yuk, telusuri rekomendasi Makanan sehat dan bergizi versi The Rathings sesuai jenis makanan untuk menu makanan mu hari ini. <br>Keep healthy and eco-friendly!</p>
-          <button onclick="window.location.href='#/foodthings'">
+          <button onclick="location.href='#/foodthings'">
           Telusuri Sekarang <i class="fas fa-play-circle"></i>
           </button>
         </div>
@@ -58,7 +58,7 @@ const Home = {
         <div class="tagline-heading">
           <h1>Yuk! <span>Explore</span> restaurant <br><span> food waste</span> disekitarmu</h1>
           <p>Explore pemanfaatan leftover food menjadi makanan lezat cepat saji untuk mengurangi limbah makanan sisa</p>
-          <button onclick="window.location.href='#/explore'">
+          <button onclick="location.href='#/explore'">
           Telusuri Sekarang <i class="fas fa-play-circle"></i>
           </button>        
         </div>
@@ -103,7 +103,7 @@ const Home = {
         <p>
           Yuk, saksikan cuplikan video jejak pemborosan makanan yang menjadi salah satu faktor leftover food.
         </p>
-        <button onclick="window.location.href='https://youtu.be/IoCVrkcaH6Q'">
+        <button onclick="location.href='https://youtu.be/IoCVrkcaH6Q'">
           Saksikan Sekarang <i class="fas fa-play-circle"></i>
         </button>
       </div>

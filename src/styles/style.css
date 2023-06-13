@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&family=Poppins:wght@300;400;600;800&display=swap");
+
 @import url('./components/footer.css');
 @import url('./components/main.css');
 @import url('./components/about.css');
@@ -27,7 +28,7 @@
   --font-color: #252525;
 }
 
-/* animasi */
+/* ANIMASI */
 @keyframes slide_left {
   0% {
     transform: translatex(-100px);
@@ -38,7 +39,6 @@
     opacity: 1;
   }
 }
-
 @keyframes slide_bottom {
   0% {
     transform: translatey(-100px);
@@ -49,7 +49,6 @@
     opacity: 1;
   }
 }
-
 @keyframes slide_top {
   0% {
     opacity: 0;
@@ -58,7 +57,6 @@
     opacity: 1;
   }
 }
-
 @keyframes slide_right {
   0% {
     transform: translatex(100px);
@@ -69,7 +67,6 @@
     opacity: 1;
   }
 }
-
 @keyframes slide_up {
   0% {
     transform: translatey(100px);
@@ -80,7 +77,6 @@
     opacity: 1;
   }
 }
-
 @keyframes fade_in {
   0% {
     opacity: 0;
@@ -89,7 +85,6 @@
     opacity: 1;
   }
 }
-
 @keyframes anmBg {
   to {
     background-position: -200% 0;
@@ -125,17 +120,8 @@ html::-webkit-scrollbar-thumb {
   background-color: var(--second-color);
   border-radius: 0.35rem;
 }
-section {
-  padding: 5rem 7%;
-  background-color: #fff;
-}
-a{
-  text-decoration: none;
-}
 
-/*
-  AppBar
-*/
+/* APP-BAR */
 .app-bar {
   padding: 8px 16px;
   background-color: #fff;
@@ -150,13 +136,15 @@ a{
   justify-content: space-between;
 }
 
-.app-bar__brand {
+.app-bar .app-bar__brand {
   margin: 0;
+  display: flex;
   align-content: center;
+  align-items: center;
   animation: slide_left 0.5s linear forwards;
 }
 
-.app-bar__brand img {
+.app-bar .app-bar__brand img {
   width: 40px;
   margin-left: 20px;
   margin-right: 10px;
@@ -183,16 +171,11 @@ a{
   cursor: pointer;
 }
 
-.app-bar .app-bar__brand {
-  display: flex;
-  align-items: center;
-}
-
 .app-bar .app-bar__navigation {
   position: absolute;
   top: 50px;
-  left: -240px;
-  width: 240px;
+  left: -250px;
+  width: 200px;
   transition: all 0.3s;
   padding: 8px;
   background-color: #fff;
@@ -200,18 +183,16 @@ a{
 }
 
 .app-bar .app-bar__navigation.open {
+  top: 60px;
   left: 0;
-}
-
-ul {
-  padding: 0;
-  list-style-type: none;
+  height: 261px;
 }
 
 .app-bar .app-bar__navigation ul li a {
   display: inline-block;
+  text-align: center;
   font-size: 1rem;
-  margin-right: -20px;
+  margin-right: -25px;
   text-decoration: none;
   color: var(--font-color);
   animation: slide_top 0.5s linear forwards;
@@ -222,12 +203,9 @@ ul {
   transition: 0.4s;
 }
 
-/*
-  Main Content
-*/
+/* MAIN CONTENT */
 main {
   flex: 1;
-  /* background-color: #f1f1f1; */
 }
 
 .content {
