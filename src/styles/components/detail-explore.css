@@ -1,3 +1,5 @@
+/* ==================== DETAIL EXPLORE ========================= */
+
 section.content-detail-explore {
   width: 80%;
   max-width: 1200px;
@@ -20,8 +22,7 @@ section.content-detail-explore {
   animation: slide_left 0.45s linear forwards;
 }
 
-h2,
-h3 {
+h2, h3 {
   color: var(--main-color);
 }
 
@@ -49,6 +50,15 @@ h2 {
   margin-right: 0.27rem;
 }
 
+.card-detail-explore a {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.card-detail-explore a:hover {
+  color: var(--main-dark);
+}
+
 .card-detail-explore ul {
   margin-left: 2rem;
   line-height: 200%;
@@ -70,7 +80,7 @@ h2 {
 .card-detail-explore .img-card-detail-explore img {
   width: 100%;
   height: 100%;
-  background-color: #8f8c8c;
+  background-color: var(--main-color);
   filter: contrast(1.2);
   object-fit: cover;
   border-radius: 1em 0 0 1em;
@@ -128,7 +138,7 @@ h2 {
   margin: 2.7rem;
 }
 
-/* manfaat */
+/* MANFAAT */
 .wrap-flex-detail-explore {
   opacity: 0;
   animation: slide_bottom 0.5s linear forwards;
@@ -149,7 +159,7 @@ h2 {
   flex: 1;
 }
 
-/* resep */
+/* RESEP */
 .resep-detail-explore {
   opacity: 0;
   animation: slide_up 0.5s linear forwards;

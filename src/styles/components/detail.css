@@ -1,3 +1,4 @@
+/* ==================== DETAIL FOODTHINGS ========================= */
 
 .content {
   display: grid;
@@ -13,9 +14,7 @@
   margin: 0 auto;
 }
 
-/*
-* food-detail
-*/
+/* DETAIL FOOD */
 .food {
   max-width: 860px;
   width: 100%;
@@ -255,9 +254,7 @@
 }
 
 
-/*
- * content-aside
- */
+/* ASIDE CONTENT */
 
 .content-aside h4 {
   font-size: 16pt;
@@ -298,10 +295,7 @@
   border-radius: 10px;
 }
 
-/*
- * food trivia
- */
-
+/* FOOD TRIVIA */
 .food-trivia {
   width: 100%;
   max-width: 860px;
@@ -327,9 +321,7 @@
   border-left: none;
   transition: none;
 }
-/*
- * related food
- */
+/* RELATED FOOD */
 .similar-food {    
   width: 100%;
   max-width: 860px;
@@ -364,9 +356,7 @@
   border-right: 1px solid #d3d3d3;  
 }
 
-/*
- * related video
-*/
+/* RELATED VIDEO */
 .video-aside {
   margin-bottom: 20px;
   cursor: pointer;

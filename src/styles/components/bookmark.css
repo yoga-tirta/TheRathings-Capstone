@@ -1,3 +1,38 @@
+/* ==================== BOOKMARK ========================= */
+
+.bookmark-continer {
+  margin: 56px 86px;
+}
+
+.bookmark-continer h2 {
+  padding: 10px 0;
+  border-bottom: 1px solid #d3d3d3;
+  margin-bottom: 30px;
+}
+
+.bookmark-continer h4 {
+  font-size: 12pt;
+  padding: 10px 15px;
+  border: 1px solid #d3d3d3;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  margin-top: 30px;
+  max-width: 500px;
+  margin-bottom: 300px;
+}
+.bookmark-continer .food-item-info {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.bookmark-continer .food-item-info-first {
+  border-right: 1px solid #EFEAD8;
+}
+
+.bookmark-continer .icon-title {
+  font-size: 26px;
+  color: var(--main-color);
+}
+
 .bookmark-item-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

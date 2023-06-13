@@ -1,3 +1,5 @@
+/* ==================== LOGIN AND REGISTER ========================= */
+
 @keyframes animate-login{
   0%{
     transform: scale(1,1);
@@ -10,7 +12,6 @@
   }
 }
 
-/* login */
 .login{
   display: grid;
   grid-template-columns: 100%;
@@ -47,7 +48,7 @@
   position: absolute;
   bottom: 1rem;
   width: 100%;
-  background-color: #F2F2F2;
+  background-color: var(--grey-hover);
   padding: 2rem 1rem;
   border-radius: 1rem;
   text-align: center;
@@ -140,12 +141,11 @@
   margin: 0 1.5rem;
 }
 
-/*Show login*/
 .block{
   display: block;
 }
 
-/* responsive */
+/* RESPONSIVE */
 @media screen and (min-width: 576px){
   .login-forms{
     width: 348px;
@@ -177,7 +177,7 @@
     display: flex;
     width: 600px;
     height: 600px;
-    background-color: #F2F2F2;
+    background-color: var(--grey-hover);
     border-radius: 1rem;
     padding-left: 1rem;
   }

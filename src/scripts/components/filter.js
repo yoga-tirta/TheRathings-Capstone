@@ -48,8 +48,8 @@ class FilterMenu extends HTMLElement {
           width: 240px;
           padding: 30px;
           overflow: hidden;
-          background-color: #f2f2f2;
-          border: 1px solid #d3d3d3;
+          background-color: var(--grey-hover);
+          border: 1px solid var(--grey-color);
           margin: auto auto 30px 30px;
           border-radius: 20px;
         }
@@ -208,7 +208,7 @@ class FilterMenu extends HTMLElement {
         }
         
         .type-filter select:hover {
-          outline: 1px solid #d3d3d3;
+          outline: 1px solid var(--grey-color);
         }
         
         .type-filter option {
@@ -244,7 +244,7 @@ class FilterMenu extends HTMLElement {
             line-height: 0;
           }
           .filter-list .nutrient-filter div input {
-            border: 1px solid #d3d3d3;
+            border: 1px solid var(--grey-color);
           }
           .type-filter select {
             background-color: #f1f1f1;
