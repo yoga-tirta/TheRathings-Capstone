@@ -75,7 +75,7 @@ const dataEksplorasi = [
     id: '4',
     nama: 'McDonalds',
     kategori: 'Burger',
-    gambar: './img/explore/mcd.jpg',
+    gambar: './img/explore/mcd.png',
     bahan: [
       'Cheeseburger, McChicken, Filet-O-Fish, Apple Pie, McNuggets, Soft Serve Cone, Big Mac',
     ],

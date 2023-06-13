@@ -54,7 +54,7 @@ const DetailExplore = {
                   <ul>${resto.manfaat}</ul>
                 </div>
                 <div class="img-wrap-detail-explore">
-                  <img src="./img/detaileks.png" alt="" />
+                  <img src="./img/detail-explore.png" alt="" />
                 </div>
               </div>
 

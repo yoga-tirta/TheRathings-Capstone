@@ -4,7 +4,7 @@ import CONFIG from '../../globals/config';
 
 const createFoodItemTemplate = (food) => `
   <div class="food-item">
-    <img src="${food.image}" class="food-item-image" alt="${food.title}">   
+    <img src="${food.image}" class="food-item-image" alt="${food.title}" crossorigin="anonymous">   
     <div class="food-item-main">
       <div class="food-item-info">
         <ul>
@@ -35,7 +35,7 @@ const createFoodItemTemplate = (food) => `
 
 const createFoodDetailTemplate = (food) => `
   <h1 class="food-title">${food.title}</h1>
-  <img class="food-image" src="${food.image}" alt="${food.title}">
+  <img class="food-image" src="${food.image}" alt="${food.title}" crossorigin="anonymous">
 
   <div calss="food-information">    
     <div id="foodSource" class="food-source-name"></div>
@@ -95,7 +95,7 @@ const createFoodDetailTemplate = (food) => `
     </table>
     </div>
     <div class="food-nutrition-label">
-      <img class="lazyload" data-src="${CONFIG.BASE_URL}recipes/${food.id}/nutritionLabel.png?${CONFIG.API_KEY}" alt="Nutrition Label">
+      <img class="lazyload" data-src="${CONFIG.BASE_URL}recipes/${food.id}/nutritionLabel.png?${CONFIG.API_KEY}" alt="Nutrition Label" crossorigin="anonymous">
     </div>
     
   </div>
@@ -109,10 +109,10 @@ const createFoodDetailTemplate = (food) => `
         `,
     ).join('')}
     </p>
-    <img class="food-ingredient-image lazyload" data-src="${CONFIG.BASE_URL}recipes/${food.id}/ingredientWidget.png?${CONFIG.API_KEY}" alt="Ingredients">
+    <img class="food-ingredient-image lazyload" data-src="${CONFIG.BASE_URL}recipes/${food.id}/ingredientWidget.png?${CONFIG.API_KEY}" alt="Ingredients" crossorigin="anonymous">
     
     <h4>Equipments</h4>
-    <img class="food-equipments lazyload" data-src="${CONFIG.BASE_URL}recipes/${food.id}/equipmentWidget.png?${CONFIG.API_KEY}" alt="Equipments">
+    <img class="food-equipments lazyload" data-src="${CONFIG.BASE_URL}recipes/${food.id}/equipmentWidget.png?${CONFIG.API_KEY}" alt="Equipments" crossorigin="anonymous">
 
     <h4>Instructions</h4>
     <p>${food.analyzedInstructions
@@ -151,7 +151,7 @@ const createSimilarFoodItemTemplate = (food) => `
 const createVideoFoodItemTemplate = (video) => `
   <div class="aside-food-item video-aside">
     <a class="video-food-item" href="https://www.youtube.com/watch?v=${video.youTubeId}">
-    <img class="video-food-item-thumbnail lazyload" data-src="${video.thumbnail}" alt="${video.shortTitle}">
+    <img class="video-food-item-thumbnail lazyload" data-src="${video.thumbnail}" alt="${video.shortTitle}" crossorigin="anonymous">
     <div class="video-food-item-content">
         <h5 class="video-food-item-title">${video.shortTitle}</h5>
         <div class="video-food-item-info">
@@ -167,7 +167,7 @@ const createVideoFoodItemTemplate = (video) => `
 
 const createBookmarkItemTemplate = (food) => `
   <div class="food-item">
-    <img src="${food.image}" class="food-item-image" alt="${food.title}">   
+    <img src="${food.image}" class="food-item-image" alt="${food.title}" crossorigin="anonymous">   
     <div class="food-item-main">
     <div class="food-item-info">
       <ul class="food-item-info-first">
@@ -203,7 +203,7 @@ const createSkeletonItemTemplate = (count) => {
   for (let i = 0; i < count; i++) {
     template += `
       <div class="food-item">
-      <img class="food-item-image skeleton lazyload" data-src="./etc/placeholder.png" alt="skeleton">  
+      <img class="food-item-image skeleton lazyload" data-src="./skeleton.png" alt="skeleton" crossorigin="anonymous">  
         <div class="food-item-info">
           <ul class="skeleton">
             <li>80%</li>
@@ -235,7 +235,7 @@ const createSkeletonDetailTemplate = (count) => {
   for (let i = 0; i < count; i++) {
     template += `
       <h2 class="food-title skeleton">How to make a healthy food</h2>
-      <img class="food-image lazyload" data-src="./etc/placeholder.png" alt="skeleton">
+      <img class="food-image lazyload" data-src="./skeleton.png" alt="skeleton" crossorigin="anonymous">
     
       <div class="food-information skeleton">    
         <p class="food-source skeleton">from www.pinkwhen.com</p>
@@ -271,7 +271,7 @@ const createSkeletonBookmarkTemplate = (count) => {
   for (let i = 0; i < count; i++) {
     template += `
       <div class="food-item">
-        <img class="food-item-image lazyload" data-src="./etc/placeholder.png" alt="skeleton">   
+        <img class="food-item-image lazyload" data-src="./skeleton.png" alt="skeleton" crossorigin="anonymous">   
         <div class="bookmark-item-info">
           <ul class="bookmark-item-info-icon">
             <li class="skeleton">Logo</li>

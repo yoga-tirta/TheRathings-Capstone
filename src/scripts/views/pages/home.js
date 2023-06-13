@@ -15,8 +15,8 @@ const Home = {
         </div>
         <div class="tagline-img">
           <picture>
-            <source media="(min-width: 600px; max-width: 900px)" srcset="./img/first-main.png"/>
-            <img src='./img/first-main.png' alt="Makanan Sehat"></img>
+            <source media="(min-width: 600px; max-width: 900px)" srcset="./img/home/first-main.png"/>
+            <img src='./img/home/first-main.png' alt="Makanan Sehat"></img>
           </picture>
         </div>
       </section>
@@ -32,8 +32,8 @@ const Home = {
         </div>
         <div class="tagline-img">
           <picture>
-            <source media="(min-width: 700px; max-width: 900px)" srcset="./img/second-main.png"/>
-            <img src='./img/second-main.svg' alt="Second Main"></img>
+            <source media="(min-width: 700px; max-width: 900px)" srcset="./img/home/second-main.png"/>
+            <img src='./img/home/second-main.svg' alt="Second Main"></img>
           </picture>
         </div>
       </section>
@@ -48,8 +48,8 @@ const Home = {
         </div>
         <div class="tagline-img">
           <picture>
-            <source media="(min-width: 600px; max-width: 900px)" srcset="./img/third-main.png"/>
-            <img src='./img/third-main.svg' alt="Third Main"></img>
+            <source media="(min-width: 600px; max-width: 900px)" srcset="./img/home/third-main.png"/>
+            <img src='./img/home/third-main.svg' alt="Third Main"></img>
           </picture>
         </div>
       </section>
@@ -64,54 +64,56 @@ const Home = {
         </div>
         <div class="tagline-img">
           <picture>
-            <source media="(min-width: 700px; max-width: 900px)" srcset="./img/fourth-main.png"/>
-            <img src='./img/fourth-main.svg' alt="Fourth Main"></img>
+            <source media="(min-width: 700px; max-width: 900px)" srcset="./img/home/fourth-main.png"/>
+            <img src='./img/home/fourth-main.svg' alt="Fourth Main"></img>
           </picture>
         </div>
       </section>
 
       <section class="fifth-main">
-      <h1>Pelajari 3  <span>Tips</span> simple</h1>
-      <div class="benefit">
-      <div class="box">
-        <i class="fas fa-utensils"></i>
-        <div class="content">
-          <h2>Planning</h2>
-          <p>Buatlah perencanaan makanan sebelumnya untuk menghindari membeli atau memasak terlalu banyak makanan.</p>        </div>
-      </div>
-      <div class="box">
-        <i class="fas fa-users"></i>
-        <div class="content">
-          <h2>Kreatifity</h2>
-          <p>Gunakan kreativitas untuk menciptakan hidangan baru dengan bahan-bahan yang tersisa.</p>        </div>
-      </div>
-      <div class="box">
-        <i class="fas fa-user-clock"></i>
-        <div class="content">
-          <h2>Reuse</h2>
-          <p>Manfaatkan kembali. Gunakan wadah kedap udara atau bungkus makanan dengan rapat untuk menjaga kesegaran.</p>
+        <h1>Pelajari 3  <span>Tips</span> simple</h1>
+        <div class="benefit">
+          <div class="box">
+            <i class="fas fa-utensils"></i>
+            <div class="content">
+              <h2>Planning</h2>
+              <p>Buatlah perencanaan makanan sebelumnya untuk menghindari membeli atau memasak terlalu banyak makanan.</p>
+            </div>
           </div>
-      </div>
-      </div>
-    </section>
-
-    <section class="sixth-main" id="home">  
-        <div class="tagline">
-          <h1>Cuplikan <span>Food wastage</span> footprint</h1>
-          <p>
-            Yuk, saksikan cuplikan video jejak pemborosan makanan yang menjadi salah satu faktor leftover food.
-          </p>
-          <button onclick="window.location.href='https://youtu.be/IoCVrkcaH6Q'">
-            Saksikan Sekarang <i class="fas fa-play-circle"></i>
-          </button>
-        </div>
-        <div class="tagline-img">
-          <picture>
-            <source media="(min-width: 750px; max-width: 900px)" srcset="./img/sixth-main.png"/>
-            <iframe src="https://www.youtube.com/embed/IoCVrkcaH6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </picture>
+          <div class="box">
+            <i class="fas fa-users"></i>
+            <div class="content">
+              <h2>Creativity</h2>
+              <p>Gunakan kreativitas untuk menciptakan hidangan baru dengan bahan-bahan yang tersisa.</p>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fas fa-user-clock"></i>
+            <div class="content">
+              <h2>Reuse</h2>
+              <p>Manfaatkan kembali. Gunakan wadah kedap udara atau bungkus makanan dengan rapat untuk menjaga kesegaran.</p>
+            </div>
+          </div>
         </div>
       </section>
+
+    <section class="sixth-main" id="home">  
+      <div class="tagline">
+        <h1>Cuplikan <span>Food wastage</span> footprint</h1>
+        <p>
+          Yuk, saksikan cuplikan video jejak pemborosan makanan yang menjadi salah satu faktor leftover food.
+        </p>
+        <button onclick="window.location.href='https://youtu.be/IoCVrkcaH6Q'">
+          Saksikan Sekarang <i class="fas fa-play-circle"></i>
+        </button>
+      </div>
+      <div class="tagline-img">
+        <picture>
+          <source media="(min-width: 750px; max-width: 900px)" srcset="./img/home/sixth-main.png"/>
+          <iframe src="https://www.youtube.com/embed/IoCVrkcaH6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </picture>
+      </div>
+    </section>
     `;
   },
 

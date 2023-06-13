@@ -153,7 +153,7 @@ h2 {
   width: 100%;
 }
 .wrap-flex-detail-explore .img-wrap-detail-explore img {
-  height: 230px;
+  height: 300px;
 }
 .wrap-flex-detail-explore .manfaat-detail-explore {
   flex: 1;
@@ -212,7 +212,7 @@ h2 {
     top: -10px;
   }
   .wrap-flex-detail-explore.img-wrap-detail-explore img {
-    height: 200px;
+    height: 220px;
   }
   section .card-detail-explore {
     width: 95%;

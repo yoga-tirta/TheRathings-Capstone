@@ -92,7 +92,7 @@ main .second-main {
   text-align: center;
   align-items: center;
   background-color: #fff;
-  background-image: url('../../public/img/background-tagline-why.png');  background-size: cover;
+  background-image: url('../../public/img/home/background-tagline-why.png');  background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
   font-size: 16px;
@@ -218,7 +218,7 @@ main .fourth-main {
   text-align: center;
   align-items: center;
   background-color: #ffff;
-  background-image: url('../../public/img/background-tagline-why.png');
+  background-image: url('../../public/img/home/background-tagline-why.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -244,7 +244,7 @@ main .fourth-main .tagline-heading h1 span {
 }
 
 main .fifth-main{
-  background-image: url('../../public/img/background-fifth-main.png');
+  background-image: url('../../public/img/home/background-fifth-main.png');
   background-color: #ffff;
   background-size: cover;
   background-repeat: no-repeat;
@@ -282,7 +282,6 @@ main .fifth-main .benefit .box .content {
   justify-content: space-evenly;
 }
 
-
 main .fifth-main .benefit .box {
   display: flex;
   gap: 1rem;
@@ -303,6 +302,7 @@ main .fifth-main .benefit .box i {
   text-align: center;
   line-height: 50px;
 }
+
 @media (max-width: 760px) {
   .benefit .box {
     margin-top: 1rem;
@@ -310,14 +310,15 @@ main .fifth-main .benefit .box i {
   .fa-utensils {
     max-width: 50px;
   }
-   .fa-users {
+  .fa-users {
     max-width: 50px;
   }
-   .fa-users-clock {
+  .fa-users-clock {
     max-width: 50px;
   }
 
 }
+
 main .fifth-main .benefit .box i fa-utensils, fa-users, fa-users-clock {
   max-width: 50px;
 }
@@ -333,7 +334,6 @@ main .fifth-main .benefit .box .content p {
   width: 80%;
 }
 
-
 main .sixth-main {
   display:flex;
   padding: 72px 64px;
@@ -341,7 +341,7 @@ main .sixth-main {
   background-color: #fff;
   text-align: center;
   align-items: center;
-  background-image: url('../../public/img/background-sixth-main.png');
+  background-image: url('../../public/img/home/background-sixth-main.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
