@@ -51,7 +51,7 @@ const About = {
             <div class="team-icon">
               <a href="https://www.linkedin.com/in/utamiputri117/"><i class="fa-brands fa-linkedin"></i></a>
               <a href="https://github.com/uputri"><i class="fa-brands fa-square-github"></i></a>
-              <a href="https://www.instagram.com/localhost.up/"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="https://www.instagram.com/utamixputri/"><i class="fa-brands fa-square-instagram"></i></a>
           </div>
           </div>
 
