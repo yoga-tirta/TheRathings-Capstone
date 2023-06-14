@@ -43,9 +43,9 @@ class SearchBar extends HTMLElement {
           outline: 3px solid var(--main-dark);
         }
       
-        .search-container >  input::placeholder {
+        .search-container > input::placeholder {
           font-family: 'Poppins', sans-serif;
-          font-size: 9pt;
+          font-size: 10pt;
         }
       
         .search-container > button {
@@ -60,14 +60,16 @@ class SearchBar extends HTMLElement {
         }
 
         .search-container > .bookmark-page {
-          margin-left: 10px;
-          padding: 15px 25px;
+          margin-left: 20px;
+          padding: 10px 25px;
           background-color: var(--main-color);
           border: none;
           color: #fff;
           cursor: pointer;
           max-height: 58px;
           border-radius: 10px;
+          font-family: 'Poppins', sans-serif;
+          font-size: 12px;
         }
 
         .search-container > button:hover {
@@ -133,7 +135,7 @@ class SearchBar extends HTMLElement {
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
             <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/> 
             <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/> 
-          </svg>
+          </svg> Bookmark
         </button>
       </div>
     `;

@@ -24,7 +24,7 @@ const Foodthings = {
         <div id="message" class="food-result-message"></div>
         <filter-menu></filter-menu>
 
-        <div class="food-content">      
+        <div class="food-content">
           <div class="food-content-item">
             <div id="foods" class="foods">
               ${createSkeletonItemTemplate(20)}

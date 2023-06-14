@@ -6,7 +6,7 @@
 }
 
 .detail-page {
-  background-color: #f1f1f1;
+  background-color: var(--grey-f1);
   margin: 0;
 }
 
@@ -23,17 +23,18 @@
   grid-template-columns: 1fr 1fr;
   gap: 50px;
   text-align: left;
-  color: var(--font-color);  
+  color: var(--font-color);
   font-size: 11pt;
   background-color: #fff;
   padding: 30px 40px;
 }
 
 .food h4 {
+  font-size: 14pt;
   color: var(--font-color);
   text-align: left;
   margin-bottom: 18px;
-  border-bottom: 2px solid #EFEAD8;
+  border-bottom: 2px solid var(--grey-color);
   line-height: 2em;
 }
 
@@ -64,7 +65,7 @@
 .food-source-name .icon {
   font-size: 10pt;
   color: var(--main-color);
-  margin-right: 5px;
+  margin-right: 0 5px -10px 0;
 }
 
 .food-type {
@@ -78,7 +79,7 @@
 
 .food-type-list {
   list-style: none;
-  border: 1px solid #d3d3d3;
+  border: 1px solid var(--grey-color);
   padding: 3px 5px;
   margin-right: 5px;
   margin-bottom: 5px;
@@ -90,10 +91,10 @@
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
-  border: 2px solid #EFEAD8;
+  border: 2px solid var(--second-color);
   text-align: center;
   padding: 30px;
-  color: var(--main-color);
+  color: var(--font-color);
 
 }
 
@@ -108,10 +109,6 @@
 }
 
 .food-fact-value {
-  color: var(--third-color);
-}
-
-.food-fact-title .icon {
   color: var(--main-color);
 }
 
@@ -128,7 +125,7 @@
 
 .food-nutrition .food-brackdown {
   display: flex;
-  border-radius: 20px;    
+  border-radius: 20px;
   margin-bottom: 20px;
 }
 
@@ -171,7 +168,7 @@
 
 .food-recipe {
   grid-column-start: 1;
-  grid-column-end: 2;    
+  grid-column-end: 2;
   grid-row-start: 4;
   grid-row-end: 5;
 }
@@ -253,12 +250,10 @@
   line-height: 1.2em;
 }
 
-
 /* ASIDE CONTENT */
-
 .content-aside h4 {
-  font-size: 16pt;
-  border-bottom: 1px solid #d3d3d3; 
+  font-size: 15pt;
+  border-bottom: 1px solid var(--grey-color); 
   padding: 24px 24px 18px 24px;
   margin-bottom: 10px;
 }
@@ -291,7 +286,7 @@
   transition: 0.1s;
 }
 
-.food, .similar-food, .video-similar-food {
+.food, .food-fact, .food-trivia, .similar-food, .video-similar-food {
   border-radius: 10px;
 }
 
@@ -303,9 +298,8 @@
   text-align: left;
   font-size: 11pt;
   border: 2px solid var(--second-color);
-  color: var(--font-color);  
+  color: var(--font-color);
   background-color: #fff;
-  border-radius: 20px;
   padding-bottom: 20px;
 }
 
@@ -322,7 +316,7 @@
   transition: none;
 }
 /* RELATED FOOD */
-.similar-food {    
+.similar-food {
   width: 100%;
   max-width: 860px;
   margin: 0 auto;
@@ -346,14 +340,14 @@
 }
 
 .similar-food-item-info li {
-  display: inline;  
+  display: inline;
   padding-right: 10px;
   margin-right: 10px;
   line-height: none;
 }
 
 .similar-food-item-info .line {
-  border-right: 1px solid #d3d3d3;  
+  border-right: 1px solid var(--grey-color);
 }
 
 /* RELATED VIDEO */
@@ -377,7 +371,7 @@
 
 .video-food-item {
   display: grid;
-  grid-template-columns: 1fr 3fr;    
+  grid-template-columns: 1fr 3fr;
   gap: 20px;
 }
 

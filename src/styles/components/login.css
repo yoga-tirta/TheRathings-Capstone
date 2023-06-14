@@ -48,7 +48,7 @@
   position: absolute;
   bottom: 1rem;
   width: 100%;
-  background-color: var(--grey-hover);
+  background-color: var(--grey-f2);
   padding: 2rem 1rem;
   border-radius: 1rem;
   text-align: center;
@@ -177,7 +177,7 @@
     display: flex;
     width: 600px;
     height: 600px;
-    background-color: var(--grey-hover);
+    background-color: var(--grey-f2);
     border-radius: 1rem;
     padding-left: 1rem;
   }

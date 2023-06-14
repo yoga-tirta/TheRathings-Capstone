@@ -55,7 +55,7 @@ filter-menu.open {
 
 .food-item {
   width: 100%;
-  border: 1px solid #d3d3d3;
+  border: 1px solid var(--grey-color);
   border-radius: 8px;
   overflow: hidden;
   background-color: #fff;
@@ -81,11 +81,11 @@ filter-menu.open {
 }
 
 .food-item-info-mid {
-  border-right: 1px solid #EFEAD8;
-  border-left: 1px solid #EFEAD8;
+  border-right: 1px solid var(--grey-color);
+  border-left: 1px solid var(--grey-color);
 }
 
-.food-item-info ul:first-child  .icon{
+.food-item-info ul:first-child .icon{
   color: var(--second-color);
 }
 
@@ -94,7 +94,7 @@ filter-menu.open {
   margin-right: 4px;
 }
 
-.food-item-info ul:last-child  .icon{
+.food-item-info ul:last-child .icon{
   color: var(--main-color);
 }
 
@@ -103,7 +103,7 @@ filter-menu.open {
 }
 
 .food-item-title {
-  padding: 20px 18px;
+  padding: 16px 18px;
   padding-bottom: 0;
 }
 
@@ -113,6 +113,7 @@ filter-menu.open {
   min-height: 44px;
   min-width: 44px;
   text-decoration: none;
+  text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -139,7 +140,10 @@ filter-menu.open {
 .food-result-message {
   text-align: center;
   color: var(--font-color);
+  border-bottom: 2px solid var(--grey-color);
   padding: 30px;
+  margin-top: -50px;
+  font-size: 24px;
 }
 
 .hide-style {
@@ -180,7 +184,7 @@ filter-menu.open {
   cursor: not-allowed;
   }
 .pagination button:hover:not(.active) {
-  background-color: #d3d3d3;
+  background-color: var(--grey-color);
 }
   
 .pagination button:first-child {

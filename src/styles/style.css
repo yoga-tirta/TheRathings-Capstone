@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&family=Poppins:wght@300;400;600;800&display=swap");
 
-@import url('./components/footer.css');
 @import url('./components/main.css');
+@import url('./components/detail-explore.css');
+@import url('./components/explore.css');
 @import url('./components/about.css');
 @import url('./components/foodthings.css');
 @import url('./components/detail.css');
 @import url('./components/bookmark.css');
 @import url('./components/login.css');
-@import url('./components/detail-explore.css');
-@import url('./components/explore.css');
 
+/* ==================== VAR COLOR ========================= */
 :root {
   --main-color: #009ba0;
   --main-light: #aafcff;
@@ -24,7 +24,10 @@
   --third-dark: #b21001;
 
   --grey-color: #dcdce4;
-  --grey-hover: #f2f2f2;
+  --grey-f1: #f1f1f1;
+  --grey-f2: #f2f2f2;
+
+  --shadow:#dadada;
   --font-color: #252525;
 }
 
@@ -91,6 +94,7 @@
   }
 }
 
+/* ==================== ROOT SETTINGS ========================= */
 * {
   padding: 0;
   margin: 0;
@@ -108,6 +112,11 @@ body {
   flex-direction: column;
 }
 
+ul, li, a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -121,7 +130,7 @@ html::-webkit-scrollbar-thumb {
   border-radius: 0.35rem;
 }
 
-/* APP-BAR */
+/* ==================== NAVBAR ========================= */
 .app-bar {
   padding: 8px 16px;
   background-color: #fff;
@@ -203,7 +212,7 @@ html::-webkit-scrollbar-thumb {
   transition: 0.4s;
 }
 
-/* MAIN CONTENT */
+/* ==================== MAIN CONTENT ========================= */
 main {
   flex: 1;
 }
@@ -220,4 +229,78 @@ main {
   background-image: linear-gradient(to right, rgb(192, 192, 192), rgb(228, 228, 228));
   background-size: 200% 100%;
   animation: anmBg 1s linear 3;
+}
+
+/* ==================== FOOTER ========================= */
+footer .first-footer {
+  display: grid;
+  padding: 40px 60px 30px;
+  background-color: var(--grey-color);
+  margin-bottom: 16px;
+  color: var(--font-color);
+  justify-content: space-between;
+  border-bottom: 2px solid var(--second-color);
+}
+
+footer .navigation-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer .first-footer .footer-header h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+  color: var(--main-color);
+}
+
+footer .first-footer .footer-header p {
+  font-weight: bold;
+}
+
+footer div h1{
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+footer section div ul {
+  padding: 0;
+}
+
+footer section div ul li {
+  list-style: none;
+}
+
+footer section div ul li a {
+  display: block;
+  text-decoration: none;
+  color: var(--font-color);
+  font-size: 16px;
+  line-height: 2;
+  min-height: 44px;
+}
+
+footer section div ul li a:hover {
+  padding-left: 16px;
+  transition: all, ease, 0.8s;
+  color: var(--second-color);
+}
+
+footer section div ul li i {
+  color: var(--main-color);
+  padding-right: 1.5rem;
+}
+
+/* COPYRIGHT */
+footer {
+  background-color: var(--grey-color);
+  margin-bottom: 0;
+}
+
+footer .copyright {
+  text-align: center;
+  color: var(--font-color);
+  font-weight: bold;
+  padding: 0 16px 20px 16px;
 }

@@ -30,7 +30,7 @@
     text-align: center;
   }
 
-  main .second-main img {        
+  main .second-main img {
     max-width: 420px; 
     width: 100%;
   }
@@ -58,7 +58,7 @@
     margin-bottom: 50px;
   }
 
-  main .fourth-main img {        
+  main .fourth-main img {
     max-width: 420px; 
     width: 100%;
   }
@@ -281,7 +281,7 @@
 
   main .second-main .tagline-heading h1, 
   main .third-main .tagline-heading h1, 
-  main .fourth-main .tagline-heading h1,  
+  main .fourth-main .tagline-heading h1,
   main .fifth-main .tagline-heading h1, 
   main .fifth-main .tagline-heading h1
   main .main-galery {
@@ -301,7 +301,7 @@
     font-size: 11pt;
   }
 
-  main .second-main, main .third-main  {
+  main .second-main, main .third-main {
     padding: 40px 30px;
   }
 
@@ -423,14 +423,14 @@
 
   .foodthings-continer {
     gap: 0
-  }       
+  }
 
   .content {
     margin: 10px 0;
-  }    
+  }
 
   .detail-page, .content-aside {
-    background-color: #f1f1f1;
+    background-color: var(--grey-f1);
     padding: 10px 0;
     margin: 0;
   }
@@ -447,7 +447,7 @@
 
   .foods {
     grid-template-columns: repeat(2, 1fr);
-    gap: 8px;  
+    gap: 8px;
   }
 
   .food, .similar-food, .video-similar-food {
@@ -462,12 +462,12 @@
     font-size: 12pt;
     margin: 0;
     padding-bottom: 18px;
-    background-color: #f2f2f2;
+    background-color: var(--grey-f2);
   }
 
   .food-content {
-    background-color: #f2f2f2;
-    padding: 10px;        
+    background-color: var(--grey-f2);
+    padding: 10px;
   }
 
   .food-content-item {
@@ -511,7 +511,7 @@
 
   .food-item-info ul li {
     font-size: 9pt;
-    margin: 0;        
+    margin: 0;
     display: inline;
     text-align: left;
   } 
@@ -554,7 +554,7 @@
     float: left;
     font-size: 11pt;
     padding: 10px 16px;
-    border: 1px solid #d3d3d3;
+    border: 1px solid var(--grey-color);
   }
 
   .bookmark-continer {
@@ -591,13 +591,13 @@
   }
 
   .detail-page {
-    background-color: #f1f1f1;
+    background-color: var(--grey-f1);
     margin: 0;
     padding: 20px;
   }
 
   .content-aside {
-    background-color: #f1f1f1;
+    background-color: var(--grey-f1);
     padding-bottom: 50px;
   }
 
@@ -696,7 +696,7 @@
   }
 
   .detail-page {
-    background-color: #f1f1f1;
+    background-color: var(--grey-f1);
     margin: 0;
     padding: 40px 20px;
   }
@@ -714,7 +714,7 @@
   footer .first-footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 32px
-  }    
+  }
 
   .foods {
     grid-template-columns: repeat(2, 1fr);
@@ -757,7 +757,7 @@ main .fourth-main .tagline-heading, main .fifth-main img, main .fifth-main .tagl
 
   /* DETAIL FOOD */
   .detail-page {
-    background-color: #f1f1f1;
+    background-color: var(--grey-f1);
     margin: 0;
     padding: 50px;
     max-width: 1400px;

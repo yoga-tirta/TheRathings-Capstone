@@ -43,7 +43,7 @@ section.content-explore {
 
 .card-explore {
   width: 310px;
-  background-color: white;
+  background-color: #fff;
   margin: 1em;
   box-sizing: border-box;
   box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px,
@@ -97,7 +97,7 @@ section.content-explore {
 }
 
 p.tag-explore {
-  color: silver;
+  color: #aaa;
 }
 @media only screen and (max-width: 768px) {
   h2.name-explore {

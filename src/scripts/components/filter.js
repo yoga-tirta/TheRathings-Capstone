@@ -48,7 +48,7 @@ class FilterMenu extends HTMLElement {
           width: 240px;
           padding: 30px;
           overflow: hidden;
-          background-color: var(--grey-hover);
+          background-color: var(--grey-f2);
           border: 1px solid var(--grey-color);
           margin: auto auto 30px 30px;
           border-radius: 20px;
@@ -175,7 +175,7 @@ class FilterMenu extends HTMLElement {
         }
         
         .close {
-          color: #aaaaaa;
+          color: #aaa;
           text-align: right;
           font-size: 28px;
           font-weight: bold;
@@ -231,7 +231,7 @@ class FilterMenu extends HTMLElement {
         
         @media screen and (max-width: 550px) {
           .filter-box {
-            background-color: #fff;
+            background-color: transparent;
           }
           .filter-list {
             font-size: 11pt;
@@ -247,7 +247,7 @@ class FilterMenu extends HTMLElement {
             border: 1px solid var(--grey-color);
           }
           .type-filter select {
-            background-color: #f1f1f1;
+            background-color: var(--grey-f1);
           }
           label {
             font-size: 10pt;

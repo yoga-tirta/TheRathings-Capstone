@@ -19,17 +19,17 @@ const Detail = {
         
         <div class="content-aside">
             <div class="food-trivia">
-              <h4><i class="fa-solid fa-lightbulb icon-header"></i> Food Trivia</h4>
+              <h4><i class="fa-solid fa-circle-question icon-header"></i> Did You Know</h4>
               <div id="foodTrivia" class="aside-food-item"></div>
             </div>
             <div class="similar-food">
-              <h4><i class="fa-solid fa-bowl-food icon-header"></i> Related Foods</h4>
+              <h4><i class="fa-solid fa-burger icon-header"></i> Related Recipes</h4>
               <div id="similarFood"></div>
             </div>
             <div class="video-similar-food">
               <h4><i class="fa-brands fa-youtube icon-header"></i> Related Videos</h4>
               <div id="videoFood" class="video-food"></div>
-            </div>              
+            </div>
           </div>
       </div>
     `;

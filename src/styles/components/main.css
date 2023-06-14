@@ -321,6 +321,7 @@ main .fifth-main .benefit .box i {
 
 main .fifth-main .benefit .box i fa-utensils, fa-users, fa-users-clock {
   max-width: 50px;
+  font-size: 24px;
 }
 
 main .fifth-main .benefit .box .content h2 {

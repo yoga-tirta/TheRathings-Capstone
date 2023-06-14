@@ -1,7 +1,7 @@
 const Home = {
   async render() {
     return `
-      <section class="first-main" id="home">  
+      <section class="first-main" id="home">
         <div class="tagline">
           <h2>Welcome To <span>TheRathings</span></h2>
           <h1>Eat Healthy, Eco-Friendly</h1>
@@ -28,7 +28,7 @@ const Home = {
           </p>
           <button onclick="location.href='#/about'">
           Telusuri Sekarang <i class="fas fa-play-circle"></i>
-          </button>        
+          </button>
         </div>
         <div class="tagline-img">
           <picture>
@@ -60,7 +60,7 @@ const Home = {
           <p>Explore pemanfaatan leftover food menjadi makanan lezat cepat saji untuk mengurangi limbah makanan sisa</p>
           <button onclick="location.href='#/explore'">
           Telusuri Sekarang <i class="fas fa-play-circle"></i>
-          </button>        
+          </button>
         </div>
         <div class="tagline-img">
           <picture>
@@ -71,7 +71,7 @@ const Home = {
       </section>
 
       <section class="fifth-main">
-        <h1>Pelajari 3  <span>Tips</span> simple</h1>
+        <h1>Pelajari 3 <span>Tips</span> simple</h1>
         <div class="benefit">
           <div class="box">
             <i class="fas fa-utensils"></i>
@@ -97,7 +97,7 @@ const Home = {
         </div>
       </section>
 
-    <section class="sixth-main" id="home">  
+    <section class="sixth-main" id="home">
       <div class="tagline">
         <h1>Cuplikan <span>Food wastage</span> footprint</h1>
         <p>

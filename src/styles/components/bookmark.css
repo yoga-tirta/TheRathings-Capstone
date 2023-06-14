@@ -5,16 +5,18 @@
 }
 
 .bookmark-continer h2 {
+  text-align: center;
   padding: 10px 0;
-  border-bottom: 1px solid #d3d3d3;
+  border-bottom: 2px solid var(--grey-color);
   margin-bottom: 30px;
+  color: var(--font-color);
 }
 
 .bookmark-continer h4 {
   font-size: 12pt;
   padding: 10px 15px;
-  border: 1px solid #d3d3d3;
-  background-color: #f1f1f1;
+  border: 1px solid var(--grey-color);
+  background-color: var(--grey-f1);
   border-radius: 5px;
   margin-top: 30px;
   max-width: 500px;
@@ -25,11 +27,11 @@
 }
 
 .bookmark-continer .food-item-info-first {
-  border-right: 1px solid #EFEAD8;
+  border-right: 1px solid var(--grey-color);
 }
 
 .bookmark-continer .icon-title {
-  font-size: 26px;
+  font-size: 24px;
   color: var(--main-color);
 }
 

@@ -7,12 +7,12 @@
   align-items: center;
   justify-items: center;
   background-color: #fafafa;
-  border-bottom: 1px solid #d3d3d3;
+  border-bottom: 1px solid var(--grey-color);
 }
 
 .therathings-logo img{
   width: 320px;
-  box-shadow: 0px 0px 10px 5px#dadada ;
+  box-shadow: 0px 0px 10px 5px var(--shadow);
   border-radius: 16px;
   padding: 16px;
 }
@@ -33,7 +33,7 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
-  background-color: #f1f1f1;
+  background-color: var(--grey-f2);
   padding: 48px 128px
 }
 
@@ -57,7 +57,7 @@
 
 .card-profile {
   width: 16rem;
-  box-shadow: 0px 0px 10px 5px #dadada ;
+  box-shadow: 0px 0px 10px 5px var(--shadow);
   background-color: #fff;
   border-radius: 10px;
   display: flex;
@@ -68,7 +68,7 @@
 }
 
 .card-profile:hover {
-  box-shadow: 0px 0px 20px 10px #dadada;
+  box-shadow: 0px 0px 20px 10px var(--shadow);
   transition: all ease .5s;
 }
 
