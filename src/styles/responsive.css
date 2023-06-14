@@ -180,6 +180,17 @@
   .fifth-main .box {
   margin-top: 1rem;
   }
+
+  main .sixth-main {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 64px 30px;
+  }
+
+  main .sixth-main .tagline-img {
+    margin-bottom: 50px ;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -315,13 +326,17 @@
     flex-direction: column;
   }
 
-  main .main-galery {
-    padding: 0;
+  main .sixth-main .tagline {
+    margin: 0;
   }
 
-  main .main-galery .galery-grid {
-    padding: 0 16px;
-    margin-bottom: 40px;
+  main .sixth-main .tagline h1 {
+    font-size: 24pt;
+  }
+
+  main .sixth-main .tagline-img iframe {
+    width: 270px;
+    height: 250px;
   }
 
   .about-therathings {
@@ -385,6 +400,10 @@
 
 @media screen and (max-width: 550px) {
   main .first-main .tagline h1 {
+    font-size: 22pt;
+  }
+
+  main .sixth-main .tagline h1 {
     font-size: 22pt;
   }
 
