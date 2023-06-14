@@ -84,7 +84,7 @@ const Home = {
             <i class="fas fa-users"></i>
             <div class="content">
               <h2>Creativity</h2>
-              <p>Gunakan kreativitas untuk menciptakan hidangan baru dengan bahan-bahan yang tersisa.</p>
+              <p>Gunakan kreativitas kalian dalam menciptakan hidangan baru dengan bahan - bahan yang tersisa dari hidangan sebelumnya.</p>
             </div>
           </div>
           <div class="box">

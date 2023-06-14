@@ -21,6 +21,7 @@ window.addEventListener('load', () => {
   swRegister();
 });
 
+// eslint-disable-next-line func-names
 window.onhashchange = function () {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 };
