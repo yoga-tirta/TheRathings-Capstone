@@ -4,6 +4,44 @@ main h1 {
   font-family: "Poppins", sans-serif;
 }
 
+/* MAIN BUTTON */
+main .first-main button,
+main .second-main button,
+main .third-main button,
+main .fourth-main button,
+main .fifth-main button,
+main .sixth-main button {
+  background-color: var(--second-color);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-family: "montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  min-width: 44px;
+  min-height: 44px;
+  margin-top: 20px;
+  border-color: transparent;
+  border-radius: 0.5rem;
+  border: 0.2rem solid var(--second-color);
+  transition: 0.4s ease;
+  animation: slide_top 0.5s linear forwards;
+  animation-delay: 0.3s;
+}
+
+main .first-main button:hover,
+main .second-main button:hover,
+main .third-main button:hover,
+main .fourth-main button:hover,
+main .fifth-main button:hover,
+main .sixth-main button:hover {
+  color: var(--second-color);
+  background-color: transparent;
+  border: 0.2rem solid var(--second-color);
+}
+
+/* ==================== FIRST MAIN ========================= */
 main .first-main {
   display:flex;
   padding: 72px 64px;
@@ -45,30 +83,8 @@ main .first-main .tagline p {
   animation-delay: 0.3s;
 }
 
-main .first-main .tagline p strong{
+main .first-main .tagline p strong {
   color: var(--second-color);
-}
-
-main .first-main button,
-main .second-main button,
-main .fourth-main button {
-  background-color: var(--second-color);
-  padding: 1rem 2rem;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  font-family: "montserrat", sans-serif;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #fff;
-  min-width: 44px;
-  min-height: 44px;
-  margin-top: 20px;
-  border-color: transparent;
-  border-radius: 0.5rem;
-  border: 0.2rem solid var(--second-color);
-  transition: 0.4s ease;
-  animation: slide_top 0.5s linear forwards;
-  animation-delay: 0.3s;
 }
 
 main .first-main .tagline-img {
@@ -85,6 +101,7 @@ main .first-main .tagline-img img{
   animation-delay: 0.3s;
 }
 
+/* ==================== SECOND MAIN ========================= */
 main .second-main {
   padding: 50px 68px;
   display: flex;
@@ -116,6 +133,7 @@ main .second-main .tagline-heading h1 span {
   color: var(--main-color);
 }
 
+/* ==================== THIRD MAIN ========================= */
 main .third-main {
   padding: 50px 80px;
   display: flex;
@@ -165,38 +183,6 @@ main .third-main .tagline p strong{
   color: var(--second-color);
 }
 
-main .first-main button,
-main .second-main button,
-main .third-main button,
-main .fourth-main button {
-  background-color: var(--second-color);
-  padding: 1rem 2rem;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  font-family: "montserrat", sans-serif;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #fff;
-  min-width: 44px;
-  min-height: 44px;
-  margin-top: 20px;
-  border-color: transparent;
-  border-radius: 0.5rem;
-  border: 0.2rem solid var(--second-color);
-  transition: 0.4s ease;
-  animation: slide_top 0.5s linear forwards;
-  animation-delay: 0.3s;
-}
-
-main .first-main button:hover,
-main .second-main button:hover,
-main .third-main button:hover,
-main .fourth-main button:hover {
-  color: var(--second-color);
-  background-color: transparent;
-  border: 0.2rem solid var(--second-color);
-}
-
 main .third-main .tagline-img {
   display: flex;
   justify-content: center;
@@ -211,6 +197,7 @@ main .third-main .tagline-img img{
   animation-delay: 0.3s;
 }
 
+/* ==================== FOURTH MAIN ========================= */
 main .fourth-main {
   padding: 50px 68px;
   display: flex;
@@ -243,6 +230,7 @@ main .fourth-main .tagline-heading h1 span {
   color: var(--main-color);
 }
 
+/* ==================== FIFTH MAIN ========================= */
 main .fifth-main{
   background-image: url('../../public/img/home/background-fifth-main.png');
   background-color: #ffff;
@@ -304,22 +292,6 @@ main .fifth-main .benefit .box i {
   line-height: 50px;
 }
 
-@media (max-width: 760px) {
-  .benefit .box {
-    margin-top: 1rem;
-  }
-  .fa-utensils {
-    max-width: 50px;
-  }
-  .fa-users {
-    max-width: 50px;
-  }
-  .fa-users-clock {
-    max-width: 50px;
-  }
-
-}
-
 main .fifth-main .benefit .box i fa-utensils, fa-users, fa-users-clock {
   justify-content: right;
   width: 100%;
@@ -337,6 +309,22 @@ main .fifth-main .benefit .box .content p {
   width: 100%;
 }
 
+@media (max-width: 760px) {
+  .benefit .box {
+    margin-top: 1rem;
+  }
+  .fa-utensils {
+    max-width: 50px;
+  }
+  .fa-users {
+    max-width: 50px;
+  }
+  .fa-users-clock {
+    max-width: 50px;
+  }
+}
+
+/* ==================== SIXTH MAIN ========================= */
 main .sixth-main {
   display:flex;
   padding: 72px 64px;
@@ -386,28 +374,5 @@ main .sixth-main .tagline-img iframe{
 }
 
 iframe{
-    margin-top: 50px;
+  margin-top: 50px;
 }
-
-main .sixth-main button,
-main .second-main button,
-main .fourth-main button {
-  background-color: var(--second-color);
-  padding: 1rem 2rem;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  font-family: "montserrat", sans-serif;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #fff;
-  min-width: 44px;
-  min-height: 44px;
-  margin-top: 20px;
-  border-color: transparent;
-  border-radius: 0.5rem;
-  border: 0.2rem solid var(--second-color);
-  transition: 0.4s ease;
-  animation: slide_top 0.5s linear forwards;
-  animation-delay: 0.3s;
-}
-

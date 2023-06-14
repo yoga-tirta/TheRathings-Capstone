@@ -132,7 +132,7 @@ html::-webkit-scrollbar-thumb {
 
 /* ==================== NAVBAR ========================= */
 .navbar {
-  padding: 8px 16px;
+  padding: 8px 8px;
   background-color: #fff;
   display: grid;
   grid-template-columns: 1fr auto auto;
@@ -184,9 +184,9 @@ html::-webkit-scrollbar-thumb {
   position: absolute;
   top: 50px;
   left: -250px;
-  width: 200px;
+  width: 80px;
   transition: all 0.3s;
-  padding: 8px;
+  padding: 8px 4px;
   background-color: #fff;
   overflow: hidden;
 }
@@ -201,7 +201,7 @@ html::-webkit-scrollbar-thumb {
   display: inline-block;
   justify-content: center;
   font-size: 1rem;
-  margin-right: -25px;
+  margin-right: -40px;
   text-decoration: none;
   color: var(--font-color);
   animation: slide_top 0.5s linear forwards;

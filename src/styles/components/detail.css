@@ -286,7 +286,7 @@
   transition: 0.1s;
 }
 
-.food, .food-fact, .food-trivia, .similar-food, .video-similar-food {
+.food, .food-fact, .similar-food, .video-similar-food {
   border-radius: 10px;
 }
 
@@ -300,6 +300,7 @@
   border: 2px solid var(--second-color);
   color: var(--font-color);
   background-color: #fff;
+  border-radius: 20px;
   padding-bottom: 20px;
 }
 

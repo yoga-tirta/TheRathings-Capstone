@@ -19,7 +19,7 @@ const Detail = {
         
         <div class="content-aside">
             <div class="food-trivia">
-              <h4><i class="fa-solid fa-circle-question icon-header"></i> Did You Know</h4>
+              <h4><i class="fa-solid fa-circle-question icon-header"></i> Did You Know ?</h4>
               <div id="foodTrivia" class="aside-food-item"></div>
             </div>
             <div class="similar-food">
