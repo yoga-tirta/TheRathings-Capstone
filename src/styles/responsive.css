@@ -154,7 +154,7 @@
     margin: 0;
   }
 
-  .app-bar .app-bar__menu button{
+  .navbar .navbar-menu button{
     display: flex;
     justify-content: center;
     min-width: 44px;
@@ -164,11 +164,11 @@
     border-radius: 8px;
   }
 
-  .app-bar .app-bar__navigation {
+  .navbar .navbar-navigation {
     height: 90vh;
   }
 
-  .app-bar .app-bar__navigation ul li a {
+  .navbar .navbar-navigation ul li a {
     margin-bottom: 24px;
   }
 
@@ -412,11 +412,11 @@
     padding: 50px 15px;
   }
 
-  .app-bar .app-bar__brand h1 {
+  .navbar .navbar-brand h1 {
     font-size: 17pt;
   }
 
-  .app-bar__brand img {
+  .navbar-brand img {
     width: 28px;
     margin-right: 7px;
   }
@@ -627,7 +627,7 @@
 }
 
 @media screen and (min-width: 800px) {
-  .app-bar .app-bar__brand h1 {
+  .navbar .navbar-brand h1 {
     font-size: 1.5em;
   }
 
@@ -655,34 +655,34 @@
 }
 
 @media screen and (min-width: 950px) {
-  .app-bar {
+  .navbar {
     grid-template-columns: 1fr auto;
     padding: 8px 32px;
   }
 
-  .app-bar .app-bar__brand h1 {
+  .navbar .navbar-brand h1 {
     font-size: 1.5em;
   }
 
-  .app-bar .app-bar__menu {
+  .navbar .navbar-menu {
     display: none;
   }
 
-  .app-bar .app-bar__navigation {
+  .navbar .navbar-navigation {
     position: static;
     width: 100%;
   }
 
-  .app-bar .app-bar__navigation ul {
+  .navbar .navbar-navigation ul {
     margin: auto 0;
   }
 
-  .app-bar .app-bar__navigation ul li {
+  .navbar .navbar-navigation ul li {
     display: inline-block;
     align-items: center;
   }
 
-  .app-bar .app-bar__navigation ul li a {
+  .navbar .navbar-navigation ul li a {
     display: flex;
     align-items: center;
     width: 150px;

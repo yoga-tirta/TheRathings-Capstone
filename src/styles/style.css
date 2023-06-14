@@ -131,7 +131,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 /* ==================== NAVBAR ========================= */
-.app-bar {
+.navbar {
   padding: 8px 16px;
   background-color: #fff;
   display: grid;
@@ -145,7 +145,7 @@ html::-webkit-scrollbar-thumb {
   justify-content: space-between;
 }
 
-.app-bar .app-bar__brand {
+.navbar .navbar-brand {
   margin: 0;
   display: flex;
   align-content: center;
@@ -153,13 +153,13 @@ html::-webkit-scrollbar-thumb {
   animation: slide_left 0.5s linear forwards;
 }
 
-.app-bar .app-bar__brand img {
+.navbar .navbar-brand img {
   width: 40px;
   margin-left: 20px;
   margin-right: 10px;
 }
 
-.app-bar .app-bar__brand h1 {
+.navbar .navbar-brand h1 {
   color: var(--main-color);
   font-weight: bold;
   padding-top: 8px;
@@ -167,12 +167,12 @@ html::-webkit-scrollbar-thumb {
   line-height: 0;
 }
 
-.app-bar .app-bar__menu {
+.navbar .navbar-menu {
   display: flex;
   align-items: center;
 }
 
-.app-bar .app-bar__menu button {
+.navbar .navbar-menu button {
   background-color: transparent;
   border: none;
   font-size: 18px;
@@ -180,7 +180,7 @@ html::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
-.app-bar .app-bar__navigation {
+.navbar .navbar-navigation {
   position: absolute;
   top: 50px;
   left: -250px;
@@ -191,13 +191,13 @@ html::-webkit-scrollbar-thumb {
   overflow: hidden;
 }
 
-.app-bar .app-bar__navigation.open {
+.navbar .navbar-navigation.open {
   top: 60px;
   left: 0;
   height: 261px;
 }
 
-.app-bar .app-bar__navigation ul li a {
+.navbar .navbar-navigation ul li a {
   display: inline-block;
   text-align: center;
   font-size: 1rem;
@@ -207,7 +207,7 @@ html::-webkit-scrollbar-thumb {
   animation: slide_top 0.5s linear forwards;
 }
 
-.app-bar .app-bar__navigation ul li a:hover {
+.navbar .navbar-navigation ul li a:hover {
   color: var(--main-color);
   transition: 0.4s;
 }
