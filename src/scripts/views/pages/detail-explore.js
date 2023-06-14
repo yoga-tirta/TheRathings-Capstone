@@ -20,7 +20,7 @@ const DetailExplore = {
       filteredData.forEach((resto) => {
         const content = `
           <section class="card-detail-explore">
-            <section class="breadcumb-detail-explore">
+            <section class="breadcumb-detail-explore" id="fokus">
               <p>
                 <a href="/#/explore">Explore</a> /
                 <span>${resto.nama}</span>
