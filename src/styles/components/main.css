@@ -232,6 +232,7 @@ main .fourth-main .tagline-heading h1 span {
 
 /* ==================== FIFTH MAIN ========================= */
 main .fifth-main{
+  padding: 50px 80px;
   background-image: url('../../public/img/home/background-fifth-main.png');
   background-color: #ffff;
   background-size: cover;
