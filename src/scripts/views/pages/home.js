@@ -24,10 +24,10 @@ const Home = {
       <section class="second-main" id="about">
         <div class="tagline-heading">
           <h1>Kenalan sama <span>TheRathings</span> yuk!</h1>
-          <p>Team <strong>TheRathings</strong> Terdiri Dari Mahasiswa Dan Mahasiswi Yang Berfokus Dalam Dunia Teknologi Informasi, Khususnya Dalam Bidang Front-End Dan Back End Website Developer. .
+          <p>Team <strong>TheRathings</strong> Terdiri Dari Mahasiswa Dan Mahasiswi Yang Berfokus Dalam Dunia Teknologi Informasi, Khususnya Dalam Bidang Front-End Dan Back End Website Developer.
           </p>
           <button onclick="location.href='#/about'">
-          Telusuri Sekarang <i class="fas fa-play-circle"></i>
+          Selengkapnya <i class="fa fa-arrow-right"></i>
           </button>
         </div>
         <div class="tagline-img">
@@ -43,7 +43,7 @@ const Home = {
           <h1>Telusuri berbagai<span> Resep<br>Makanan</span> Sehat!</h1>
           <p>Yuk, telusuri rekomendasi Makanan sehat dan bergizi versi The Rathings sesuai jenis makanan untuk menu makanan mu hari ini. <br>Keep healthy and eco-friendly!</p>
           <button onclick="location.href='#/foodthings'">
-          Telusuri Sekarang <i class="fas fa-play-circle"></i>
+          Selengkapnya <i class="fa fa-arrow-right"></i>
           </button>
         </div>
         <div class="tagline-img">
@@ -59,7 +59,7 @@ const Home = {
           <h1>Yuk! <span>Explore</span> restaurant <br><span> food waste</span> disekitarmu</h1>
           <p>Explore pemanfaatan leftover food menjadi makanan lezat cepat saji untuk mengurangi limbah makanan sisa</p>
           <button onclick="location.href='#/explore'">
-          Telusuri Sekarang <i class="fas fa-play-circle"></i>
+          Selengkapnya <i class="fa fa-arrow-right"></i>
           </button>
         </div>
         <div class="tagline-img">
@@ -97,23 +97,23 @@ const Home = {
         </div>
       </section>
 
-    <section class="sixth-main" id="home">
-      <div class="tagline">
-        <h1>Cuplikan <span>Food wastage</span> footprint</h1>
-        <p>
-          Yuk, saksikan cuplikan video jejak pemborosan makanan yang menjadi salah satu faktor leftover food.
-        </p>
-        <button onclick="location.href='https://youtu.be/IoCVrkcaH6Q'">
-          Saksikan Sekarang <i class="fas fa-play-circle"></i>
-        </button>
-      </div>
-      <div class="tagline-img">
-        <picture>
-          <source media="(min-width: 750px; max-width: 900px)" srcset="./img/home/sixth-main.png"/>
-          <iframe src="https://www.youtube.com/embed/IoCVrkcaH6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </picture>
-      </div>
-    </section>
+      <section class="sixth-main" id="home">
+        <div class="tagline">
+          <h1>Apa itu <span>Food wastage</span>?</h1>
+          <p>
+            <b>Food wastage</b> system dirancang untuk mengurangi jumlah <br>
+            limbah makanan yang dihasilkan oleh bisnis dan rumah tangga. <br>
+            Sistem ini biasanya melibatkan praktik seperti pengomposan, <br>
+            daur ulang, dan pencernaan anaerobik.<br>
+          </p>
+        </div>
+        <div class="tagline-img">
+          <picture>
+            <source media="(min-width: 750px; max-width: 900px)" srcset="./img/home/sixth-main.png"/>
+            <iframe src="https://www.youtube.com/embed/IoCVrkcaH6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </picture>
+        </div>
+      </section>
     `;
   },
 

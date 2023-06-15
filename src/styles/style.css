@@ -183,8 +183,8 @@ html::-webkit-scrollbar-thumb {
 .navbar .navbar-navigation {
   position: absolute;
   top: 50px;
-  left: -250px;
-  width: 80px;
+  left: -150px;
+  width: 150px;
   transition: all 0.3s;
   padding: 8px 4px;
   background-color: #fff;
@@ -210,6 +210,17 @@ html::-webkit-scrollbar-thumb {
 .navbar .navbar-navigation ul li a:hover {
   color: var(--main-color);
   transition: 0.4s;
+}
+
+.login-button-home {
+  display: block;
+  margin: 0;
+  margin-right: 50px;
+  background-color: var(--main-color);
+  color: #FFF;
+  text-align: center;
+  border-radius: .5rem;
+  transition: .3s;
 }
 
 /* ==================== MAIN CONTENT ========================= */

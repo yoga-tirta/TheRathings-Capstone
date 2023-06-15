@@ -44,7 +44,7 @@ main .sixth-main button:hover {
 /* ==================== FIRST MAIN ========================= */
 main .first-main {
   display:flex;
-  padding: 72px 64px;
+  padding: 80px 72px;
   margin: 0 auto;
   background-color: #fdfdfd;
   justify-content: space-evenly;
@@ -103,7 +103,7 @@ main .first-main .tagline-img img{
 
 /* ==================== SECOND MAIN ========================= */
 main .second-main {
-  padding: 50px 68px;
+  padding: 80px 72px;
   display: flex;
   flex-direction: row-reverse;
   text-align: center;
@@ -135,7 +135,7 @@ main .second-main .tagline-heading h1 span {
 
 /* ==================== THIRD MAIN ========================= */
 main .third-main {
-  padding: 50px 80px;
+  padding: 80px 72px;
   display: flex;
   background-color: #fff;
   text-align: center;
@@ -199,7 +199,7 @@ main .third-main .tagline-img img{
 
 /* ==================== FOURTH MAIN ========================= */
 main .fourth-main {
-  padding: 50px 68px;
+  padding: 80px 72px;
   display: flex;
   flex-direction: row-reverse;
   text-align: center;
@@ -231,25 +231,16 @@ main .fourth-main .tagline-heading h1 span {
 }
 
 /* ==================== FIFTH MAIN ========================= */
-main .fifth-main{
-  padding: 50px 80px;
+main .fifth-main {
+  padding: 80px 96px;
   background-image: url('../../public/img/home/background-fifth-main.png');
   background-color: #ffff;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
-
-}
-main .fifth-main .benefit {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  gap: 1.5rem;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
-main .fifth-main h1{
+main .fifth-main h1 {
   font-size: 30px;
   color: var(--second-color);
   margin-bottom: 30px;
@@ -269,13 +260,22 @@ main .fifth-main .benefit .box {
   animation: slide_left .2s linear forwards;
 }
 
+main .fifth-main .benefit {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 main .fifth-main .benefit .box .content {
   width: 100%;
   max-width: 1200px;
   padding: 1em;
   box-sizing: border-box;
   display: flex;
-  margin: 1rem auto;
+  margin: -8px auto;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
@@ -305,7 +305,6 @@ main .fifth-main .benefit .box .content h2 {
 }
 
 main .fifth-main .benefit .box .content p {
-  padding-top: 0.5rem;
   font-size: 15px;
   width: 100%;
 }
@@ -328,11 +327,9 @@ main .fifth-main .benefit .box .content p {
 /* ==================== SIXTH MAIN ========================= */
 main .sixth-main {
   display:flex;
-  padding: 72px 64px;
+  padding: 80px 72px;
   margin: 0 auto;
   background-color: #fff;
-  text-align: center;
-  align-items: center;
   background-image: url('../../public/img/home/background-sixth-main.png');
   background-size: cover;
   background-repeat: no-repeat;
