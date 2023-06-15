@@ -50,22 +50,22 @@ const createFoodDetailTemplate = (food) => `
   <div class="food-fact">
     <h4>Menu Statistic</h4>
     <div class="food-fact-item">
-    <div>
-      <li class="food-fact-value"><i class="fa-solid fa-heart-pulse icon"></i></li>
-      <li class="food-fact-title">${food.healthScore}% Healthy Food</li>
-    </div>
-    <div>
-      <li class="food-fact-value"><i class="fa-solid fa-scale-balanced icon"></i></li>
-      <li class="food-fact-title">${food.weightWatcherSmartPoints} Weight Score</li>
-    </div>
-    <div>
-      <li class="food-fact-value"><i class="fa-solid fa-clock icon"></i></li>
-      <li class="food-fact-title">Ready In ${food.readyInMinutes} Minutes</li>
-    </div>
-    <div>
-      <li class="food-fact-value"><i class="fa-solid fa-bowl-food icon"></i></li>
-      <li class="food-fact-title">Fit for ${food.servings} Portions</li>
-    </div>
+      <div>
+        <li class="food-fact-value"><i class="fa-solid fa-heart-pulse icon"></i></li>
+        <li class="food-fact-title">${food.healthScore}% Healthy Food</li>
+      </div>
+      <div>
+        <li class="food-fact-value"><i class="fa-solid fa-clock icon"></i></li>
+        <li class="food-fact-title">Ready In ${food.readyInMinutes} Minutes</li>
+      </div>
+      <div>
+        <li class="food-fact-value"><i class="fa-solid fa-bowl-food icon"></i></li>
+        <li class="food-fact-title">Fit for ${food.servings} Portions</li>
+      </div>
+      <div>
+        <li class="food-fact-value"><i class="fa-solid fa-scale-balanced icon"></i></li>
+        <li class="food-fact-title">${food.weightWatcherSmartPoints} Weight Score</li>
+      </div>
     </div>
   </div>
 
@@ -88,20 +88,19 @@ const createFoodDetailTemplate = (food) => `
       </li>
     </div>
     <div class="food-nutrition-list">
-    <table>
-      ${food.nutrition.nutrients.map((nutrient) => `
-        <tr>
-          <td>${nutrient.name}</td>
-          <td>${parseInt(nutrient.amount)} ${nutrient.unit}</td>
-          <td>${parseInt(nutrient.percentOfDailyNeeds)}%</td>
-        </tr>
-      `).join('')}
-    </table>
+      <table>
+        ${food.nutrition.nutrients.map((nutrient) => `
+          <tr>
+            <td>${nutrient.name}</td>
+            <td>${parseInt(nutrient.amount)} ${nutrient.unit}</td>
+            <td>${parseInt(nutrient.percentOfDailyNeeds)}%</td>
+          </tr>
+        `).join('')}
+      </table>
     </div>
     <div class="food-nutrition-label">
       <img class="lazyload" data-src="${CONFIG.BASE_URL}recipes/${food.id}/nutritionLabel.png?${CONFIG.API_KEY}" alt="Nutrition Label" crossorigin="anonymous">
     </div>
-    
   </div>
 
   <div class="food-recipe">
