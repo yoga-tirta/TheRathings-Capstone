@@ -99,6 +99,7 @@ section.content-explore {
 p.tag-explore {
   color: #aaa;
 }
+
 @media only screen and (max-width: 768px) {
   h2.name-explore {
     font-size: 1.4rem;

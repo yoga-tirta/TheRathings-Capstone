@@ -16,8 +16,7 @@
   display: grid;
   grid-template-columns: 100%;
   height: 100vh;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin: 1em 1.5rem;
 }
 
 .login-content{
@@ -41,7 +40,7 @@
 
 .login-forms{
   position: relative;
-  height: 368px;
+  height: 360px;
 }
 
 .login-register, .login-create{
@@ -132,13 +131,18 @@
 }
 
 .login-social-media{
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
-.login-social-media-icon{
+.login-social-media-icon {
   font-size: 1.5rem;
   color: var(--main-dark);
   margin: 0 1.5rem;
+}
+
+.login-social-media-icon:hover {
+  color: var(--main-color);
+  transition: 0.2s;
 }
 
 .block{
@@ -150,13 +154,6 @@
   .login-forms{
     width: 348px;
     justify-self: center;
-  }
-}
-
-@media screen and (min-width: 768px){
-  :root{
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
   }
 }
 
@@ -196,6 +193,6 @@
   }
 
   .login-create{
-    bottom: -5.5rem;
+    bottom: -6rem;
   }
 }

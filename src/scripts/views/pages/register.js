@@ -34,9 +34,9 @@ const Register = {
               </div>
 
               <div class="login-social-media">
-                <a href="#" class="login-social-media-icon"><i class='fab fa-facebook' ></i></a>
-                <a href="#" class="login-social-media-icon"><i class='fab fa-instagram' ></i></a>
-                <a href="#" class="login-social-media-icon"><i class='fab fa-google' ></i></a>
+                <a href="#/register" class="login-social-media-icon"><i class='fab fa-facebook' ></i></a>
+                <a href="#/register" class="login-social-media-icon"><i class='fab fa-instagram' ></i></a>
+                <a href="#/register" class="login-social-media-icon"><i class='fab fa-google' ></i></a>
               </div>
             </form>
           </div>

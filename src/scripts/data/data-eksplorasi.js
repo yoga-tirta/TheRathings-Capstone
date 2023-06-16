@@ -89,7 +89,7 @@ const dataEksplorasi = [
       'Layanan Servis: Pesan Antar (Delivery)',
     ],
     deskripsi:
-      'McDonalds adalah sebuah waralaba restoran cepat saji global yang menawarkan berbagai macam burger, seperti Big Mac, Cheeseburger, dan Quarter Pounder, dengan variasi pilihan topping dan saus.',
+      'McDonalds adalah sebuah waralaba restoran cepat saji global yang sajikan berbagai macam burger, seperti Big Mac, Cheeseburger, dan Quarter Pounder, dengan variasi pilihan topping dan saus.',
     manfaat: [
       'Ubah food waste menjadi peluang kuliner yang luar biasa! Jadilah bagian dari gerakan kami untuk mengurangi pemborosan makanan. Tunjukkan kreativitasmu, selamatkan lingkungan, dan buat hidangan tak terlupakan. Segera hubungi layanan kami untuk memulai perjalananmu!',
     ],
