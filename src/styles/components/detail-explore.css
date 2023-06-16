@@ -1,18 +1,13 @@
 /* ==================== DETAIL EXPLORE ========================= */
 
-section .content-detail-explore {
-  width: 100%;
+section.content-detail-explore {
+  width: 80%;
   max-width: 1200px;
   padding: 1em;
   display: flex;
-  margin: 1rem auto;
+  margin: 5rem auto;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
-
-main section{
-  width: 95%;
-  padding: 1em;
 }
 
 .breadcumb-detail-explore {
@@ -29,6 +24,7 @@ main section{
 
 h2, h3 {
   color: var(--main-color);
+  padding-top: 2rem;
 }
 
 h2 {
@@ -169,7 +165,6 @@ h2 {
   opacity: 0;
   animation: slide_up 0.5s linear forwards;
   animation-delay: 2.5s;
-  width: 95%;
 }
 .resep-detail-explore section {
   padding: 2rem;
@@ -181,6 +176,11 @@ h2 {
 .resep-detail-explore h2 {
   text-align: center;
   margin: 1em 0;
+}
+
+.resep-detail-explore ul {
+  word-wrap: break-word;
+  text-overflow: clip;
 }
 
 .sumber-detail-explore {
