@@ -12,14 +12,16 @@ const About = {
         </div>
         <div class="therathings-description">
           <h1>About TheRathings</h1>
-          <p>Anda saat ini sedang mengakses Website TheRathings. TheRathings dibangun dan dirancang oleh empat orang dengan visi untuk membantu mengelola permasalahan leftover food (makanan sisa). TheRathings juga memberikan rekomendasi tentang gaya hidup yang sehat dengan fokus pada pemilihan makanan dan minuman yang sehat.</p>
+          <p>Anda saat ini sedang mengakses Website TheRathings. TheRathings dibangun dan dirancang oleh empat orang dengan visi untuk membantu mengelola permasalahan 
+          leftover food (makanan sisa). TheRathings juga memberikan rekomendasi tentang gaya hidup yang sehat dengan fokus pada pemilihan makanan dan minuman yang sehat.</p>
         </div>
       </section>
 
       <section class="about-team">
         <div class="team-description">
           <h1>Our Best Team</h1>
-          <p>Team kami terdiri dari mahasiswa dan mahasiswi yang berfokus dalam dunia Teknologi Informasi, khususnya dalam bidang Front-End dan Back End Website Developer. Misi kami adalah untuk membantu sesama terutama masyarakat yang ada disekitar kami. Harapan kami dengan dibuatnya Website TheRathings adalah agar dapat membantu masyarakat dalam memberikan referensi tentang Gaya Hidup yang sehat dengan fokus pada pemilihan makanan dan minuman yang sehat untuk dikonsumsi.</p> 
+          <p>Team <b>TheRathings</b> terdiri dari empat mahasiswa berpengalaman yang berasal dari empat universitas berbeda diseluruh Indonesia. Kami akan terus berinovasi 
+          dan selalu berusaha untuk melakukan yang terbaik dengan semangat juang yang tinggi demi menciptakan lingkungan yang baik dengan terobosan baru yang kita ciptakan!
         </div>
         <div class="team-profile">
           <div class="card-profile">

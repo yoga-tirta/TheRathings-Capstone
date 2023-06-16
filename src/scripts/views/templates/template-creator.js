@@ -49,7 +49,9 @@ const createFoodDetailTemplate = (food) => `
   </div>
 
   <div class="food-fact">
-    <h4>Menu Statistic</h4>
+    <h4>
+      <i class="fa-solid fa-chart-bar icon-header"></i> Menu Statistic
+    </h4>
     <div class="food-fact-item">
       <div>
         <li class="food-fact-value"><i class="fa-solid fa-heart-pulse icon"></i></li>
@@ -71,7 +73,7 @@ const createFoodDetailTemplate = (food) => `
   </div>
 
   <div class="food-nutrition">
-    <h4>Menu Nutritions</h4>
+    <h4><i class="fa-brands fa-nutritionix icon-header"></i> Menu Nutritions</h4>
     <div class="food-brackdown-title">
       <li><i class="fas fa-circle icon-protein"></i> Proteins</li>
       <li><i class="fas fa-circle icon-fat"></i> Fats</li>
@@ -105,7 +107,9 @@ const createFoodDetailTemplate = (food) => `
   </div>
 
   <div class="food-recipe">
-    <h4>Menu Ingredients</h4>
+    <h4>
+      <i class="fa-solid fa-pepper-hot icon-header"></i> Menu Ingredients
+    </h4>
     <p>
       ${food.extendedIngredients.map((ingredient) => `
         <p>${ingredient.original}</p>
@@ -113,10 +117,14 @@ const createFoodDetailTemplate = (food) => `
     </p>
     <img class="food-ingredient-image lazyload" data-src="${CONFIG.BASE_URL}recipes/${food.id}/ingredientWidget.png?${CONFIG.API_KEY}" alt="Ingredients" crossorigin="anonymous">
     
-    <h4>Cook Equipments</h4>
+    <h4>
+      <i class="fa-solid fa-kitchen-set icon-header"></i> Cook Equipments
+    </h4>
     <img class="food-equipments lazyload" data-src="${CONFIG.BASE_URL}recipes/${food.id}/equipmentWidget.png?${CONFIG.API_KEY}" alt="Equipments" crossorigin="anonymous">
 
-    <h4>Menu Instructions</h4>
+    <h4>
+      <i class="fa-solid fa-newspaper icon-header"></i> Menu Instructions
+    </h4>
     <p>
       ${food.analyzedInstructions.map((instruction) => `
         <ol>${instruction.steps.map((step) => `
@@ -127,7 +135,9 @@ const createFoodDetailTemplate = (food) => `
   </div>
 
   <div class="food-summary">
-    <h4>Menu Summary</h4>
+    <h4>
+      <i class="fa-solid fa-lightbulb icon-header"></i> Menu Summary
+    </h4>
     <p>${food.summary}</p>
   </div>
 `;
