@@ -1,7 +1,7 @@
 {
   "name": "TheRathings",
-  "short_name": "TheRathings",
-  "description": "Eat healthy eco-friendly",
+  "short_name": "The Rathings",
+  "description": "Eat healthy, Eco-friendly",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",

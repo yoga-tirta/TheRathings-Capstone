@@ -71,7 +71,9 @@ const DetailExplore = {
                   </div>
                   <div class="sumber-detail-explore">
                     (sumber :
-                      <span>${resto.sumber}</span>
+                      <a href="${resto.sumber}">
+                        <span>${resto.sumber}</span>
+                      </a>
                     )
                   </div>
                 </section>

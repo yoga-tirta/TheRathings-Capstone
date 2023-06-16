@@ -1,3 +1,4 @@
+/* eslint-disable prefer-regex-literals */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
@@ -84,7 +85,6 @@ module.exports = {
       clientsClaim: true,
       runtimeCaching: [
         {
-          // eslint-disable-next-line prefer-regex-literals
           urlPattern: new RegExp('^https://api.spoonacular.com/'),
           handler: 'StaleWhileRevalidate',
           options: {

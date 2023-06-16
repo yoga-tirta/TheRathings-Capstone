@@ -49,7 +49,7 @@ class FilterMenu extends HTMLElement {
           padding: 30px;
           overflow: hidden;
           background-color: var(--grey-f2);
-          border: 1px solid var(--grey-color);
+          border: 1px solid var(--font-color);
           margin: auto auto 30px 30px;
           border-radius: 20px;
         }
@@ -185,7 +185,7 @@ class FilterMenu extends HTMLElement {
         }
         
         .close:hover, .close:focus {
-          color: #000;
+          color: var(--font-color);
           text-decoration: none;
           cursor: pointer;
         }

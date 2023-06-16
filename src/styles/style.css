@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&family=Poppins:wght@300;400;600;800&display=swap");
 
-@import url('./components/main.css');
-@import url('./components/detail-explore.css');
+@import url('./components/home.css');
 @import url('./components/explore.css');
-@import url('./components/about.css');
+@import url('./components/detail-explore.css');
 @import url('./components/foodthings.css');
 @import url('./components/detail.css');
 @import url('./components/bookmark.css');
+@import url('./components/about.css');
 @import url('./components/login.css');
 
 /* ==================== VAR COLOR ========================= */
@@ -140,7 +140,7 @@ html::-webkit-scrollbar-thumb {
   position: sticky;
   top: 0;
   z-index: 99;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
   align-items: center;
   justify-content: space-between;
 }

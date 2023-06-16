@@ -109,7 +109,7 @@ main .second-main {
   text-align: center;
   align-items: center;
   background-color: #fff;
-  background-image: url('../../public/img/home/background-tagline-why.png');  background-size: cover;
+  background-image: url('../../public/img/home/background-tagline.png');  background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
   font-size: 16px;
@@ -140,7 +140,6 @@ main .third-main {
   background-color: #fff;
   text-align: center;
   align-items: center;
-  
   font-size: 16px;
 }
 
@@ -205,7 +204,7 @@ main .fourth-main {
   text-align: center;
   align-items: center;
   background-color: #ffff;
-  background-image: url('../../public/img/home/background-tagline-why.png');
+  background-image: url('../../public/img/home/background-tagline.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;

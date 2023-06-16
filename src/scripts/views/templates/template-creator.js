@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable no-plusplus */
 /* eslint-disable radix */
 import CONFIG from '../../globals/config';
@@ -148,7 +149,7 @@ const createSimilarFoodItemTemplate = (food) => `
 const createVideoFoodItemTemplate = (video) => `
   <div class="aside-food-item video-aside">
     <a class="video-food-item" href="https://www.youtube.com/watch?v=${video.youTubeId}">
-    <img class="video-food-item-thumbnail lazyload" data-src="${video.thumbnail}" alt="${video.shortTitle}" crossorigin="anonymous">
+    <img class="video-food-item-thumbnail lazyload" data-src="${video.thumbnail}" alt="${food.shortTitle}">
     <div class="video-food-item-content">
         <h5 class="video-food-item-title">${video.shortTitle}</h5>
         <div class="video-food-item-info">
@@ -165,7 +166,7 @@ const createVideoFoodItemTemplate = (video) => `
 const createBookmarkItemTemplate = (food) => `
   <div class="food-item">
     <a href="${`/#/detail/${food.id}`}">
-      <img src="${food.image}" class="food-item-image" alt="${food.title}" crossorigin="anonymous">
+      <img class="food-item-image" data-src="${food.image}" alt="${food.title}" crossorigin="anonymous">
     </a>
 
     <div class="food-item-main">
@@ -197,6 +198,7 @@ const createSavedButtonTemplate = () => `
   </button>
 `;
 
+// ==================== SKELETON UI =========================
 const createSkeletonItemTemplate = (count) => {
   let template = '';
 
@@ -206,19 +208,19 @@ const createSkeletonItemTemplate = (count) => {
       <img class="food-item-image skeleton lazyload" data-src="./skeleton.png" alt="Food Image" crossorigin="anonymous">
         <div class="food-item-info">
           <ul class="skeleton">
-            <li><i>80%</i></li>
+            <li><i>??%</i></li>
             <li class="food-item-info-text">Healthy</li>
           </ul>
           <ul class="food-item-info-mid skeleton">
-            <li><i>80</i></li>
+            <li><i>??</i></li>
             <li class="food-item-info-text">Minutes</li> 
           </ul>
           <ul class="skeleton">
-            <li><i>80</i></li>
+            <li><i>??</i></li>
             <li class="food-item-info-text">Portions</li>
           </ul>
         </div>
-          <h5 class="skeleton">Lorem ipsum dolor sit.</h5>
+          <h5 class="skeleton">Lorem ipsum dolor sit amet.</h5>
           <p class="skeleton">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci alias aspernatur, assumenda aut consectetur consequuntur.</p>
       </div>
     `;
@@ -232,12 +234,12 @@ const createSkeletonDetailTemplate = (count) => {
 
   for (let i = 0; i < count; i++) {
     template += `
-      <h2 class="food-title skeleton">How to make a healthy food</h2>
+      <h2 class="food-title skeleton">Lorem ipsum dolor sit amet.</h2>
       <img class="food-image lazyload" data-src="./skeleton.png" alt="Food Image" crossorigin="anonymous">
     
       <div class="food-information skeleton">
-        <p class="food-source skeleton">from www.pinkwhen.com</p>
-        <p class="food-type skeleton">Food Type : lunch main course main dish dinner</p>
+        <p class="food-source skeleton">from www.therathings.com</p>
+        <p class="food-type skeleton">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         <div id="saveButtonContainer" class="food-action skeleton"></div>
       </div>
     
@@ -245,16 +247,16 @@ const createSkeletonDetailTemplate = (count) => {
         <h4 class="skeleton"></h4>
         <table>
           <tr>
-            <td class="food-fact-value skeleton">10</td>
-            <td class="food-fact-value skeleton">10</td>
-            <td class="food-fact-value skeleton">10</td>
-            <td class="food-fact-value skeleton">10</td>
+            <td class="food-fact-value skeleton">Icon</td>
+            <td class="food-fact-value skeleton">Icon</td>
+            <td class="food-fact-value skeleton">Icon</td>
+            <td class="food-fact-value skeleton">Icon</td>
           </tr>
           <tr>
-            <td class="food-fact-title"><i class="skeleton"></i> Healthiness</td>
-            <td class="food-fact-title"><i class="skeleton"></i> Weight Score</td>
-            <td class="food-fact-title"><i class="skeleton"></i> Minutes</td>
-            <td class="food-fact-title"><i class="skeleton"></i> Portions</td>
+            <td class="food-fact-title"><i class="skeleton"></i>??% Healthy Food</td>
+            <td class="food-fact-title"><i class="skeleton"></i>Ready In ?? Minutes</td>
+            <td class="food-fact-title"><i class="skeleton"></i>Fit for ?? Portions</td>
+            <td class="food-fact-title"><i class="skeleton"></i>?? Weight Score</td>
           </tr>
         </table>
       </div>
@@ -274,16 +276,16 @@ const createSkeletonBookmarkTemplate = (count) => {
           <ul class="bookmark-item-info-icon">
             <li class="skeleton">Logo</li>
             <li class="skeleton">Healthy</li>
-            <li class="skeleton">24</li>
+            <li class="skeleton">??</li>
           </ul>
           <ul>
             <li class="skeleton">Logo</li>
             <li class="skeleton">Portions</li>
-            <li class="skeleton">24</li>
+            <li class="skeleton">??</li>
           </ul>
         </div>
         <div class="food-item-content">
-        <h5 class="skeleton">Lorem ipsum dolor sit.</h5>
+        <h5 class="skeleton">Lorem ipsum dolor sit amet.</h5>
         <p class="skeleton">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci alias aspernatur, assumenda aut consectetur consequuntur.</p>
         </div>
       </div>

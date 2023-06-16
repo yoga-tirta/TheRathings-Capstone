@@ -1,5 +1,6 @@
 /* ==================== RESPONSIVE ========================= */
 
+/* ICON */
 .fa-utensils {
   font-size: 24px; 
 }
@@ -34,6 +35,7 @@
   }
 }
 
+/* ==================== MAX WIDTH ========================= */
 @media screen and (max-width: 1200px) {
   main .second-main {
     align-items: center;
@@ -115,7 +117,7 @@
     width: 100%; 
     height: 100%; 
     overflow: auto; 
-    background-color: #000;
+    background-color: var(--grey-f2);
   }
 
   .food-content {
@@ -158,7 +160,7 @@
     padding: 30px 32px;
   }
 
-  main .second-main .tagline-why, .second-main .tagline-heading h1 {
+  main .second-main .tagline-heading h1 {
     padding: 0;
     margin: 0;
   }
@@ -275,7 +277,7 @@
     height: 240px;
   }
 
-  main .second-main .tagline-why .img-container img {
+  main .second-main .img-container img {
     width: 240px;
     height: 240px;
     justify-content: center;
@@ -292,7 +294,7 @@
   }
 
   main .second-main {
-    background-image: url('../public/img/home/background-tagline-why.png');
+    background-image: url('../public/img/home/background-tagline.png');
   }
 
   main .second-main .tagline p {
@@ -553,7 +555,7 @@
   }
 
   .pagination button {
-    color: #000;
+    color: var(--font-color);
     float: left;
     font-size: 11pt;
     padding: 10px 16px;
@@ -582,6 +584,10 @@
     padding: 0;
   }
 }
+
+/* ==================== END MAX WIDTH ========================= */
+
+/* ==================== MIN WIDTH ========================= */
 
 @media screen and (min-width: 550px) {
   .foods {
@@ -615,7 +621,7 @@
 }
 
 @media screen and (min-width: 650px) {
-  main .second-main .tagline-why .img-container img {
+  main .second-main .img-container img {
     justify-content: center;
     margin-bottom: 24px;
   }
@@ -708,7 +714,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  main .second-main .tagline-why .img-container img {
+  main .second-main .img-container img {
     margin-right: 80px;
   }
 
@@ -738,6 +744,7 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   main .fifth-main {
     padding: 50px 70;
   }
@@ -762,7 +769,6 @@
     gap: 0;
   }
 
-  /* DETAIL FOOD */
   .detail-page {
     background-color: var(--grey-f1);
     margin: 0;
@@ -802,3 +808,5 @@
     max-height: 400px;
   }
 }
+
+/* ==================== END MAX WIDTH ========================= */

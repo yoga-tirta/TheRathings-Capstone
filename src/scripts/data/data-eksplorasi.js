@@ -21,7 +21,7 @@ const dataEksplorasi = [
     manfaat: [
       'Jadilah bagian dari gerakan mengurangi pemborosan makanan! Manfaatkan bahan terbuang, ciptakan hidangan istimewa, dan selamatkan lingkungan. Hubungi layanan kami untuk memulai sekarang!',
     ],
-    sumber: 'https://m.jcodonuts.com/',
+    sumber: 'https://m.jcodonuts.com/id',
   },
   {
     id: '2',
