@@ -13,20 +13,20 @@ const Register = {
 
               <div class="login-box">
                 <i class='fa fa-user login-icon'></i>
-                <input type="text" placeholder="Username" class="login-input">
+                <input type="text" placeholder="Username" class="login-input" required>
               </div>
 
               <div class="login-box">
                 <i class='fa fa-at login-icon'></i>
-                <input type="text" placeholder="Email" class="login-input">
+                <input type="text" placeholder="Email" class="login-input" required>
               </div>
 
               <div class="login-box">
                 <i class='fa fa-lock login-icon'></i>
-                <input type="password" placeholder="Password" class="login-input">
+                <input type="password" placeholder="Password" class="login-input" required>
               </div>
 
-              <a href="#" class="login-button">Register</a>
+              <a href="#/explore" class="login-button">Register</a>
 
               <div>
                 <span class="login-account">Already have an Account?</span>

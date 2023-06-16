@@ -19,9 +19,9 @@ const Explore = {
       data.forEach((data) => {
         const card = `
           <div class="card-explore">
-              <a href="${`/#/detail-explore/${data.id}`}">
-                <img class="desc-explore" data-id="${data.id}" src="${data.gambar}" alt="${data.id}" loading="lazy"/>
-              </a>
+            <a href="${`/#/detail-explore/${data.id}`}">
+              <img class="desc-explore" data-id="${data.id}" src="${data.gambar}" alt="${data.id}" loading="lazy"/>
+            </a>
             <div class="description-explore">
               <a href="${`/#/detail-explore/${data.id}`}">
                 <h2 class="name-explore" data-id="${data.id}">${data.nama}</h2>

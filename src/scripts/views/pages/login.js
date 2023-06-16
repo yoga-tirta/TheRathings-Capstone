@@ -13,16 +13,16 @@ const Login = {
 
               <div class="login-box">
                 <i class='fa fa-user login-icon'></i>
-                <input type="text" placeholder="Username" class="login-input">
+                <input type="text" placeholder="Username" class="login-input" required>
               </div>
 
               <div class="login-box">
                 <i class='fa fa-lock login-icon'></i>
-                <input type="password" placeholder="Password" class="login-input">
+                <input type="password" placeholder="Password" class="login-input" required>
               </div>
 
-              <a href="#" class="login-forgot">Forgot password?</a>
-              <a href="#" class="login-button">Sign In</a>
+              <a href="#/login" class="login-forgot">Forgot password?</a>
+              <a href="#/explore" class="login-button">Sign In</a>
 
               <div>
                 <span class="login-account">Don't have an Account?</span>
