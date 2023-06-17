@@ -176,7 +176,7 @@ const createVideoFoodItemTemplate = (video) => `
 const createBookmarkItemTemplate = (food) => `
   <div class="food-item">
     <a href="${`/#/detail/${food.id}`}">
-      <img class="food-item-image" data-src="${food.image}" alt="${food.title}" crossorigin="anonymous">
+      <img class="food-item-image" src="${food.image}" alt="${food.title}" crossorigin="anonymous">
     </a>
 
     <div class="food-item-main">
